@@ -1,0 +1,46 @@
+[gd_scene load_steps=4 format=3 uid="uid://bu3qiji8u426q"]
+
+[ext_resource type="Script" uid="uid://b8j0vmiigsm5i" path="res://UI/Main-Menu/main_menu.gd" id="1_v0o2x"]
+[ext_resource type="PackedScene" uid="uid://doiscif6c4xei" path="res://Network/Chat_System/ChatLogin.tscn" id="2_p13dn"]
+[ext_resource type="PackedScene" uid="uid://bhwbydu8s8b0r" path="res://Network/Chat_System/ChatServer.tscn" id="3_36q3q"]
+
+[node name="Main" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_v0o2x")
+client_scene = ExtResource("2_p13dn")
+server_scene = ExtResource("3_36q3q")
+
+[node name="server" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -29.0
+offset_top = -15.5
+offset_right = 29.0
+offset_bottom = 15.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "Server"
+
+[node name="client" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 37.0
+offset_top = -15.0
+offset_right = 90.0
+offset_bottom = 16.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Client"

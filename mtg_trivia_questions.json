@@ -1,0 +1,502 @@
+{
+	"question_01": {
+		"text": "What are the five colors of mana in Magic: The Gathering?",
+		"alternatives": ["White, Blue, Black, Red, Green", "Light, Water, Dark, Fire, Earth", "Order, Knowledge, Death, Chaos, Nature", "Plains, Islands, Swamps, Mountains, Forests"],
+		"correct_answer_index": 0
+	},
+	"question_02": {
+		"text": "Who is the creator of Magic: The Gathering?",
+		"alternatives": ["Mark Rosewater", "Richard Garfield", "Wizards of the Coast", "Aaron Forsythe"],
+		"correct_answer_index": 1
+	},
+	"question_03": {
+		"text": "What year was Magic: The Gathering first released?",
+		"alternatives": ["1992", "1993", "1994", "1995"],
+		"correct_answer_index": 1
+	},
+	"question_04": {
+		"text": "How much life do players start with in a typical game?",
+		"alternatives": ["15", "20", "25", "30"],
+		"correct_answer_index": 1
+	},
+	"question_05": {
+		"text": "What is the maximum number of copies of a card (other than basic lands) allowed in most constructed formats?",
+		"alternatives": ["2", "3", "4", "5"],
+		"correct_answer_index": 2
+	},
+	"question_06": {
+		"text": "What does 'ETB' commonly stand for in Magic slang?",
+		"alternatives": ["End the Battle", "Enter the Battlefield", "Exile Target Beast", "Extra Turn Bonus"],
+		"correct_answer_index": 1
+	},
+	"question_07": {
+		"text": "Which planeswalker is known as the 'Mind Sculptor'?",
+		"alternatives": ["Jace Beleren", "Jace, the Mind Sculptor", "Both A and B", "Vraska"],
+		"correct_answer_index": 2
+	},
+	"question_08": {
+		"text": "What is the most expensive card ever sold at auction?",
+		"alternatives": ["Black Lotus", "Ancestral Recall", "Time Walk", "Mox Ruby"],
+		"correct_answer_index": 0
+	},
+	"question_09": {
+		"text": "Which set introduced the Planeswalker card type?",
+		"alternatives": ["Time Spiral", "Future Sight", "Lorwyn", "Planar Chaos"],
+		"correct_answer_index": 2
+	},
+	"question_10": {
+		"text": "What does the 'Flying' keyword mean?",
+		"alternatives": ["Can't be blocked", "Can only be blocked by creatures with flying or reach", "Deals damage to any target", "Can attack the turn it's played"],
+		"correct_answer_index": 1
+	},
+	"question_11": {
+		"text": "Which format allows only the most recent sets?",
+		"alternatives": ["Modern", "Legacy", "Standard", "Vintage"],
+		"correct_answer_index": 2
+	},
+	"question_12": {
+		"text": "What is the converted mana cost of a card that costs {3}{U}{U}?",
+		"alternatives": ["3", "4", "5", "6"],
+		"correct_answer_index": 2
+	},
+	"question_13": {
+		"text": "Which card is known as the most powerful card in Magic?",
+		"alternatives": ["Ancestral Recall", "Black Lotus", "Time Walk", "Mox Sapphire"],
+		"correct_answer_index": 1
+	},
+	"question_14": {
+		"text": "What does 'Hexproof' prevent?",
+		"alternatives": ["All damage", "Being blocked", "Being targeted by opponents' spells", "Being sacrificed"],
+		"correct_answer_index": 2
+	},
+	"question_15": {
+		"text": "Which plane is Jace Beleren originally from?",
+		"alternatives": ["Ravnica", "Vryn", "Zendikar", "Innistrad"],
+		"correct_answer_index": 1
+	},
+	"question_16": {
+		"text": "What is the name of the multiverse in Magic's storyline?",
+		"alternatives": ["The Blind Eternities", "The Multiverse", "The Planar Nexus", "The Infinite Planes"],
+		"correct_answer_index": 0
+	},
+	"question_17": {
+		"text": "Which creature type is associated with the color white?",
+		"alternatives": ["Dragons", "Angels", "Demons", "Hydras"],
+		"correct_answer_index": 1
+	},
+	"question_18": {
+		"text": "What does 'Trample' allow a creature to do?",
+		"alternatives": ["Attack twice", "Deal excess damage to the player", "Can't be blocked by multiple creatures", "Destroy any creature it blocks"],
+		"correct_answer_index": 1
+	},
+	"question_19": {
+		"text": "Which set was the first expansion set?",
+		"alternatives": ["Unlimited", "Arabian Nights", "Antiquities", "Legends"],
+		"correct_answer_index": 1
+	},
+	"question_20": {
+		"text": "What is the maximum hand size in Magic?",
+		"alternatives": ["5", "6", "7", "No maximum"],
+		"correct_answer_index": 2
+	},
+	"question_21": {
+		"text": "Which planeswalker is known for raising the dead?",
+		"alternatives": ["Liliana Vess", "Sorin Markov", "Ob Nixilis", "Vraska"],
+		"correct_answer_index": 0
+	},
+	"question_22": {
+		"text": "What does 'Vigilance' do?",
+		"alternatives": ["Can block any number of creatures", "Doesn't tap when attacking", "Can attack planeswalkers directly", "Prevents all combat damage"],
+		"correct_answer_index": 1
+	},
+	"question_23": {
+		"text": "Which color is associated with artifacts and colorless spells?",
+		"alternatives": ["Blue", "White", "Colorless", "All colors equally"],
+		"correct_answer_index": 2
+	},
+	"question_24": {
+		"text": "What is the 'stack' in Magic?",
+		"alternatives": ["Your library", "The graveyard", "Where spells wait to resolve", "Exiled cards"],
+		"correct_answer_index": 2
+	},
+	"question_25": {
+		"text": "Which guild from Ravnica uses white and blue mana?",
+		"alternatives": ["Azorius Senate", "Orzhov Syndicate", "Boros Legion", "Selesnya Conclave"],
+		"correct_answer_index": 0
+	},
+	"question_26": {
+		"text": "What does 'Deathtouch' do?",
+		"alternatives": ["Kills any creature it damages", "Deals damage equal to toughness", "Can't be regenerated", "Destroys target creature when played"],
+		"correct_answer_index": 0
+	},
+	"question_27": {
+		"text": "Which format allows all cards except those on a banned list?",
+		"alternatives": ["Standard", "Modern", "Legacy", "Vintage"],
+		"correct_answer_index": 3
+	},
+	"question_28": {
+		"text": "What is the minimum deck size for constructed formats?",
+		"alternatives": ["40", "50", "60", "75"],
+		"correct_answer_index": 2
+	},
+	"question_29": {
+		"text": "Which planeswalker is associated with red mana and mountains?",
+		"alternatives": ["Chandra Nalaar", "Koth of the Hammer", "Both A and B", "Sarkhan Vol"],
+		"correct_answer_index": 2
+	},
+	"question_30": {
+		"text": "What does 'First Strike' do?",
+		"alternatives": ["Attacks first each turn", "Deals damage before regular combat", "Can't be blocked", "Attacks twice"],
+		"correct_answer_index": 1
+	},
+	"question_31": {
+		"text": "Which set introduced the 'Phyrexian mana' mechanic?",
+		"alternatives": ["Mirrodin", "New Phyrexia", "Scars of Mirrodin", "Mirrodin Besieged"],
+		"correct_answer_index": 2
+	},
+	"question_32": {
+		"text": "What is the 'Power Nine'?",
+		"alternatives": ["Nine most powerful planeswalkers", "Nine original artifact cards", "Nine banned cards", "Nine most expensive cards"],
+		"correct_answer_index": 1
+	},
+	"question_33": {
+		"text": "Which creature type is most associated with green mana?",
+		"alternatives": ["Elves", "Beasts", "Both A and B", "Goblins"],
+		"correct_answer_index": 2
+	},
+	"question_34": {
+		"text": "What does 'Haste' allow a creature to do?",
+		"alternatives": ["Attack twice", "Attack and use tap abilities immediately", "Can't be blocked", "Deals double damage"],
+		"correct_answer_index": 1
+	},
+	"question_35": {
+		"text": "Which plane is known for its gothic horror theme?",
+		"alternatives": ["Ravnica", "Zendikar", "Innistrad", "Dominaria"],
+		"correct_answer_index": 2
+	},
+	"question_36": {
+		"text": "What is 'mana burn'?",
+		"alternatives": ["Damage from red spells", "Unused mana causing damage", "A removed rule", "Both B and C"],
+		"correct_answer_index": 3
+	},
+	"question_37": {
+		"text": "Which color is associated with card draw and counterspells?",
+		"alternatives": ["White", "Blue", "Black", "Red"],
+		"correct_answer_index": 1
+	},
+	"question_38": {
+		"text": "What does 'Indestructible' mean?",
+		"alternatives": ["Can't take damage", "Can't be destroyed by damage or destroy effects", "Regenerates automatically", "Returns to hand when destroyed"],
+		"correct_answer_index": 1
+	},
+	"question_39": {
+		"text": "Which set featured the 'Storm' mechanic prominently?",
+		"alternatives": ["Tempest", "Scourge", "Time Spiral", "Urza's Saga"],
+		"correct_answer_index": 1
+	},
+	"question_40": {
+		"text": "What is the 'mulligan' rule?",
+		"alternatives": ["Drawing extra cards", "Reshuffling your opening hand", "Skipping your turn", "Playing two lands per turn"],
+		"correct_answer_index": 1
+	},
+	"question_41": {
+		"text": "Which planeswalker is known as a master of white mana?",
+		"alternatives": ["Elspeth", "Ajani", "Both A and B", "Gideon"],
+		"correct_answer_index": 2
+	},
+	"question_42": {
+		"text": "What does 'Lifelink' do?",
+		"alternatives": ["Prevents life loss", "Gains life equal to damage dealt", "Doubles life total", "Shares life with target player"],
+		"correct_answer_index": 1
+	},
+	"question_43": {
+		"text": "Which guild combines black and green mana?",
+		"alternatives": ["Golgari Swarm", "Simic Combine", "Orzhov Syndicate", "Selesnya Conclave"],
+		"correct_answer_index": 0
+	},
+	"question_44": {
+		"text": "What is the 'Reserved List'?",
+		"alternatives": ["Cards that will never be reprinted", "Most valuable cards", "Banned cards", "Cards only for tournaments"],
+		"correct_answer_index": 0
+	},
+	"question_45": {
+		"text": "Which format is also known as 'Type 2'?",
+		"alternatives": ["Legacy", "Modern", "Standard", "Vintage"],
+		"correct_answer_index": 2
+	},
+	"question_46": {
+		"text": "What does 'Scry' let you do?",
+		"alternatives": ["Draw cards", "Look at top cards and arrange them", "Search your library", "Look at opponent's hand"],
+		"correct_answer_index": 1
+	},
+	"question_47": {
+		"text": "Which planeswalker is associated with nature and green mana?",
+		"alternatives": ["Garruk Wildspeaker", "Nissa Revane", "Both A and B", "Vraska"],
+		"correct_answer_index": 2
+	},
+	"question_48": {
+		"text": "What is the 'battlefield' in Magic?",
+		"alternatives": ["Your hand", "The graveyard", "Where permanents exist", "The library"],
+		"correct_answer_index": 2
+	},
+	"question_49": {
+		"text": "Which mechanic allows paying life instead of mana?",
+		"alternatives": ["Phyrexian mana", "Delve", "Convoke", "Affinity"],
+		"correct_answer_index": 0
+	},
+	"question_50": {
+		"text": "What does 'Protection from [color/type]' mean?",
+		"alternatives": ["Can't be damaged by that source", "Can't be targeted, damaged, blocked, or enchanted by that source", "Destroys anything of that type", "Gains +1/+1 against that type"],
+		"correct_answer_index": 1
+	},
+	"question_51": {
+		"text": "Which set block introduced the Eldrazi?",
+		"alternatives": ["Innistrad", "Zendikar", "Scars of Mirrodin", "Return to Ravnica"],
+		"correct_answer_index": 1
+	},
+	"question_52": {
+		"text": "What is the 'London Mulligan'?",
+		"alternatives": ["Drawing 7, then putting cards on bottom", "A type of tournament", "A specific deck archetype", "A banned card"],
+		"correct_answer_index": 0
+	},
+	"question_53": {
+		"text": "Which color is associated with direct damage and chaos?",
+		"alternatives": ["White", "Blue", "Black", "Red"],
+		"correct_answer_index": 3
+	},
+	"question_54": {
+		"text": "What does 'Flash' allow you to do?",
+		"alternatives": ["Draw extra cards", "Play the spell at instant speed", "Deal extra damage", "Return cards from graveyard"],
+		"correct_answer_index": 1
+	},
+	"question_55": {
+		"text": "Which creature type is most associated with blue mana?",
+		"alternatives": ["Wizards", "Merfolk", "Both A and B", "Spirits"],
+		"correct_answer_index": 2
+	},
+	"question_56": {
+		"text": "What is 'priority' in Magic?",
+		"alternatives": ["Turn order", "Who can play spells/abilities", "Blocking order", "Damage assignment"],
+		"correct_answer_index": 1
+	},
+	"question_57": {
+		"text": "Which mechanic represents creatures working together?",
+		"alternatives": ["Convoke", "Battalion", "Both A and B", "Bloodthirst"],
+		"correct_answer_index": 2
+	},
+	"question_58": {
+		"text": "What does 'Menace' require for blocking?",
+		"alternatives": ["Can't be blocked", "At least two creatures", "Only flying creatures", "Creatures with higher toughness"],
+		"correct_answer_index": 1
+	},
+	"question_59": {
+		"text": "Which planeswalker is known for vampires and blood magic?",
+		"alternatives": ["Sorin Markov", "Liliana Vess", "Ob Nixilis", "Vraska"],
+		"correct_answer_index": 0
+	},
+	"question_60": {
+		"text": "What is the 'graveyard' in Magic?",
+		"alternatives": ["Where creatures go when they die", "Discard pile", "Both A and B", "Exile zone"],
+		"correct_answer_index": 2
+	},
+	"question_61": {
+		"text": "Which set introduced double-faced cards?",
+		"alternatives": ["Innistrad", "Dark Ascension", "Avacyn Restored", "Shadows over Innistrad"],
+		"correct_answer_index": 0
+	},
+	"question_62": {
+		"text": "What does 'Defender' mean?",
+		"alternatives": ["Can block any number of creatures", "Can't attack", "Prevents all damage", "Can only block flying creatures"],
+		"correct_answer_index": 1
+	},
+	"question_63": {
+		"text": "Which color is associated with removal and discard?",
+		"alternatives": ["White", "Blue", "Black", "Green"],
+		"correct_answer_index": 2
+	},
+	"question_64": {
+		"text": "What is 'tempo' in Magic strategy?",
+		"alternatives": ["Life total management", "Speed of play", "Board presence vs mana efficiency", "Turn rotation"],
+		"correct_answer_index": 2
+	},
+	"question_65": {
+		"text": "Which mechanic allows you to cast spells from your graveyard?",
+		"alternatives": ["Flashback", "Retrace", "Both A and B", "Unearth"],
+		"correct_answer_index": 2
+	},
+	"question_66": {
+		"text": "What does 'Reach' allow a creature to do?",
+		"alternatives": ["Attack flying creatures", "Block flying creatures", "Deal damage to planeswalkers", "Attack across multiple zones"],
+		"correct_answer_index": 1
+	},
+	"question_67": {
+		"text": "Which guild combines red and white mana?",
+		"alternatives": ["Boros Legion", "Gruul Clans", "Azorius Senate", "Orzhov Syndicate"],
+		"correct_answer_index": 0
+	},
+	"question_68": {
+		"text": "What is 'card advantage'?",
+		"alternatives": ["Having better cards", "Having more cards than opponent", "Playing expensive spells", "Winning quickly"],
+		"correct_answer_index": 1
+	},
+	"question_69": {
+		"text": "Which format starts at 40 life?",
+		"alternatives": ["Standard", "Commander/EDH", "Legacy", "Modern"],
+		"correct_answer_index": 1
+	},
+	"question_70": {
+		"text": "What does 'Exile' mean?",
+		"alternatives": ["Send to graveyard", "Remove from game", "Return to hand", "Put on bottom of library"],
+		"correct_answer_index": 1
+	},
+	"question_71": {
+		"text": "Which creature is considered the most iconic in Magic?",
+		"alternatives": ["Lightning Bolt", "Serra Angel", "Shivan Dragon", "Black Lotus"],
+		"correct_answer_index": 2
+	},
+	"question_72": {
+		"text": "What does 'Cycling' allow you to do?",
+		"alternatives": ["Return cards to hand", "Discard to draw a card", "Play cards multiple times", "Search your library"],
+		"correct_answer_index": 1
+	},
+	"question_73": {
+		"text": "Which plane is known for its ten guilds?",
+		"alternatives": ["Dominaria", "Ravnica", "Zendikar", "Innistrad"],
+		"correct_answer_index": 1
+	},
+	"question_74": {
+		"text": "What is 'mana fixing'?",
+		"alternatives": ["Repairing damaged cards", "Ensuring you have the right colors", "Getting more mana", "Reducing mana costs"],
+		"correct_answer_index": 1
+	},
+	"question_75": {
+		"text": "Which mechanic represents loyalty counters?",
+		"alternatives": ["Planeswalkers", "Sagas", "Level up", "Charge counters"],
+		"correct_answer_index": 0
+	},
+	"question_76": {
+		"text": "What does 'Double Strike' do?",
+		"alternatives": ["Deals double damage", "Deals first strike and regular damage", "Attacks twice", "Can block two creatures"],
+		"correct_answer_index": 1
+	},
+	"question_77": {
+		"text": "Which color is associated with large creatures and ramp?",
+		"alternatives": ["White", "Blue", "Red", "Green"],
+		"correct_answer_index": 3
+	},
+	"question_78": {
+		"text": "What is a 'mana curve'?",
+		"alternatives": ["Mana distribution in deck", "Increasing mana costs", "Path of mana flow", "Curved mana symbols"],
+		"correct_answer_index": 0
+	},
+	"question_79": {
+		"text": "Which mechanic allows creatures to get bigger over time?",
+		"alternatives": ["Level up", "Evolve", "Both A and B", "Modular"],
+		"correct_answer_index": 2
+	},
+	"question_80": {
+		"text": "What does 'Shroud' prevent?",
+		"alternatives": ["All damage", "Being targeted by anyone", "Being blocked", "Being destroyed"],
+		"correct_answer_index": 1
+	},
+	"question_81": {
+		"text": "Which set introduced the mechanic 'Suspend'?",
+		"alternatives": ["Future Sight", "Time Spiral", "Planar Chaos", "All of the above"],
+		"correct_answer_index": 3
+	},
+	"question_82": {
+		"text": "What is 'burn' in Magic strategy?",
+		"alternatives": ["Destroying artifacts", "Direct damage spells", "Milling cards", "Sacrificing permanents"],
+		"correct_answer_index": 1
+	},
+	"question_83": {
+		"text": "Which planeswalker type is associated with Chandra?",
+		"alternatives": ["Pyromancer", "Wizard", "Both A and B", "Elemental"],
+		"correct_answer_index": 0
+	},
+	"question_84": {
+		"text": "What does 'Landfall' trigger on?",
+		"alternatives": ["Playing spells", "Lands entering battlefield", "Creatures dying", "Drawing cards"],
+		"correct_answer_index": 1
+	},
+	"question_85": {
+		"text": "Which guild combines blue and red mana?",
+		"alternatives": ["Izzet League", "Simic Combine", "Gruul Clans", "Azorius Senate"],
+		"correct_answer_index": 0
+	},
+	"question_86": {
+		"text": "What is 'ramp' in Magic terminology?",
+		"alternatives": ["Aggressive strategy", "Accelerating mana", "Damage over time", "Card selection"],
+		"correct_answer_index": 1
+	},
+	"question_87": {
+		"text": "Which mechanic allows paying costs with creatures?",
+		"alternatives": ["Convoke", "Delve", "Improvise", "All of the above"],
+		"correct_answer_index": 0
+	},
+	"question_88": {
+		"text": "What does 'Mill' refer to?",
+		"alternatives": ["Gaining life", "Putting cards from library to graveyard", "Destroying artifacts", "Drawing cards"],
+		"correct_answer_index": 1
+	},
+	"question_89": {
+		"text": "Which format allows exactly 100 cards?",
+		"alternatives": ["Standard", "Modern", "Commander/EDH", "Limited"],
+		"correct_answer_index": 2
+	},
+	"question_90": {
+		"text": "What does 'Prowess' reward?",
+		"alternatives": ["Playing creatures", "Playing noncreature spells", "Attacking", "Having artifacts"],
+		"correct_answer_index": 1
+	},
+	"question_91": {
+		"text": "Which creature type is most associated with black mana?",
+		"alternatives": ["Demons", "Vampires", "Zombies", "All of the above"],
+		"correct_answer_index": 3
+	},
+	"question_92": {
+		"text": "What is 'sideboarding'?",
+		"alternatives": ["Playing extra games", "Modifying deck between games", "Using alternative rules", "Trading cards"],
+		"correct_answer_index": 1
+	},
+	"question_93": {
+		"text": "Which mechanic represents creatures entering tapped?",
+		"alternatives": ["Enters tapped", "Gated", "Both may apply", "Fatigue"],
+		"correct_answer_index": 2
+	},
+	"question_94": {
+		"text": "What does 'Overload' allow you to do?",
+		"alternatives": ["Pay more for bigger effect", "Target all valid targets", "Cast twice", "Deal extra damage"],
+		"correct_answer_index": 1
+	},
+	"question_95": {
+		"text": "Which color combination is called 'Jeskai'?",
+		"alternatives": ["White, Blue, Red", "Blue, Black, Red", "White, Black, Green", "Red, Green, White"],
+		"correct_answer_index": 0
+	},
+	"question_96": {
+		"text": "What does 'Investigate' create?",
+		"alternatives": ["Treasure tokens", "Clue tokens", "Food tokens", "Evidence tokens"],
+		"correct_answer_index": 1
+	},
+	"question_97": {
+		"text": "Which set block featured the Phyrexians' return?",
+		"alternatives": ["Mirrodin", "Scars of Mirrodin", "New Phyrexia", "Both B and C"],
+		"correct_answer_index": 3
+	},
+	"question_98": {
+		"text": "What is 'tapping' a permanent?",
+		"alternatives": ["Destroying it", "Turning it sideways to use", "Exiling it", "Returning to hand"],
+		"correct_answer_index": 1
+	},
+	"question_99": {
+		"text": "Which mechanic allows cards to have multiple functions?",
+		"alternatives": ["Modal", "Adventure", "Transform", "All of the above"],
+		"correct_answer_index": 3
+	},
+	"question_100": {
+		"text": "What does 'the stack' use to resolve spells?",
+		"alternatives": ["First in, first out", "Last in, first out", "Random order", "Player choice"],
+		"correct_answer_index": 1
+	}
+}

@@ -1,0 +1,160 @@
+[gd_scene load_steps=3 format=3 uid="uid://may8lap2v36r"]
+
+[ext_resource type="Script" uid="uid://2qvhyqayopv5" path="res://QuizGame/QuizPanel.gd" id="1_lu4m6"]
+
+[sub_resource type="FontFile" id="FontFile_jhvk5"]
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/5/0/ascent = 0.0
+cache/0/5/0/descent = 0.0
+cache/0/5/0/underline_position = 0.0
+cache/0/5/0/underline_thickness = 0.0
+cache/0/5/0/scale = 1.0
+cache/0/1/0/ascent = 0.0
+cache/0/1/0/descent = 0.0
+cache/0/1/0/underline_position = 0.0
+cache/0/1/0/underline_thickness = 0.0
+cache/0/1/0/scale = 1.0
+cache/0/25/0/ascent = 0.0
+cache/0/25/0/descent = 0.0
+cache/0/25/0/underline_position = 0.0
+cache/0/25/0/underline_thickness = 0.0
+cache/0/25/0/scale = 1.0
+
+[node name="QuizPanel" type="ColorRect"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.09, 0.09, 0.09, 1)
+script = ExtResource("1_lu4m6")
+
+[node name="QuestionLabel" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 21.0
+offset_top = 22.0
+offset_right = -21.0
+offset_bottom = -298.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Waiting for players..."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="PlayerMessageLabel" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.23
+offset_right = 0.22998
+offset_bottom = -320.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "[this is where messages will go to players]"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Answers" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="AnswerButton" type="Button" parent="Answers"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -21.0
+offset_bottom = 21.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.0417476, 0.580982, 0.033938, 1)
+theme_override_constants/outline_size = 0
+theme_override_fonts/font = SubResource("FontFile_jhvk5")
+theme_override_font_sizes/font_size = 25
+text = "[answer here]"
+
+[node name="AnswerButton2" type="Button" parent="Answers"]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = 21.0
+offset_bottom = 52.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.0417476, 0.580982, 0.033938, 1)
+theme_override_fonts/font = SubResource("FontFile_jhvk5")
+theme_override_font_sizes/font_size = 25
+text = "[answer here]"
+
+[node name="AnswerButton3" type="Button" parent="Answers"]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = 57.0
+offset_bottom = 88.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.0417476, 0.580982, 0.033938, 1)
+theme_override_fonts/font = SubResource("FontFile_jhvk5")
+theme_override_font_sizes/font_size = 25
+text = "[answer here]"
+
+[node name="AnswerButton4" type="Button" parent="Answers"]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = 93.0
+offset_bottom = 124.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.0417476, 0.580982, 0.033938, 1)
+theme_override_fonts/font = SubResource("FontFile_jhvk5")
+theme_override_font_sizes/font_size = 25
+text = "[answer here]"
+
+[node name="PlayerScoreBoard" type="Label" parent="."]
+custom_minimum_size = Vector2(250, 500)
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -40.0
+offset_bottom = 23.0
+grow_horizontal = 0
+horizontal_alignment = 2
+
+[node name="Restart" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -32.5
+offset_top = -31.0
+offset_right = 32.5
+grow_horizontal = 2
+grow_vertical = 0
+text = "Restart"

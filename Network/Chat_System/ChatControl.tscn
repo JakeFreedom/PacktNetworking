@@ -1,0 +1,39 @@
+[gd_scene load_steps=2 format=3 uid="uid://bh2yuxicbw510"]
+
+[ext_resource type="Script" uid="uid://wxlf2gv3qfj0" path="res://Network/Chat_System/ChatControl.gd" id="1_t23mx"]
+
+[node name="ChatControl" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_t23mx")
+
+[node name="LineEdit" type="LineEdit" parent="."]
+custom_minimum_size = Vector2(250, 0)
+layout_mode = 0
+offset_left = 4.0
+offset_top = 138.0
+offset_right = 72.5625
+offset_bottom = 169.0
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+custom_minimum_size = Vector2(250, 100)
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -639.0
+offset_top = -717.0
+offset_right = -389.0
+offset_bottom = -617.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="Label" type="Label" parent="ScrollContainer"]
+custom_minimum_size = Vector2(250, 0)
+layout_mode = 2

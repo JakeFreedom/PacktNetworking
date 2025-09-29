@@ -1,0 +1,602 @@
+{
+	"question_01":
+		{
+			"text": "What programming language is known for its snake-like logo?",
+			"alternatives": ["Java", "Python", "Ruby", "PHP"],
+			"correct_answer_index": 1
+		},
+	"question_02":
+		{
+			"text": "What temperature should chicken be cooked to for food safety?",
+			"alternatives": ["145°F", "160°F", "165°F", "180°F"],
+			"correct_answer_index": 2
+		},
+	"question_03":
+		{
+			"text": "What does 'git' stand for in version control?",
+			"alternatives": ["Global Information Tracker", "General Integration Tool", "It's just a name", "Get It Together"],
+			"correct_answer_index": 2
+		},
+	"question_04":
+		{
+			"text": "Which spice is derived from the Crocus flower?",
+			"alternatives": ["Turmeric", "Paprika", "Saffron", "Cumin"],
+			"correct_answer_index": 2
+		},
+	"question_05":
+		{
+			"text": "What does OOP stand for in programming?",
+			"alternatives": ["Object Oriented Programming", "Only One Program", "Open Operation Protocol", "Original Operating Procedure"],
+			"correct_answer_index": 0
+		},
+	"question_06":
+		{
+			"text": "What is the French cooking term for 'everything in its place'?",
+			"alternatives": ["Mise en place", "Sous vide", "Julienne", "Brunoise"],
+			"correct_answer_index": 0
+		},
+	"question_07":
+		{
+			"text": "Which programming language was created by Brendan Eich?",
+			"alternatives": ["Java", "C++", "JavaScript", "Python"],
+			"correct_answer_index": 2
+		},
+	"question_08":
+		{
+			"text": "What type of pastry is used to make profiteroles?",
+			"alternatives": ["Puff pastry", "Shortcrust pastry", "Choux pastry", "Filo pastry"],
+			"correct_answer_index": 2
+		},
+	"question_09":
+		{
+			"text": "What is the time complexity of bubble sort?",
+			"alternatives": ["O(n)", "O(n log n)", "O(n²)", "O(log n)"],
+			"correct_answer_index": 2
+		},
+	"question_10":
+		{
+			"text": "Which cooking method involves cooking food slowly in its own fat?",
+			"alternatives": ["Braising", "Confit", "Poaching", "Searing"],
+			"correct_answer_index": 1
+		},
+	"question_11":
+		{
+			"text": "What does 'npm' stand for in Node.js?",
+			"alternatives": ["Node Package Manager", "New Program Module", "Network Protocol Manager", "Node Program Manager"],
+			"correct_answer_index": 0
+		},
+	"question_12":
+		{
+			"text": "What is the main ingredient in aioli?",
+			"alternatives": ["Butter", "Cream", "Mayonnaise", "Olive oil"],
+			"correct_answer_index": 2
+		},
+	"question_13":
+		{
+			"text": "Which data structure follows LIFO principle?",
+			"alternatives": ["Queue", "Stack", "Array", "Linked List"],
+			"correct_answer_index": 1
+		},
+	"question_14":
+		{
+			"text": "What is the Italian term for cooking pasta until it's firm to the bite?",
+			"alternatives": ["Al dente", "Al fresco", "Antipasto", "Arrabiata"],
+			"correct_answer_index": 0
+		},
+	"question_15":
+		{
+			"text": "What does 'SQL' stand for?",
+			"alternatives": ["Structured Query Language", "Standard Query Language", "Simple Query Language", "System Query Language"],
+			"correct_answer_index": 0
+		},
+	"question_16":
+		{
+			"text": "Which mother sauce is made with a blonde roux and stock?",
+			"alternatives": ["Béchamel", "Velouté", "Espagnole", "Hollandaise"],
+			"correct_answer_index": 1
+		},
+	"question_17":
+		{
+			"text": "What programming paradigm does Haskell primarily use?",
+			"alternatives": ["Object-Oriented", "Procedural", "Functional", "Logic"],
+			"correct_answer_index": 2
+		},
+	"question_18":
+		{
+			"text": "What is the smoking point of olive oil?",
+			"alternatives": ["325°F", "375°F", "400°F", "450°F"],
+			"correct_answer_index": 1
+		},
+	"question_19":
+		{
+			"text": "Which design pattern ensures a class has only one instance?",
+			"alternatives": ["Factory", "Singleton", "Observer", "Strategy"],
+			"correct_answer_index": 1
+		},
+	"question_20":
+		{
+			"text": "What is the difference between baking soda and baking powder?",
+			"alternatives": ["No difference", "Baking powder contains acid", "Baking soda contains acid", "Baking soda is stronger"],
+			"correct_answer_index": 1
+		},
+	"question_21":
+		{
+			"text": "What does 'API' stand for?",
+			"alternatives": ["Application Programming Interface", "Advanced Programming Interface", "Automated Programming Interface", "Application Program Interface"],
+			"correct_answer_index": 0
+		},
+	"question_22":
+		{
+			"text": "Which knife is best for chopping vegetables?",
+			"alternatives": ["Paring knife", "Chef's knife", "Boning knife", "Bread knife"],
+			"correct_answer_index": 1
+		},
+	"question_23":
+		{
+			"text": "What is the worst-case time complexity of quicksort?",
+			"alternatives": ["O(n)", "O(n log n)", "O(n²)", "O(log n)"],
+			"correct_answer_index": 2
+		},
+	"question_24":
+		{
+			"text": "What is the main ingredient in a roux?",
+			"alternatives": ["Butter and cream", "Flour and fat", "Eggs and milk", "Oil and vinegar"],
+			"correct_answer_index": 1
+		},
+	"question_25":
+		{
+			"text": "Which programming language uses indentation for code blocks?",
+			"alternatives": ["Java", "C++", "Python", "JavaScript"],
+			"correct_answer_index": 2
+		},
+	"question_26":
+		{
+			"text": "What is the process of heating sugar until it turns brown called?",
+			"alternatives": ["Crystallization", "Caramelization", "Crystallization", "Emulsification"],
+			"correct_answer_index": 1
+		},
+	"question_27":
+		{
+			"text": "What does 'MVC' stand for in software architecture?",
+			"alternatives": ["Model View Controller", "Multiple View Controller", "Master View Controller", "Model Variable Controller"],
+			"correct_answer_index": 0
+		},
+	"question_28":
+		{
+			"text": "Which herb is commonly used in Italian cuisine and belongs to the mint family?",
+			"alternatives": ["Oregano", "Basil", "Thyme", "Rosemary"],
+			"correct_answer_index": 1
+		},
+	"question_29":
+		{
+			"text": "What is the default port for HTTP?",
+			"alternatives": ["21", "22", "80", "443"],
+			"correct_answer_index": 2
+		},
+	"question_30":
+		{
+			"text": "What is the French term for vegetables cut into small cubes?",
+			"alternatives": ["Julienne", "Brunoise", "Chiffonade", "Mirepoix"],
+			"correct_answer_index": 1
+		},
+	"question_31":
+		{
+			"text": "Which programming language was originally called Oak?",
+			"alternatives": ["JavaScript", "Java", "C#", "Kotlin"],
+			"correct_answer_index": 1
+		},
+	"question_32":
+		{
+			"text": "What is the ideal internal temperature for a medium-rare steak?",
+			"alternatives": ["120°F", "135°F", "145°F", "160°F"],
+			"correct_answer_index": 1
+		},
+	"question_33":
+		{
+			"text": "What does 'JSON' stand for?",
+			"alternatives": ["JavaScript Object Notation", "Java Standard Object Notation", "JavaScript Object Network", "Java Structured Object Notation"],
+			"correct_answer_index": 0
+		},
+	"question_34":
+		{
+			"text": "Which type of flour has the highest protein content?",
+			"alternatives": ["All-purpose flour", "Cake flour", "Bread flour", "Pastry flour"],
+			"correct_answer_index": 2
+		},
+	"question_35":
+		{
+			"text": "What is the space complexity of merge sort?",
+			"alternatives": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+			"correct_answer_index": 2
+		},
+	"question_36":
+		{
+			"text": "What is the term for removing the string from a celery stalk?",
+			"alternatives": ["Peeling", "Stringing", "Trimming", "Paring"],
+			"correct_answer_index": 1
+		},
+	"question_37":
+		{
+			"text": "Which database follows ACID properties?",
+			"alternatives": ["MongoDB", "Redis", "PostgreSQL", "Cassandra"],
+			"correct_answer_index": 2
+		},
+	"question_38":
+		{
+			"text": "What is the main difference between stock and broth?",
+			"alternatives": ["Temperature", "Stock uses bones", "Broth is thicker", "No difference"],
+			"correct_answer_index": 1
+		},
+	"question_39":
+		{
+			"text": "What does 'DOM' stand for in web development?",
+			"alternatives": ["Document Object Model", "Data Object Model", "Dynamic Object Model", "Document Operation Model"],
+			"correct_answer_index": 0
+		},
+	"question_40":
+		{
+			"text": "Which cooking technique involves quickly browning food at high heat?",
+			"alternatives": ["Braising", "Poaching", "Searing", "Steaming"],
+			"correct_answer_index": 2
+		},
+	"question_41":
+		{
+			"text": "What is the big O notation for binary search?",
+			"alternatives": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+			"correct_answer_index": 1
+		},
+	"question_42":
+		{
+			"text": "What is the French term for a mixture of diced onions, carrots, and celery?",
+			"alternatives": ["Soffritto", "Mirepoix", "Trinity", "Battuto"],
+			"correct_answer_index": 1
+		},
+	"question_43":
+		{
+			"text": "Which programming language is known for 'write once, run anywhere'?",
+			"alternatives": ["C++", "Java", "Python", "C#"],
+			"correct_answer_index": 1
+		},
+	"question_44":
+		{
+			"text": "What is the process of soaking meat in a seasoned liquid called?",
+			"alternatives": ["Brining", "Marinating", "Curing", "Aging"],
+			"correct_answer_index": 1
+		},
+	"question_45":
+		{
+			"text": "What does 'HTTP' stand for?",
+			"alternatives": ["HyperText Transfer Protocol", "HyperText Transmission Protocol", "HyperLink Transfer Protocol", "HyperLink Transmission Protocol"],
+			"correct_answer_index": 0
+		},
+	"question_46":
+		{
+			"text": "Which mother sauce is made with egg yolks and butter?",
+			"alternatives": ["Béchamel", "Velouté", "Espagnole", "Hollandaise"],
+			"correct_answer_index": 3
+		},
+	"question_47":
+		{
+			"text": "What is a closure in programming?",
+			"alternatives": ["A type of loop", "A function with access to outer scope", "A database connection", "A file operation"],
+			"correct_answer_index": 1
+		},
+	"question_48":
+		{
+			"text": "What is the Italian word for 'salt-cured egg yolk'?",
+			"alternatives": ["Pancetta", "Prosciutto", "Bottarga", "Guanciale"],
+			"correct_answer_index": 2
+		},
+	"question_49":
+		{
+			"text": "Which data structure is used to implement recursion?",
+			"alternatives": ["Queue", "Stack", "Heap", "Tree"],
+			"correct_answer_index": 1
+		},
+	"question_50":
+		{
+			"text": "What is the term for cooking vegetables until they release their moisture?",
+			"alternatives": ["Sautéing", "Sweating", "Blanching", "Roasting"],
+			"correct_answer_index": 1
+		},
+	"question_51":
+		{
+			"text": "What does 'CRUD' stand for in database operations?",
+			"alternatives": ["Create Read Update Delete", "Connect Read Update Deploy", "Create Retrieve Update Deploy", "Connect Retrieve Update Delete"],
+			"correct_answer_index": 0
+		},
+	"question_52":
+		{
+			"text": "Which technique involves cooking food in a vacuum-sealed bag?",
+			"alternatives": ["Confit", "Sous vide", "Poaching", "Braising"],
+			"correct_answer_index": 1
+		},
+	"question_53":
+		{
+			"text": "What is the difference between '==' and '===' in JavaScript?",
+			"alternatives": ["No difference", "=== checks type and value", "== is faster", "=== is deprecated"],
+			"correct_answer_index": 1
+		},
+	"question_54":
+		{
+			"text": "What is the key ingredient that makes bread rise?",
+			"alternatives": ["Salt", "Sugar", "Yeast", "Eggs"],
+			"correct_answer_index": 2
+		},
+	"question_55":
+		{
+			"text": "Which sorting algorithm is most efficient for small datasets?",
+			"alternatives": ["Bubble Sort", "Insertion Sort", "Merge Sort", "Quick Sort"],
+			"correct_answer_index": 1
+		},
+	"question_56":
+		{
+			"text": "What is the process of removing impurities from clarified butter called?",
+			"alternatives": ["Clarifying", "Browning", "Ghee making", "Rendering"],
+			"correct_answer_index": 2
+		},
+	"question_57":
+		{
+			"text": "What does 'CSS' stand for?",
+			"alternatives": ["Cascading Style Sheets", "Computer Style Sheets", "Creative Style System", "Cascading System Sheets"],
+			"correct_answer_index": 0
+		},
+	"question_58":
+		{
+			"text": "Which cut of beef is best for slow cooking?",
+			"alternatives": ["Ribeye", "Tenderloin", "Chuck roast", "Sirloin"],
+			"correct_answer_index": 2
+		},
+	"question_59":
+		{
+			"text": "What is polymorphism in object-oriented programming?",
+			"alternatives": ["Multiple inheritance", "Method overloading", "Objects taking multiple forms", "Data encapsulation"],
+			"correct_answer_index": 2
+		},
+	"question_60":
+		{
+			"text": "What is the French term for thinly sliced vegetables or herbs?",
+			"alternatives": ["Julienne", "Brunoise", "Chiffonade", "Dice"],
+			"correct_answer_index": 2
+		},
+	"question_61":
+		{
+			"text": "Which protocol is used for secure file transfer?",
+			"alternatives": ["FTP", "SFTP", "HTTP", "SMTP"],
+			"correct_answer_index": 1
+		},
+	"question_62":
+		{
+			"text": "What is the ideal pH level for bread dough?",
+			"alternatives": ["4.5-5.0", "5.5-6.0", "6.0-6.5", "7.0-7.5"],
+			"correct_answer_index": 1
+		},
+	"question_63":
+		{
+			"text": "What is a hash collision?",
+			"alternatives": ["Two keys produce same hash", "Hash function fails", "Memory overflow", "Network error"],
+			"correct_answer_index": 0
+		},
+	"question_64":
+		{
+			"text": "Which spice is known as the 'queen of spices'?",
+			"alternatives": ["Saffron", "Cardamom", "Vanilla", "Cinnamon"],
+			"correct_answer_index": 1
+		},
+	"question_65":
+		{
+			"text": "What does 'REST' stand for in web services?",
+			"alternatives": ["Representational State Transfer", "Remote State Transfer", "Reliable State Transfer", "Real State Transfer"],
+			"correct_answer_index": 0
+		},
+	"question_66":
+		{
+			"text": "What is the difference between baking and roasting?",
+			"alternatives": ["Temperature", "Type of food", "Cooking vessel", "No difference"],
+			"correct_answer_index": 1
+		},
+	"question_67":
+		{
+			"text": "Which programming language is used for iOS app development?",
+			"alternatives": ["Java", "Kotlin", "Swift", "Objective-C"],
+			"correct_answer_index": 2
+		},
+	"question_68":
+		{
+			"text": "What is the term for the browning reaction between amino acids and sugars?",
+			"alternatives": ["Caramelization", "Maillard reaction", "Oxidation", "Fermentation"],
+			"correct_answer_index": 1
+		},
+	"question_69":
+		{
+			"text": "What is the time complexity of accessing an element in a hash table?",
+			"alternatives": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+			"correct_answer_index": 0
+		},
+	"question_70":
+		{
+			"text": "Which cooking oil has the highest smoke point?",
+			"alternatives": ["Olive oil", "Canola oil", "Avocado oil", "Coconut oil"],
+			"correct_answer_index": 2
+		},
+	"question_71":
+		{
+			"text": "What does 'SOLID' represent in programming principles?",
+			"alternatives": ["Database principles", "Object-oriented design principles", "Network protocols", "Security standards"],
+			"correct_answer_index": 1
+		},
+	"question_72":
+		{
+			"text": "What is the difference between gelato and ice cream?",
+			"alternatives": ["Temperature served", "Air content and fat", "Origin country", "No difference"],
+			"correct_answer_index": 1
+		},
+	"question_73":
+		{
+			"text": "Which database type is MongoDB?",
+			"alternatives": ["Relational", "Graph", "Document", "Key-Value"],
+			"correct_answer_index": 2
+		},
+	"question_74":
+		{
+			"text": "What is the term for pasta cooked in the sauce?",
+			"alternatives": ["Al dente", "Mantecatura", "Risottata", "All'onda"],
+			"correct_answer_index": 1
+		},
+	"question_75":
+		{
+			"text": "What is the difference between synchronous and asynchronous programming?",
+			"alternatives": ["Speed", "Blocking vs non-blocking", "Language specific", "Memory usage"],
+			"correct_answer_index": 1
+		},
+	"question_76":
+		{
+			"text": "Which type of chocolate has the highest cacao content?",
+			"alternatives": ["Milk chocolate", "Dark chocolate", "White chocolate", "Semi-sweet chocolate"],
+			"correct_answer_index": 1
+		},
+	"question_77":
+		{
+			"text": "What is dependency injection in programming?",
+			"alternatives": ["Code generation", "Design pattern for loose coupling", "Error handling", "Memory management"],
+			"correct_answer_index": 1
+		},
+	"question_78":
+		{
+			"text": "What is the French term for 'put in place' or preparation?",
+			"alternatives": ["Mise en place", "Bain marie", "Bouquet garni", "Liaison"],
+			"correct_answer_index": 0
+		},
+	"question_79":
+		{
+			"text": "Which algorithm is used for finding the shortest path in a graph?",
+			"alternatives": ["Binary Search", "Dijkstra's Algorithm", "Bubble Sort", "Linear Search"],
+			"correct_answer_index": 1
+		},
+	"question_80":
+		{
+			"text": "What is the main ingredient in tahini?",
+			"alternatives": ["Chickpeas", "Sesame seeds", "Sunflower seeds", "Pine nuts"],
+			"correct_answer_index": 1
+		},
+	"question_81":
+		{
+			"text": "What does 'IDE' stand for in programming?",
+			"alternatives": ["Integrated Development Environment", "Internal Development Engine", "Interactive Design Environment", "Intelligent Development Editor"],
+			"correct_answer_index": 0
+		},
+	"question_82":
+		{
+			"text": "Which fermentation process is used to make sourdough bread?",
+			"alternatives": ["Alcoholic fermentation", "Lactic acid fermentation", "Acetic acid fermentation", "Malolactic fermentation"],
+			"correct_answer_index": 1
+		},
+	"question_83":
+		{
+			"text": "What is the principle behind a binary search tree?",
+			"alternatives": ["FIFO", "LIFO", "Left < Parent < Right", "Random ordering"],
+			"correct_answer_index": 2
+		},
+	"question_84":
+		{
+			"text": "What is the term for the liquid that remains after churning butter?",
+			"alternatives": ["Whey", "Buttermilk", "Cream", "Condensed milk"],
+			"correct_answer_index": 1
+		},
+	"question_85":
+		{
+			"text": "Which HTTP status code indicates 'Not Found'?",
+			"alternatives": ["200", "301", "404", "500"],
+			"correct_answer_index": 2
+		},
+	"question_86":
+		{
+			"text": "What is the difference between simmering and boiling?",
+			"alternatives": ["Temperature", "Vessel type", "Time duration", "Ingredient type"],
+			"correct_answer_index": 0
+		},
+	"question_87":
+		{
+			"text": "What is the space complexity of a recursive Fibonacci function?",
+			"alternatives": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+			"correct_answer_index": 2
+		},
+	"question_88":
+		{
+			"text": "Which herb is commonly used in Mexican cuisine and cilantro family?",
+			"alternatives": ["Oregano", "Cilantro", "Parsley", "Basil"],
+			"correct_answer_index": 1
+		},
+	"question_89":
+		{
+			"text": "What is a webhook in web development?",
+			"alternatives": ["Security feature", "HTTP callback", "Database query", "Error handling"],
+			"correct_answer_index": 1
+		},
+	"question_90":
+		{
+			"text": "What is the term for removing the bitter compounds from eggplant?",
+			"alternatives": ["Blanching", "Salting", "Marinating", "Peeling"],
+			"correct_answer_index": 1
+		},
+	"question_91":
+		{
+			"text": "Which design pattern is used to create objects without specifying their exact class?",
+			"alternatives": ["Singleton", "Factory", "Observer", "Strategy"],
+			"correct_answer_index": 1
+		},
+	"question_92":
+		{
+			"text": "What is the main difference between jam and jelly?",
+			"alternatives": ["Sugar content", "Fruit pieces vs. strained", "Cooking time", "Storage method"],
+			"correct_answer_index": 1
+		},
+	"question_93":
+		{
+			"text": "What is the average case time complexity of heap sort?",
+			"alternatives": ["O(n)", "O(n log n)", "O(n²)", "O(log n)"],
+			"correct_answer_index": 1
+		},
+	"question_94":
+		{
+			"text": "Which technique is used to extract maximum flavor from bones?",
+			"alternatives": ["Blanching", "Roasting", "Searing", "Steaming"],
+			"correct_answer_index": 1
+		},
+	"question_95":
+		{
+			"text": "What does 'AJAX' stand for in web development?",
+			"alternatives": ["Asynchronous JavaScript and XML", "Advanced JavaScript and XML", "Automated JavaScript and XML", "Active JavaScript and XML"],
+			"correct_answer_index": 0
+		},
+	"question_96":
+		{
+			"text": "What is the optimal temperature for proofing yeast dough?",
+			"alternatives": ["70-75°F", "75-80°F", "80-85°F", "85-90°F"],
+			"correct_answer_index": 2
+		},
+	"question_97":
+		{
+			"text": "Which data structure is best for implementing a priority queue?",
+			"alternatives": ["Array", "Linked List", "Stack", "Heap"],
+			"correct_answer_index": 3
+		},
+	"question_98":
+		{
+			"text": "What is the French term for a small dice cut of vegetables?",
+			"alternatives": ["Julienne", "Brunoise", "Batonnet", "Paysanne"],
+			"correct_answer_index": 1
+		},
+	"question_99":
+		{
+			"text": "What is the difference between 'let' and 'var' in JavaScript?",
+			"alternatives": ["No difference", "Block scope vs function scope", "let is faster", "var is deprecated"],
+			"correct_answer_index": 1
+		},
+	"question_100":
+		{
+			"text": "Which cooking method retains the most nutrients in vegetables?",
+			"alternatives": ["Boiling", "Steaming", "Frying", "Roasting"],
+			"correct_answer_index": 1
+		}
+}

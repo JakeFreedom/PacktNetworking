@@ -1,0 +1,602 @@
+{
+	"question_01":
+		{
+			"text": "What was the best-selling video game console of the 1980s?",
+			"alternatives": ["Atari 2600", "Nintendo Entertainment System", "Sega Master System", "ColecoVision"],
+			"correct_answer_index": 1
+		},
+	"question_02":
+		{
+			"text": "Which game popularized the platform genre in the 1980s?",
+			"alternatives": ["Pitfall!", "Super Mario Bros.", "Donkey Kong", "Pac-Man"],
+			"correct_answer_index": 1
+		},
+	"question_03":
+		{
+			"text": "What year was the original Super Mario Bros. released?",
+			"alternatives": ["1983", "1984", "1985", "1986"],
+			"correct_answer_index": 2
+		},
+	"question_04":
+		{
+			"text": "Which company created the Game Boy in 1989?",
+			"alternatives": ["Sega", "Nintendo", "Atari", "Sony"],
+			"correct_answer_index": 1
+		},
+	"question_05":
+		{
+			"text": "What was Sonic the Hedgehog's original sidekick's name?",
+			"alternatives": ["Knuckles", "Tails", "Shadow", "Amy"],
+			"correct_answer_index": 1
+		},
+	"question_06":
+		{
+			"text": "Which fighting game introduced the concept of special move inputs?",
+			"alternatives": ["Street Fighter", "Mortal Kombat", "Tekken", "Fatal Fury"],
+			"correct_answer_index": 0
+		},
+	"question_07":
+		{
+			"text": "What was the first 3D game in The Legend of Zelda series?",
+			"alternatives": ["A Link to the Past", "Link's Awakening", "Ocarina of Time", "Majora's Mask"],
+			"correct_answer_index": 2
+		},
+	"question_08":
+		{
+			"text": "Which arcade game was known for the phrase 'All your base are belong to us'?",
+			"alternatives": ["Zero Wing", "Gradius", "R-Type", "Darius"],
+			"correct_answer_index": 0
+		},
+	"question_09":
+		{
+			"text": "What was the original name of the Nintendo Entertainment System in Japan?",
+			"alternatives": ["Nintendo Family System", "Famicom", "Nintendo Home Console", "Family Computer"],
+			"correct_answer_index": 1
+		},
+	"question_10":
+		{
+			"text": "Which game featured the first appearance of Mario?",
+			"alternatives": ["Mario Bros.", "Super Mario Bros.", "Donkey Kong", "Popeye"],
+			"correct_answer_index": 2
+		},
+	"question_11":
+		{
+			"text": "What was the maximum number of colors the original Game Boy could display?",
+			"alternatives": ["2", "4", "8", "16"],
+			"correct_answer_index": 1
+		},
+	"question_12":
+		{
+			"text": "Which RPG series began on the Nintendo Entertainment System in 1987?",
+			"alternatives": ["Dragon Quest", "Final Fantasy", "Phantasy Star", "Ultima"],
+			"correct_answer_index": 1
+		},
+	"question_13":
+		{
+			"text": "What was the best-selling Game Boy game of all time?",
+			"alternatives": ["Super Mario Land", "Pokémon Red/Blue", "Tetris", "The Legend of Zelda: Link's Awakening"],
+			"correct_answer_index": 2
+		},
+	"question_14":
+		{
+			"text": "Which company developed the Mega Drive/Genesis console?",
+			"alternatives": ["Nintendo", "Sega", "Atari", "NEC"],
+			"correct_answer_index": 1
+		},
+	"question_15":
+		{
+			"text": "What was the first game to feature Luigi as a playable character?",
+			"alternatives": ["Super Mario Bros.", "Mario Bros.", "Super Mario Bros. 2", "Super Mario World"],
+			"correct_answer_index": 1
+		},
+	"question_16":
+		{
+			"text": "Which shoot-em-up game featured a ship called the Vic Viper?",
+			"alternatives": ["Gradius", "R-Type", "Thunder Force", "Darius"],
+			"correct_answer_index": 0
+		},
+	"question_17":
+		{
+			"text": "What was the first commercially successful home video game console?",
+			"alternatives": ["Magnavox Odyssey", "Atari Pong", "Atari 2600", "Intellivision"],
+			"correct_answer_index": 2
+		},
+	"question_18":
+		{
+			"text": "Which game introduced the concept of multiple endings?",
+			"alternatives": ["Metroid", "Castlevania", "Mega Man", "Contra"],
+			"correct_answer_index": 0
+		},
+	"question_19":
+		{
+			"text": "What was the original arcade name for Street Fighter II's character known as M. Bison in Japan?",
+			"alternatives": ["Vega", "Balrog", "M. Bison", "Dictator"],
+			"correct_answer_index": 1
+		},
+	"question_20":
+		{
+			"text": "Which puzzle game became a cultural phenomenon on the Game Boy?",
+			"alternatives": ["Dr. Mario", "Tetris", "Columns", "Puyo Puyo"],
+			"correct_answer_index": 1
+		},
+	"question_21":
+		{
+			"text": "What was the first game in the Metroid series?",
+			"alternatives": ["Metroid", "Super Metroid", "Metroid II", "Metroid Prime"],
+			"correct_answer_index": 0
+		},
+	"question_22":
+		{
+			"text": "Which racing game series began on the Super Nintendo in 1992?",
+			"alternatives": ["F-Zero", "Super Mario Kart", "Top Gear", "Road Rash"],
+			"correct_answer_index": 1
+		},
+	"question_23":
+		{
+			"text": "What was Pac-Man's original name in Japan?",
+			"alternatives": ["Puck-Man", "Pac-Person", "Yellow-Man", "Chomp-Man"],
+			"correct_answer_index": 0
+		},
+	"question_24":
+		{
+			"text": "Which console introduced the D-pad controller design?",
+			"alternatives": ["Atari 2600", "Nintendo Entertainment System", "Game & Watch", "ColecoVision"],
+			"correct_answer_index": 2
+		},
+	"question_25":
+		{
+			"text": "What was the first game to use Mode 7 graphics on the Super Nintendo?",
+			"alternatives": ["Super Mario World", "F-Zero", "Pilotwings", "Super Mario Kart"],
+			"correct_answer_index": 2
+		},
+	"question_26":
+		{
+			"text": "Which company created the TurboGrafx-16 console?",
+			"alternatives": ["Hudson Soft", "NEC", "SNK", "Konami"],
+			"correct_answer_index": 1
+		},
+	"question_27":
+		{
+			"text": "What was the first game to feature Bowser as the main antagonist?",
+			"alternatives": ["Super Mario Bros.", "Mario Bros.", "Donkey Kong", "Super Mario Bros. 3"],
+			"correct_answer_index": 0
+		},
+	"question_28":
+		{
+			"text": "Which arcade game was known for its extreme difficulty and the phrase 'Prepare to qualify'?",
+			"alternatives": ["Pole Position", "Out Run", "Hang-On", "Super Monaco GP"],
+			"correct_answer_index": 0
+		},
+	"question_29":
+		{
+			"text": "What was the first handheld gaming system with interchangeable cartridges?",
+			"alternatives": ["Game Boy", "Game Gear", "Lynx", "Microvision"],
+			"correct_answer_index": 3
+		},
+	"question_30":
+		{
+			"text": "Which game popularized the 'Konami Code'?",
+			"alternatives": ["Contra", "Gradius", "Castlevania", "Metal Gear"],
+			"correct_answer_index": 1
+		},
+	"question_31":
+		{
+			"text": "What was the processor speed of the original Game Boy?",
+			"alternatives": ["4 MHz", "8 MHz", "16 MHz", "1 MHz"],
+			"correct_answer_index": 0
+		},
+	"question_32":
+		{
+			"text": "Which fighting game introduced 'Fatalities'?",
+			"alternatives": ["Street Fighter II", "Mortal Kombat", "Fatal Fury", "King of Fighters"],
+			"correct_answer_index": 1
+		},
+	"question_33":
+		{
+			"text": "What was the first game to feature save files on a home console?",
+			"alternatives": ["The Legend of Zelda", "Metroid", "Final Fantasy", "Dragon Quest"],
+			"correct_answer_index": 0
+		},
+	"question_34":
+		{
+			"text": "Which game featured the first appearance of Samus Aran?",
+			"alternatives": ["Metroid", "Super Metroid", "Metroid II", "Metroid: Zero Mission"],
+			"correct_answer_index": 0
+		},
+	"question_35":
+		{
+			"text": "What was the original arcade cabinet orientation for Pac-Man?",
+			"alternatives": ["Horizontal", "Vertical", "Cocktail table", "Upright only"],
+			"correct_answer_index": 1
+		},
+	"question_36":
+		{
+			"text": "Which console war dominated the early 1990s?",
+			"alternatives": ["Nintendo vs. Atari", "Sega vs. Nintendo", "Sony vs. Nintendo", "3DO vs. Jaguar"],
+			"correct_answer_index": 1
+		},
+	"question_37":
+		{
+			"text": "What was the first game to use digitized sprites for characters?",
+			"alternatives": ["Mortal Kombat", "Street Fighter II", "Pit Fighter", "Double Dragon"],
+			"correct_answer_index": 2
+		},
+	"question_38":
+		{
+			"text": "Which game series introduced the concept of collecting rings?",
+			"alternatives": ["Mario", "Sonic the Hedgehog", "Mega Man", "Castlevania"],
+			"correct_answer_index": 1
+		},
+	"question_39":
+		{
+			"text": "What was the first 16-bit home console?",
+			"alternatives": ["Sega Genesis", "TurboGrafx-16", "Super Nintendo", "Neo Geo"],
+			"correct_answer_index": 1
+		},
+	"question_40":
+		{
+			"text": "Which game featured the first use of parallax scrolling?",
+			"alternatives": ["Moon Patrol", "Defender", "Jump Bug", "Jungle Hunt"],
+			"correct_answer_index": 0
+		},
+	"question_41":
+		{
+			"text": "What was the bestselling third-party game for the NES?",
+			"alternatives": ["Mega Man 2", "Contra", "Castlevania", "Teenage Mutant Ninja Turtles"],
+			"correct_answer_index": 3
+		},
+	"question_42":
+		{
+			"text": "Which company created the Neo Geo console?",
+			"alternatives": ["Capcom", "SNK", "Konami", "Taito"],
+			"correct_answer_index": 1
+		},
+	"question_43":
+		{
+			"text": "What was the first game to feature both single-player and two-player cooperative modes?",
+			"alternatives": ["Contra", "Double Dragon", "Gauntlet", "Bubble Bobble"],
+			"correct_answer_index": 2
+		},
+	"question_44":
+		{
+			"text": "Which game introduced the wall-jump mechanic?",
+			"alternatives": ["Mega Man X", "Super Metroid", "Ninja Gaiden", "Super Mario World"],
+			"correct_answer_index": 2
+		},
+	"question_45":
+		{
+			"text": "What was the first game to feature an orchestrated soundtrack?",
+			"alternatives": ["The Legend of Zelda", "Dragon Quest", "Final Fantasy", "Actraiser"],
+			"correct_answer_index": 1
+		},
+	"question_46":
+		{
+			"text": "Which arcade game was known for its innovative trackball control?",
+			"alternatives": ["Centipede", "Missile Command", "Marble Madness", "Crystal Castles"],
+			"correct_answer_index": 0
+		},
+	"question_47":
+		{
+			"text": "What was the first game to be censored on a home console?",
+			"alternatives": ["Mortal Kombat", "Night Trap", "Lethal Enforcers", "Splatterhouse"],
+			"correct_answer_index": 0
+		},
+	"question_48":
+		{
+			"text": "Which game featured the first appearance of Princess Peach?",
+			"alternatives": ["Super Mario Bros.", "Super Mario Bros. 2", "Donkey Kong", "Mario Bros."],
+			"correct_answer_index": 0
+		},
+	"question_49":
+		{
+			"text": "What was the original color of Sonic the Hedgehog in early development?",
+			"alternatives": ["Red", "Yellow", "Blue", "Green"],
+			"correct_answer_index": 1
+		},
+	"question_50":
+		{
+			"text": "Which game introduced the concept of experience points in RPGs?",
+			"alternatives": ["Dungeons & Dragons", "Wizardry", "Ultima", "Dragon Quest"],
+			"correct_answer_index": 1
+		},
+	"question_51":
+		{
+			"text": "What was the first game to feature multiple weapon power-ups?",
+			"alternatives": ["Gradius", "R-Type", "Defender", "Robotron"],
+			"correct_answer_index": 0
+		},
+	"question_52":
+		{
+			"text": "Which console had the tagline 'Genesis does what Nintendon't'?",
+			"alternatives": ["Sega Master System", "Sega Genesis", "TurboGrafx-16", "Atari Jaguar"],
+			"correct_answer_index": 1
+		},
+	"question_53":
+		{
+			"text": "What was the first game to use sampled speech?",
+			"alternatives": ["Berzerk", "Q*bert", "Dragon's Lair", "Stratovox"],
+			"correct_answer_index": 3
+		},
+	"question_54":
+		{
+			"text": "Which game featured the first use of destructible environments?",
+			"alternatives": ["Rampage", "Bomberman", "Worms", "Tank"],
+			"correct_answer_index": 3
+		},
+	"question_55":
+		{
+			"text": "What was the first game to feature branching storylines?",
+			"alternatives": ["Dragon's Lair", "Bandersnatch", "The Portopia Serial Murder Case", "Maniac Mansion"],
+			"correct_answer_index": 2
+		},
+	"question_56":
+		{
+			"text": "Which game series introduced the 'charge shot' mechanic?",
+			"alternatives": ["Mega Man", "Metroid", "Contra", "Gradius"],
+			"correct_answer_index": 0
+		},
+	"question_57":
+		{
+			"text": "What was the first game to feature a double jump?",
+			"alternatives": ["Super Mario Bros.", "Dragon Buster", "Ninja-Kid", "Castlevania"],
+			"correct_answer_index": 1
+		},
+	"question_58":
+		{
+			"text": "Which company created the Lynx handheld console?",
+			"alternatives": ["Atari", "Sega", "NEC", "SNK"],
+			"correct_answer_index": 0
+		},
+	"question_59":
+		{
+			"text": "What was the first game to feature a mini-map?",
+			"alternatives": ["Metroid", "The Legend of Zelda", "Ultima", "Gauntlet"],
+			"correct_answer_index": 2
+		},
+	"question_60":
+		{
+			"text": "Which fighting game introduced the six-button control scheme?",
+			"alternatives": ["Street Fighter", "Street Fighter II", "Fatal Fury", "Mortal Kombat"],
+			"correct_answer_index": 1
+		},
+	"question_61":
+		{
+			"text": "What was the first game to feature an auto-save function?",
+			"alternatives": ["The Legend of Zelda: A Link to the Past", "Final Fantasy", "Secret of Mana", "Phantasy Star"],
+			"correct_answer_index": 0
+		},
+	"question_62":
+		{
+			"text": "Which arcade game was known for its quarter-munching difficulty?",
+			"alternatives": ["Gauntlet", "Dragon's Lair", "Ghosts 'n Goblins", "All of the above"],
+			"correct_answer_index": 3
+		},
+	"question_63":
+		{
+			"text": "What was the first game to feature real-time weapon switching?",
+			"alternatives": ["Contra", "Metal Storm", "Mega Man", "Castlevania III"],
+			"correct_answer_index": 1
+		},
+	"question_64":
+		{
+			"text": "Which game featured the first appearance of Yoshi?",
+			"alternatives": ["Super Mario Bros. 3", "Super Mario World", "Super Mario Bros. 2", "Mario Paint"],
+			"correct_answer_index": 1
+		},
+	"question_65":
+		{
+			"text": "What was the first game to use pseudo-3D graphics?",
+			"alternatives": ["Space Harrier", "Out Run", "After Burner", "Zaxxon"],
+			"correct_answer_index": 3
+		},
+	"question_66":
+		{
+			"text": "Which console introduced shoulder buttons on the controller?",
+			"alternatives": ["Sega Genesis", "Super Nintendo", "TurboGrafx-16", "Neo Geo"],
+			"correct_answer_index": 1
+		},
+	"question_67":
+		{
+			"text": "What was the first game to feature a character creation system?",
+			"alternatives": ["Wizardry", "Ultima", "Pool of Radiance", "Phantasy Star"],
+			"correct_answer_index": 0
+		},
+	"question_68":
+		{
+			"text": "Which game introduced the concept of combo attacks in fighting games?",
+			"alternatives": ["Street Fighter", "Street Fighter II", "Fatal Fury", "King of Fighters"],
+			"correct_answer_index": 1
+		},
+	"question_69":
+		{
+			"text": "What was the first game to feature voice acting?",
+			"alternatives": ["Dragon's Lair", "Cliff Hanger", "Space Ace", "Road Blaster"],
+			"correct_answer_index": 0
+		},
+	"question_70":
+		{
+			"text": "Which game series popularized the Metroidvania genre?",
+			"alternatives": ["Metroid and Castlevania", "Mega Man and Contra", "Zelda and Mario", "Final Fantasy and Dragon Quest"],
+			"correct_answer_index": 0
+		},
+	"question_71":
+		{
+			"text": "What was the first game to feature a stamina/health bar?",
+			"alternatives": ["Dragon Buster", "Hydlide", "The Tower of Druaga", "Xevious"],
+			"correct_answer_index": 0
+		},
+	"question_72":
+		{
+			"text": "Which company developed the Power Glove accessory?",
+			"alternatives": ["Nintendo", "Mattel", "Konami", "Bandai"],
+			"correct_answer_index": 1
+		},
+	"question_73":
+		{
+			"text": "What was the first game to feature a built-in level editor?",
+			"alternatives": ["Excitebike", "Lode Runner", "Boulder Dash", "Pinball Construction Set"],
+			"correct_answer_index": 3
+		},
+	"question_74":
+		{
+			"text": "Which arcade game was famous for its laserdisc technology?",
+			"alternatives": ["Dragon's Lair", "Space Ace", "Cliff Hanger", "All of the above"],
+			"correct_answer_index": 3
+		},
+	"question_75":
+		{
+			"text": "What was the first game to feature animated cutscenes?",
+			"alternatives": ["Pac-Man", "Donkey Kong", "Dragon's Lair", "Karateka"],
+			"correct_answer_index": 1
+		},
+	"question_76":
+		{
+			"text": "Which game introduced the concept of lives and continues?",
+			"alternatives": ["Space Invaders", "Pac-Man", "Galaxian", "Defender"],
+			"correct_answer_index": 0
+		},
+	"question_77":
+		{
+			"text": "What was the first game to feature a high score table?",
+			"alternatives": ["Pong", "Space Invaders", "Asteroids", "Pac-Man"],
+			"correct_answer_index": 1
+		},
+	"question_78":
+		{
+			"text": "Which game series introduced the concept of collecting items to increase maximum health?",
+			"alternatives": ["The Legend of Zelda", "Metroid", "Castlevania", "All of the above"],
+			"correct_answer_index": 3
+		},
+	"question_79":
+		{
+			"text": "What was the first game to use Mode 7 rotation effects extensively?",
+			"alternatives": ["F-Zero", "Super Mario Kart", "Pilotwings", "Super Castlevania IV"],
+			"correct_answer_index": 0
+		},
+	"question_80":
+		{
+			"text": "Which company created the Game Gear handheld console?",
+			"alternatives": ["Nintendo", "Sega", "Atari", "NEC"],
+			"correct_answer_index": 1
+		},
+	"question_81":
+		{
+			"text": "What was the first game to feature a password save system?",
+			"alternatives": ["Metroid", "Kid Icarus", "Mega Man", "All of the above"],
+			"correct_answer_index": 3
+		},
+	"question_82":
+		{
+			"text": "Which game introduced the concept of wall sliding?",
+			"alternatives": ["Mega Man X", "Ninja Gaiden", "Ryu Hayabusa", "Strider"],
+			"correct_answer_index": 1
+		},
+	"question_83":
+		{
+			"text": "What was the first game to feature multiple playable characters with different abilities?",
+			"alternatives": ["Super Mario Bros. 2", "Gauntlet", "Double Dragon", "Contra"],
+			"correct_answer_index": 1
+		},
+	"question_84":
+		{
+			"text": "Which game featured the first appearance of the mushroom power-up?",
+			"alternatives": ["Super Mario Bros.", "Mario Bros.", "Donkey Kong Jr.", "Popeye"],
+			"correct_answer_index": 0
+		},
+	"question_85":
+		{
+			"text": "What was the first game to feature a two-player cooperative story mode?",
+			"alternatives": ["Contra", "Double Dragon", "Life Force", "Metal Slug"],
+			"correct_answer_index": 2
+		},
+	"question_86":
+		{
+			"text": "Which console was known for having 'blast processing'?",
+			"alternatives": ["Super Nintendo", "Sega Genesis", "TurboGrafx-16", "Neo Geo"],
+			"correct_answer_index": 1
+		},
+	"question_87":
+		{
+			"text": "What was the first game to feature digitized photographs as backgrounds?",
+			"alternatives": ["Mortal Kombat", "Donkey Kong Country", "Killer Instinct", "Pit Fighter"],
+			"correct_answer_index": 1
+		},
+	"question_88":
+		{
+			"text": "Which game introduced the concept of special moves in fighting games?",
+			"alternatives": ["Karate Champ", "Street Fighter", "Way of the Exploding Fist", "International Karate"],
+			"correct_answer_index": 1
+		},
+	"question_89":
+		{
+			"text": "What was the first game to feature an inventory system?",
+			"alternatives": ["Adventure", "Zork", "Ultima", "Wizardry"],
+			"correct_answer_index": 0
+		},
+	"question_90":
+		{
+			"text": "Which arcade game was known for its innovative rotary joystick?",
+			"alternatives": ["Ikari Warriors", "Heavy Barrel", "Forgotten Worlds", "All of the above"],
+			"correct_answer_index": 3
+		},
+	"question_91":
+		{
+			"text": "What was the first game to feature scaling sprites?",
+			"alternatives": ["Space Harrier", "Out Run", "Super Scaler", "Thunder Blade"],
+			"correct_answer_index": 0
+		},
+	"question_92":
+		{
+			"text": "Which game featured the first appearance of Link?",
+			"alternatives": ["The Legend of Zelda", "Zelda II", "A Link to the Past", "Link's Awakening"],
+			"correct_answer_index": 0
+		},
+	"question_93":
+		{
+			"text": "What was the first game to use cheat codes?",
+			"alternatives": ["Gradius", "Contra", "Castlevania", "Mega Man"],
+			"correct_answer_index": 0
+		},
+	"question_94":
+		{
+			"text": "Which console had the most colors available in its palette?",
+			"alternatives": ["NES", "Sega Genesis", "Super Nintendo", "TurboGrafx-16"],
+			"correct_answer_index": 2
+		},
+	"question_95":
+		{
+			"text": "What was the first game to feature realistic physics?",
+			"alternatives": ["Marble Madness", "Lunar Lander", "Asteroids", "Tempest"],
+			"correct_answer_index": 1
+		},
+	"question_96":
+		{
+			"text": "Which game series introduced the concept of collecting power stars?",
+			"alternatives": ["Super Mario Bros.", "Super Mario 64", "Super Mario World", "Super Mario Galaxy"],
+			"correct_answer_index": 1
+		},
+	"question_97":
+		{
+			"text": "What was the first game to feature a map screen?",
+			"alternatives": ["Super Mario Bros. 3", "Super Mario World", "The Legend of Zelda", "Metroid"],
+			"correct_answer_index": 2
+		},
+	"question_98":
+		{
+			"text": "Which company created the first successful light gun game?",
+			"alternatives": ["Nintendo", "Sega", "Magnavox", "Atari"],
+			"correct_answer_index": 2
+		},
+	"question_99":
+		{
+			"text": "What was the first game to feature a boss rush mode?",
+			"alternatives": ["Mega Man", "Gradius", "R-Type", "Thunder Force"],
+			"correct_answer_index": 0
+		},
+	"question_100":
+		{
+			"text": "Which game is considered the first true survival horror game?",
+			"alternatives": ["Haunted House", "Sweet Home", "Alone in the Dark", "Resident Evil"],
+			"correct_answer_index": 1
+		}
+}

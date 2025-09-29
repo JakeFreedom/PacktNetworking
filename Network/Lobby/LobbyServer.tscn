@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://cxmdfbkudd7y1"]
+
+[ext_resource type="Script" uid="uid://cole4gov1s1gm" path="res://Network/Lobby/lobby_server.gd" id="1_io00j"]
+
+[node name="Main" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_io00j")
+dataBaseFile = "res://Fakedb.json"

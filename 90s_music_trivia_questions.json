@@ -1,0 +1,502 @@
+{
+	"question_01": {
+		"text": "Which band released the album 'Nevermind' in 1991?",
+		"alternatives": ["Pearl Jam", "Soundgarden", "Nirvana", "Alice in Chains"],
+		"correct_answer_index": 2
+	},
+	"question_02": {
+		"text": "What was the best-selling album of 1992?",
+		"alternatives": ["The Bodyguard Soundtrack", "Nevermind", "Automatic for the People", "Ten"],
+		"correct_answer_index": 0
+	},
+	"question_03": {
+		"text": "Which rapper released 'The Chronic' in 1992?",
+		"alternatives": ["Snoop Dogg", "Dr. Dre", "Ice Cube", "Eazy-E"],
+		"correct_answer_index": 1
+	},
+	"question_04": {
+		"text": "What does 'Smells Like Teen Spirit' by Nirvana reference?",
+		"alternatives": ["A cologne", "A deodorant", "Teen rebellion", "School spirit"],
+		"correct_answer_index": 1
+	},
+	"question_05": {
+		"text": "Which female artist had a hit with 'You Oughta Know' in 1995?",
+		"alternatives": ["Alanis Morissette", "Fiona Apple", "Tori Amos", "Bjork"],
+		"correct_answer_index": 0
+	},
+	"question_06": {
+		"text": "What was TLC's biggest hit from the '90s?",
+		"alternatives": ["What's Up?", "Waterfalls", "Creep", "No Scrubs"],
+		"correct_answer_index": 1
+	},
+	"question_07": {
+		"text": "Which band sang 'Black' and 'Alive'?",
+		"alternatives": ["Stone Temple Pilots", "Pearl Jam", "Soundgarden", "Alice in Chains"],
+		"correct_answer_index": 1
+	},
+	"question_08": {
+		"text": "Who sang 'I Will Always Love You' for The Bodyguard soundtrack?",
+		"alternatives": ["Mariah Carey", "Whitney Houston", "Celine Dion", "Toni Braxton"],
+		"correct_answer_index": 1
+	},
+	"question_09": {
+		"text": "Which alternative rock band released 'Losing My Religion'?",
+		"alternatives": ["U2", "R.E.M.", "Radiohead", "The Cure"],
+		"correct_answer_index": 1
+	},
+	"question_10": {
+		"text": "What city is considered the birthplace of grunge music?",
+		"alternatives": ["Portland", "Los Angeles", "Seattle", "San Francisco"],
+		"correct_answer_index": 2
+	},
+	"question_11": {
+		"text": "Which rapper was known as 'The Notorious B.I.G.'?",
+		"alternatives": ["Christopher Wallace", "Calvin Broadus", "Andre Young", "Sean Combs"],
+		"correct_answer_index": 0
+	},
+	"question_12": {
+		"text": "What was Boyz II Men's biggest hit?",
+		"alternatives": ["End of the Road", "I'll Make Love to You", "On Bended Knee", "Motownphilly"],
+		"correct_answer_index": 0
+	},
+	"question_13": {
+		"text": "Which band released 'Creep' in 1992?",
+		"alternatives": ["Blur", "Oasis", "Radiohead", "Stone Temple Pilots"],
+		"correct_answer_index": 2
+	},
+	"question_14": {
+		"text": "What was the name of Kurt Cobain's wife?",
+		"alternatives": ["Kim Deal", "Courtney Love", "Kat Bjelland", "Tori Amos"],
+		"correct_answer_index": 1
+	},
+	"question_15": {
+		"text": "Which pop star released 'Vogue' in 1990?",
+		"alternatives": ["Janet Jackson", "Madonna", "Whitney Houston", "Mariah Carey"],
+		"correct_answer_index": 1
+	},
+	"question_16": {
+		"text": "What was the Spice Girls' debut single?",
+		"alternatives": ["Say You'll Be There", "2 Become 1", "Wannabe", "Mama"],
+		"correct_answer_index": 2
+	},
+	"question_17": {
+		"text": "Which hip-hop group released 'The Low End Theory'?",
+		"alternatives": ["De La Soul", "A Tribe Called Quest", "Digital Underground", "Gang Starr"],
+		"correct_answer_index": 1
+	},
+	"question_18": {
+		"text": "What was Green Day's breakthrough album?",
+		"alternatives": ["Kerplunk", "Dookie", "Insomniac", "Warning"],
+		"correct_answer_index": 1
+	},
+	"question_19": {
+		"text": "Who sang 'Nothing Compares 2 U'?",
+		"alternatives": ["Sinéad O'Connor", "Tori Amos", "Björk", "Fiona Apple"],
+		"correct_answer_index": 0
+	},
+	"question_20": {
+		"text": "Which band released 'Zombie' in 1994?",
+		"alternatives": ["No Doubt", "Garbage", "The Cranberries", "Hole"],
+		"correct_answer_index": 2
+	},
+	"question_21": {
+		"text": "What was Tupac's real name?",
+		"alternatives": ["Tupac Amaru Shakur", "Lesane Parish Crooks", "Both A and B", "Calvin Broadus"],
+		"correct_answer_index": 2
+	},
+	"question_22": {
+		"text": "Which alternative band sang 'Jane Says'?",
+		"alternatives": ["Red Hot Chili Peppers", "Jane's Addiction", "Fishbone", "Living Colour"],
+		"correct_answer_index": 1
+	},
+	"question_23": {
+		"text": "What was Mariah Carey's first #1 hit?",
+		"alternatives": ["Love Takes Time", "Vision of Love", "Someday", "I Don't Wanna Cry"],
+		"correct_answer_index": 1
+	},
+	"question_24": {
+		"text": "Which grunge band was fronted by Layne Staley?",
+		"alternatives": ["Soundgarden", "Pearl Jam", "Alice in Chains", "Stone Temple Pilots"],
+		"correct_answer_index": 2
+	},
+	"question_25": {
+		"text": "What British band had a hit with 'Song 2'?",
+		"alternatives": ["Oasis", "Blur", "Pulp", "Suede"],
+		"correct_answer_index": 1
+	},
+	"question_26": {
+		"text": "Who released the album 'Jagged Little Pill'?",
+		"alternatives": ["Fiona Apple", "Alanis Morissette", "Tori Amos", "Björk"],
+		"correct_answer_index": 1
+	},
+	"question_27": {
+		"text": "Which band sang 'Mr. Jones'?",
+		"alternatives": ["Gin Blossoms", "Counting Crows", "Toad the Wet Sprocket", "Blind Melon"],
+		"correct_answer_index": 1
+	},
+	"question_28": {
+		"text": "What was Janet Jackson's biggest hit from the '90s?",
+		"alternatives": ["That's the Way Love Goes", "If", "Again", "Any Time, Any Place"],
+		"correct_answer_index": 0
+	},
+	"question_29": {
+		"text": "Which rapper released 'Doggystyle' in 1993?",
+		"alternatives": ["Dr. Dre", "Snoop Dogg", "Warren G", "Nate Dogg"],
+		"correct_answer_index": 1
+	},
+	"question_30": {
+		"text": "What was Stone Temple Pilots' biggest hit?",
+		"alternatives": ["Plush", "Interstate Love Song", "Vasoline", "Big Empty"],
+		"correct_answer_index": 1
+	},
+	"question_31": {
+		"text": "Which female R&B group sang 'Don't Let Go (Love)'?",
+		"alternatives": ["SWV", "En Vogue", "TLC", "Xscape"],
+		"correct_answer_index": 1
+	},
+	"question_32": {
+		"text": "What was Oasis's debut album?",
+		"alternatives": ["(What's the Story) Morning Glory?", "Definitely Maybe", "Be Here Now", "The Masterplan"],
+		"correct_answer_index": 1
+	},
+	"question_33": {
+		"text": "Who sang 'Ice Ice Baby'?",
+		"alternatives": ["MC Hammer", "Vanilla Ice", "House of Pain", "Coolio"],
+		"correct_answer_index": 1
+	},
+	"question_34": {
+		"text": "Which band released 'Hunger Strike'?",
+		"alternatives": ["Soundgarden", "Temple of the Dog", "Pearl Jam", "Alice in Chains"],
+		"correct_answer_index": 1
+	},
+	"question_35": {
+		"text": "What was Ace of Base's biggest hit?",
+		"alternatives": ["All That She Wants", "The Sign", "Don't Turn Around", "Beautiful Life"],
+		"correct_answer_index": 1
+	},
+	"question_36": {
+		"text": "Which rapper had a hit with 'Gangsta's Paradise'?",
+		"alternatives": ["Ice-T", "Coolio", "Naughty by Nature", "House of Pain"],
+		"correct_answer_index": 1
+	},
+	"question_37": {
+		"text": "What was Red Hot Chili Peppers' breakthrough album?",
+		"alternatives": ["Mother's Milk", "Blood Sugar Sex Magik", "One Hot Minute", "Californication"],
+		"correct_answer_index": 1
+	},
+	"question_38": {
+		"text": "Which band sang 'Loser'?",
+		"alternatives": ["Weezer", "Pavement", "Beck", "Sonic Youth"],
+		"correct_answer_index": 2
+	},
+	"question_39": {
+		"text": "What was the name of Nirvana's MTV Unplugged album?",
+		"alternatives": ["MTV Unplugged in New York", "Unplugged", "Live and Loud", "From the Muddy Banks"],
+		"correct_answer_index": 0
+	},
+	"question_40": {
+		"text": "Which female artist sang 'You're So Vain' at MTV Unplugged?",
+		"alternatives": ["Alanis Morissette", "Carly Simon", "Tori Amos", "Fiona Apple"],
+		"correct_answer_index": 1
+	},
+	"question_41": {
+		"text": "What was Soundgarden's biggest hit?",
+		"alternatives": ["Rusty Cage", "Black Hole Sun", "Spoonman", "Fell on Black Days"],
+		"correct_answer_index": 1
+	},
+	"question_42": {
+		"text": "Which boy band had a hit with 'I Want It That Way'?",
+		"alternatives": ["NSYNC", "Backstreet Boys", "98 Degrees", "Boyz II Men"],
+		"correct_answer_index": 1
+	},
+	"question_43": {
+		"text": "What was Blind Melon's biggest hit?",
+		"alternatives": ["Tones of Home", "Change", "No Rain", "Paper Scratcher"],
+		"correct_answer_index": 2
+	},
+	"question_44": {
+		"text": "Which hip-hop group released 'Hip Hop Hooray'?",
+		"alternatives": ["House of Pain", "Cypress Hill", "Naughty by Nature", "Digital Underground"],
+		"correct_answer_index": 2
+	},
+	"question_45": {
+		"text": "What was Weezer's debut album called?",
+		"alternatives": ["Blue Album", "Pinkerton", "Green Album", "White Album"],
+		"correct_answer_index": 0
+	},
+	"question_46": {
+		"text": "Which band sang 'Glycerine'?",
+		"alternatives": ["Stone Temple Pilots", "Bush", "Live", "Silverchair"],
+		"correct_answer_index": 1
+	},
+	"question_47": {
+		"text": "What was Hootie & the Blowfish's biggest hit?",
+		"alternatives": ["Let Her Cry", "Only Wanna Be with You", "Time", "I Go Blind"],
+		"correct_answer_index": 0
+	},
+	"question_48": {
+		"text": "Which rapper released 'Ready to Die' in 1994?",
+		"alternatives": ["Nas", "Jay-Z", "The Notorious B.I.G.", "Wu-Tang Clan"],
+		"correct_answer_index": 2
+	},
+	"question_49": {
+		"text": "What was No Doubt's breakthrough single?",
+		"alternatives": ["Spiderwebs", "Just a Girl", "Don't Speak", "Sunday Morning"],
+		"correct_answer_index": 2
+	},
+	"question_50": {
+		"text": "Which band released 'Peaches'?",
+		"alternatives": ["Jane's Addiction", "Red Hot Chili Peppers", "The Presidents of the United States of America", "Primus"],
+		"correct_answer_index": 2
+	},
+	"question_51": {
+		"text": "What was Lauryn Hill's solo debut album?",
+		"alternatives": ["The Score", "The Miseducation of Lauryn Hill", "Blunted on Reality", "Sister Act 2 Soundtrack"],
+		"correct_answer_index": 1
+	},
+	"question_52": {
+		"text": "Which band sang 'Possum Kingdom'?",
+		"alternatives": ["Local H", "Filter", "The Toadies", "Seven Mary Three"],
+		"correct_answer_index": 2
+	},
+	"question_53": {
+		"text": "What was Collective Soul's biggest hit?",
+		"alternatives": ["Shine", "Heavy", "December", "The World I Know"],
+		"correct_answer_index": 0
+	},
+	"question_54": {
+		"text": "Which female artist sang 'Criminal'?",
+		"alternatives": ["Alanis Morissette", "Fiona Apple", "Tori Amos", "Björk"],
+		"correct_answer_index": 1
+	},
+	"question_55": {
+		"text": "What was Rage Against the Machine's debut single?",
+		"alternatives": ["Bulls on Parade", "Killing in the Name", "Freedom", "Bombtrack"],
+		"correct_answer_index": 1
+	},
+	"question_56": {
+		"text": "Which band released 'Bitter Sweet Symphony'?",
+		"alternatives": ["Oasis", "Radiohead", "The Verve", "Blur"],
+		"correct_answer_index": 2
+	},
+	"question_57": {
+		"text": "What was Gin Blossoms' biggest hit?",
+		"alternatives": ["Hey Jealousy", "Follow You Down", "Until I Fall Away", "Mrs. Rita"],
+		"correct_answer_index": 0
+	},
+	"question_58": {
+		"text": "Which rapper released 'Illmatic' in 1994?",
+		"alternatives": ["Jay-Z", "Nas", "Big Pun", "Raekwon"],
+		"correct_answer_index": 1
+	},
+	"question_59": {
+		"text": "What was Live's biggest hit?",
+		"alternatives": ["Lightning Crashes", "Selling the Drama", "I Alone", "All Over You"],
+		"correct_answer_index": 0
+	},
+	"question_60": {
+		"text": "Which band sang 'Connection'?",
+		"alternatives": ["Bush", "Elastica", "Garbage", "Hole"],
+		"correct_answer_index": 1
+	},
+	"question_61": {
+		"text": "What was Tool's breakthrough album?",
+		"alternatives": ["Opiate", "Undertow", "Ænima", "Lateralus"],
+		"correct_answer_index": 2
+	},
+	"question_62": {
+		"text": "Which female group sang 'What's Love Got to Do with It'?",
+		"alternatives": ["This is a trick question - Tina Turner sang it", "En Vogue", "SWV", "TLC"],
+		"correct_answer_index": 0
+	},
+	"question_63": {
+		"text": "What was Pavement's most well-known song?",
+		"alternatives": ["Cut Your Hair", "Range Life", "Gold Soundz", "Summer Babe"],
+		"correct_answer_index": 0
+	},
+	"question_64": {
+		"text": "Which band released 'Santa Monica'?",
+		"alternatives": ["Everclear", "Filter", "Local H", "Seven Mary Three"],
+		"correct_answer_index": 0
+	},
+	"question_65": {
+		"text": "What was Cypress Hill's biggest hit?",
+		"alternatives": ["How I Could Just Kill a Man", "Insane in the Brain", "Hand on the Pump", "I Wanna Get High"],
+		"correct_answer_index": 1
+	},
+	"question_66": {
+		"text": "Which band sang 'Selling the Drama'?",
+		"alternatives": ["Stone Temple Pilots", "Live", "Bush", "Silverchair"],
+		"correct_answer_index": 1
+	},
+	"question_67": {
+		"text": "What was Silverchair's debut album?",
+		"alternatives": ["Freak Show", "Frogstomp", "Neon Ballroom", "Diorama"],
+		"correct_answer_index": 1
+	},
+	"question_68": {
+		"text": "Which rapper had a hit with 'Jump Around'?",
+		"alternatives": ["House of Pain", "Cypress Hill", "Naughty by Nature", "Digital Underground"],
+		"correct_answer_index": 0
+	},
+	"question_69": {
+		"text": "What was Garbage's debut single?",
+		"alternatives": ["Stupid Girl", "Only Happy When It Rains", "Vow", "Queer"],
+		"correct_answer_index": 2
+	},
+	"question_70": {
+		"text": "Which band released 'Today'?",
+		"alternatives": ["Stone Temple Pilots", "The Smashing Pumpkins", "Jane's Addiction", "Alice in Chains"],
+		"correct_answer_index": 1
+	},
+	"question_71": {
+		"text": "What was Filter's biggest hit?",
+		"alternatives": ["Hey Man Nice Shot", "Trip Like I Do", "One", "Short Bus"],
+		"correct_answer_index": 0
+	},
+	"question_72": {
+		"text": "Which female artist sang 'Torn'?",
+		"alternatives": ["Natalie Imbruglia", "Alanis Morissette", "Fiona Apple", "Lisa Loeb"],
+		"correct_answer_index": 0
+	},
+	"question_73": {
+		"text": "What was Local H's biggest hit?",
+		"alternatives": ["Bound for the Floor", "High-Fiving MF", "Eddie Vedder", "Fritz's Corner"],
+		"correct_answer_index": 0
+	},
+	"question_74": {
+		"text": "Which hip-hop group released 'C.R.E.A.M.'?",
+		"alternatives": ["A Tribe Called Quest", "Wu-Tang Clan", "Gang Starr", "De La Soul"],
+		"correct_answer_index": 1
+	},
+	"question_75": {
+		"text": "What was Seven Mary Three's biggest hit?",
+		"alternatives": ["Cumbersome", "Water's Edge", "My My", "Headstrong"],
+		"correct_answer_index": 0
+	},
+	"question_76": {
+		"text": "Which band sang 'Man in the Box'?",
+		"alternatives": ["Soundgarden", "Pearl Jam", "Alice in Chains", "Stone Temple Pilots"],
+		"correct_answer_index": 2
+	},
+	"question_77": {
+		"text": "What was Spacehog's biggest hit?",
+		"alternatives": ["In the Meantime", "Cruel to Be Kind", "Mungo City", "Space Is the Place"],
+		"correct_answer_index": 0
+	},
+	"question_78": {
+		"text": "Which band released 'Burden in My Hand'?",
+		"alternatives": ["Alice in Chains", "Soundgarden", "Stone Temple Pilots", "Pearl Jam"],
+		"correct_answer_index": 1
+	},
+	"question_79": {
+		"text": "What was Stabbing Westward's biggest hit?",
+		"alternatives": ["Save Yourself", "Shame", "Sometimes It Hurts", "So Far Away"],
+		"correct_answer_index": 0
+	},
+	"question_80": {
+		"text": "Which band sang 'Flagpole Sitta'?",
+		"alternatives": ["Local H", "Harvey Danger", "Seven Mary Three", "The Toadies"],
+		"correct_answer_index": 1
+	},
+	"question_81": {
+		"text": "What was Toadies' follow-up to 'Possum Kingdom'?",
+		"alternatives": ["Away", "Tyler", "Backslider", "I Come from the Water"],
+		"correct_answer_index": 0
+	},
+	"question_82": {
+		"text": "Which female artist had a hit with 'Stay (I Missed You)'?",
+		"alternatives": ["Lisa Loeb", "Natalie Merchant", "Suzanne Vega", "Sarah McLachlan"],
+		"correct_answer_index": 0
+	},
+	"question_83": {
+		"text": "What was Helmet's biggest hit?",
+		"alternatives": ["Unsung", "In the Meantime", "Milquetoast", "Give It"],
+		"correct_answer_index": 0
+	},
+	"question_84": {
+		"text": "Which band released 'Lightning Crashes'?",
+		"alternatives": ["Stone Temple Pilots", "Live", "Bush", "Collective Soul"],
+		"correct_answer_index": 1
+	},
+	"question_85": {
+		"text": "What was Mazzy Star's biggest hit?",
+		"alternatives": ["Blue Flower", "Fade into You", "Cry, Cry", "Into Dust"],
+		"correct_answer_index": 1
+	},
+	"question_86": {
+		"text": "Which band sang 'Machinehead'?",
+		"alternatives": ["White Zombie", "Ministry", "Bush", "Filter"],
+		"correct_answer_index": 2
+	},
+	"question_87": {
+		"text": "What was Candlebox's biggest hit?",
+		"alternatives": ["Far Behind", "You", "Cover Me", "Simple Lessons"],
+		"correct_answer_index": 0
+	},
+	"question_88": {
+		"text": "Which rapper released 'The Infamous' in 1995?",
+		"alternatives": ["Nas", "Mobb Deep", "Gang Starr", "A Tribe Called Quest"],
+		"correct_answer_index": 1
+	},
+	"question_89": {
+		"text": "What was Temple of the Dog a collaboration between?",
+		"alternatives": ["Nirvana and Soundgarden", "Pearl Jam and Soundgarden", "Alice in Chains and Stone Temple Pilots", "Pearl Jam and Alice in Chains"],
+		"correct_answer_index": 1
+	},
+	"question_90": {
+		"text": "Which band released 'Connection'?",
+		"alternatives": ["Garbage", "Hole", "Elastica", "No Doubt"],
+		"correct_answer_index": 2
+	},
+	"question_91": {
+		"text": "What was Stone Temple Pilots' debut album?",
+		"alternatives": ["Purple", "Tiny Music", "Core", "No. 4"],
+		"correct_answer_index": 2
+	},
+	"question_92": {
+		"text": "Which female artist sang 'Building a Bridge to Your Heart'?",
+		"alternatives": ["Wax", "PJ Harvey", "Björk", "Tori Amos"],
+		"correct_answer_index": 0
+	},
+	"question_93": {
+		"text": "What was Marcy Playground's biggest hit?",
+		"alternatives": ["Sex and Candy", "Sherry Fraser", "Saint Joe on the School Bus", "A Cloak of Elvenkind"],
+		"correct_answer_index": 0
+	},
+	"question_94": {
+		"text": "Which band released 'Hunger Strike' as a single?",
+		"alternatives": ["Pearl Jam", "Soundgarden", "Temple of the Dog", "Alice in Chains"],
+		"correct_answer_index": 2
+	},
+	"question_95": {
+		"text": "What was Fuel's biggest hit?",
+		"alternatives": ["Shimmer", "Bittersweet", "Jesus or a Gun", "Sunburn"],
+		"correct_answer_index": 0
+	},
+	"question_96": {
+		"text": "Which band sang 'Semi-Charmed Life'?",
+		"alternatives": ["Everclear", "Third Eye Blind", "Matchbox Twenty", "Goo Goo Dolls"],
+		"correct_answer_index": 1
+	},
+	"question_97": {
+		"text": "What was Vertical Horizon's biggest hit?",
+		"alternatives": ["Everything You Want", "You're a God", "Matt Flinner", "Wash Away"],
+		"correct_answer_index": 0
+	},
+	"question_98": {
+		"text": "Which band released 'Push'?",
+		"alternatives": ["Matchbox Twenty", "Goo Goo Dolls", "Third Eye Blind", "Live"],
+		"correct_answer_index": 0
+	},
+	"question_99": {
+		"text": "What was Creed's debut album?",
+		"alternatives": ["Human Clay", "My Own Prison", "Weathered", "Full Circle"],
+		"correct_answer_index": 1
+	},
+	"question_100": {
+		"text": "Which band had a hit with 'Name'?",
+		"alternatives": ["Matchbox Twenty", "Third Eye Blind", "Goo Goo Dolls", "Vertical Horizon"],
+		"correct_answer_index": 2
+	}
+}

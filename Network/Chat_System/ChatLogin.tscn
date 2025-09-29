@@ -1,0 +1,91 @@
+[gd_scene load_steps=5 format=3 uid="uid://doiscif6c4xei"]
+
+[ext_resource type="Script" uid="uid://dcd6gmp7yw6pd" path="res://Network/Chat_System/ChatLogin.gd" id="1_bfke6"]
+[ext_resource type="PackedScene" uid="uid://buu6xvp0ncaci" path="res://Network/Chat_System/ChatClient.tscn" id="2_bnuey"]
+[ext_resource type="PackedScene" uid="uid://bh2yuxicbw510" path="res://Network/Chat_System/ChatControl.tscn" id="2_ned18"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_yrgbv"]
+font_color = Color(1, 0.2, 0.2, 1)
+
+[node name="Main" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_bfke6")
+lobbyScene = ExtResource("2_bnuey")
+
+[node name="UserLineEdit" type="LineEdit" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50.0
+offset_top = 39.0
+offset_right = 100.0
+offset_bottom = 77.0
+grow_horizontal = 2
+grow_vertical = 2
+placeholder_text = "[user name]"
+alignment = 1
+expand_to_text_length = true
+secret_character = "*"
+
+[node name="PasswordLineEdit" type="LineEdit" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -50.0
+offset_top = 81.0
+offset_right = 100.0
+offset_bottom = 119.0
+grow_horizontal = 2
+grow_vertical = 2
+placeholder_text = "[password]"
+alignment = 1
+expand_to_text_length = true
+secret = true
+
+[node name="Login" type="Button" parent="."]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -51.0
+offset_top = 163.0
+offset_right = 99.0
+offset_bottom = 194.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "LOGIN"
+
+[node name="ErrorLabel" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -65.0
+offset_top = 120.0
+offset_right = 110.0
+offset_bottom = 143.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "[error has occured]"
+label_settings = SubResource("LabelSettings_yrgbv")
+horizontal_alignment = 1
+
+[node name="ChatControl" parent="." instance=ExtResource("2_ned18")]
+visible = false
+layout_mode = 1

@@ -1,0 +1,502 @@
+{
+	"question_01": {
+		"text": "What is the name of Harry Potter's owl?",
+		"alternatives": ["Hedwig", "Errol", "Pigwidgeon", "Hermes"],
+		"correct_answer_index": 0
+	},
+	"question_02": {
+		"text": "What does the term 'cream butter and sugar' mean in baking?",
+		"alternatives": ["Mix until smooth", "Beat until light and fluffy", "Melt together", "Fold gently"],
+		"correct_answer_index": 1
+	},
+	"question_03": {
+		"text": "What does BMW stand for?",
+		"alternatives": ["Bavarian Motor Works", "Berlin Motor Works", "British Motor Works", "Belgian Motor Works"],
+		"correct_answer_index": 0
+	},
+	"question_04": {
+		"text": "Which band released the album 'Nevermind' in 1991?",
+		"alternatives": ["Pearl Jam", "Soundgarden", "Nirvana", "Alice in Chains"],
+		"correct_answer_index": 2
+	},
+	"question_05": {
+		"text": "How many bones are in an adult human body?",
+		"alternatives": ["196", "206", "216", "226"],
+		"correct_answer_index": 1
+	},
+	"question_06": {
+		"text": "Which NASCAR driver is known as 'The Intimidator'?",
+		"alternatives": ["Richard Petty", "Dale Earnhardt Sr.", "Jeff Gordon", "Jimmie Johnson"],
+		"correct_answer_index": 1
+	},
+	"question_07": {
+		"text": "What are the five colors of mana in Magic: The Gathering?",
+		"alternatives": ["White, Blue, Black, Red, Green", "Light, Water, Dark, Fire, Earth", "Order, Knowledge, Death, Chaos, Nature", "Plains, Islands, Swamps, Mountains, Forests"],
+		"correct_answer_index": 0
+	},
+	"question_08": {
+		"text": "Which house at Hogwarts does Harry Potter belong to?",
+		"alternatives": ["Slytherin", "Hufflepuff", "Ravenclaw", "Gryffindor"],
+		"correct_answer_index": 3
+	},
+	"question_09": {
+		"text": "What is the ideal temperature for proofing yeast?",
+		"alternatives": ["80-90°F", "100-110°F", "120-130°F", "140-150°F"],
+		"correct_answer_index": 1
+	},
+	"question_10": {
+		"text": "Which company makes the Mustang?",
+		"alternatives": ["Chevrolet", "Ford", "Dodge", "Plymouth"],
+		"correct_answer_index": 1
+	},
+	"question_11": {
+		"text": "What was TLC's biggest hit from the '90s?",
+		"alternatives": ["What's Up?", "Waterfalls", "Creep", "No Scrubs"],
+		"correct_answer_index": 1
+	},
+	"question_12": {
+		"text": "What is the largest organ in the human body?",
+		"alternatives": ["Liver", "Lungs", "Brain", "Skin"],
+		"correct_answer_index": 3
+	},
+	"question_13": {
+		"text": "Which NASCAR track is known as 'The Brickyard'?",
+		"alternatives": ["Indianapolis Motor Speedway", "Daytona International Speedway", "Charlotte Motor Speedway", "Talladega Superspeedway"],
+		"correct_answer_index": 0
+	},
+	"question_14": {
+		"text": "Who is the creator of Magic: The Gathering?",
+		"alternatives": ["Mark Rosewater", "Richard Garfield", "Wizards of the Coast", "Aaron Forsythe"],
+		"correct_answer_index": 1
+	},
+	"question_15": {
+		"text": "What platform do students use to board the Hogwarts Express?",
+		"alternatives": ["Platform 9", "Platform 9¼", "Platform 9½", "Platform 10"],
+		"correct_answer_index": 1
+	},
+	"question_16": {
+		"text": "Which ingredient is responsible for gluten development in bread?",
+		"alternatives": ["Yeast", "Salt", "Flour", "Water"],
+		"correct_answer_index": 2
+	},
+	"question_17": {
+		"text": "What is the fastest production car in the world as of 2023?",
+		"alternatives": ["Bugatti Chiron", "Koenigsegg Jesko Absolut", "SSC Tuatara", "Hennessey Venom F5"],
+		"correct_answer_index": 2
+	},
+	"question_18": {
+		"text": "Which alternative rock band released 'Losing My Religion'?",
+		"alternatives": ["U2", "R.E.M.", "Radiohead", "The Cure"],
+		"correct_answer_index": 1
+	},
+	"question_19": {
+		"text": "Which chamber of the heart pumps blood to the body?",
+		"alternatives": ["Right atrium", "Left atrium", "Right ventricle", "Left ventricle"],
+		"correct_answer_index": 3
+	},
+	"question_20": {
+		"text": "How many cars typically start a NASCAR Cup Series race?",
+		"alternatives": ["36", "40", "43", "48"],
+		"correct_answer_index": 1
+	},
+	"question_21": {
+		"text": "What year was Magic: The Gathering first released?",
+		"alternatives": ["1992", "1993", "1994", "1995"],
+		"correct_answer_index": 1
+	},
+	"question_22": {
+		"text": "Who is the Half-Blood Prince?",
+		"alternatives": ["Tom Riddle", "Severus Snape", "Remus Lupin", "Sirius Black"],
+		"correct_answer_index": 1
+	},
+	"question_23": {
+		"text": "What is the purpose of blind baking a pie crust?",
+		"alternatives": ["To add flavor", "To prevent soggy bottom", "To make it golden", "To cook faster"],
+		"correct_answer_index": 1
+	},
+	"question_24": {
+		"text": "Which country is Ferrari from?",
+		"alternatives": ["Germany", "France", "Italy", "Spain"],
+		"correct_answer_index": 2
+	},
+	"question_25": {
+		"text": "Who sang 'I Will Always Love You' for The Bodyguard soundtrack?",
+		"alternatives": ["Mariah Carey", "Whitney Houston", "Celine Dion", "Toni Braxton"],
+		"correct_answer_index": 1
+	},
+	"question_26": {
+		"text": "What is the longest bone in the human body?",
+		"alternatives": ["Tibia", "Femur", "Humerus", "Fibula"],
+		"correct_answer_index": 1
+	},
+	"question_27": {
+		"text": "Which NASCAR driver has won the most Cup Series championships?",
+		"alternatives": ["Dale Earnhardt Sr.", "Richard Petty", "Jimmie Johnson", "It's a tie"],
+		"correct_answer_index": 3
+	},
+	"question_28": {
+		"text": "How much life do players start with in a typical Magic game?",
+		"alternatives": ["15", "20", "25", "30"],
+		"correct_answer_index": 1
+	},
+	"question_29": {
+		"text": "What does the spell 'Lumos' do?",
+		"alternatives": ["Creates light", "Unlocks doors", "Repairs objects", "Levitates objects"],
+		"correct_answer_index": 0
+	},
+	"question_30": {
+		"text": "What does 'folding' mean in baking terminology?",
+		"alternatives": ["Mixing vigorously", "Gentle incorporation motion", "Kneading", "Whisking"],
+		"correct_answer_index": 1
+	},
+	"question_31": {
+		"text": "What does ABS stand for in automotive terms?",
+		"alternatives": ["Automatic Brake System", "Anti-lock Braking System", "Advanced Brake Safety", "Auto Brake Support"],
+		"correct_answer_index": 1
+	},
+	"question_32": {
+		"text": "What city is considered the birthplace of grunge music?",
+		"alternatives": ["Portland", "Los Angeles", "Seattle", "San Francisco"],
+		"correct_answer_index": 2
+	},
+	"question_33": {
+		"text": "How many chambers does the human heart have?",
+		"alternatives": ["2", "3", "4", "5"],
+		"correct_answer_index": 2
+	},
+	"question_34": {
+		"text": "What is the most famous NASCAR race?",
+		"alternatives": ["Coca-Cola 600", "Southern 500", "Daytona 500", "Brickyard 400"],
+		"correct_answer_index": 2
+	},
+	"question_35": {
+		"text": "What is the maximum number of copies of a card allowed in most Magic formats?",
+		"alternatives": ["2", "3", "4", "5"],
+		"correct_answer_index": 2
+	},
+	"question_36": {
+		"text": "What is the name of the three-headed dog guarding the Philosopher's Stone?",
+		"alternatives": ["Fang", "Fluffy", "Norbert", "Aragog"],
+		"correct_answer_index": 1
+	},
+	"question_37": {
+		"text": "Which leavening agent produces carbon dioxide through fermentation?",
+		"alternatives": ["Baking soda", "Baking powder", "Yeast", "Cream of tartar"],
+		"correct_answer_index": 2
+	},
+	"question_38": {
+		"text": "Which car manufacturer produces the Prius?",
+		"alternatives": ["Honda", "Nissan", "Toyota", "Mazda"],
+		"correct_answer_index": 2
+	},
+	"question_39": {
+		"text": "Which rapper released 'The Chronic' in 1992?",
+		"alternatives": ["Snoop Dogg", "Dr. Dre", "Ice Cube", "Eazy-E"],
+		"correct_answer_index": 1
+	},
+	"question_40": {
+		"text": "Which part of the brain controls balance and coordination?",
+		"alternatives": ["Cerebrum", "Cerebellum", "Brain stem", "Medulla oblongata"],
+		"correct_answer_index": 1
+	},
+	"question_41": {
+		"text": "Which NASCAR manufacturer has won the most Cup Series championships?",
+		"alternatives": ["Chevrolet", "Ford", "Toyota", "Dodge"],
+		"correct_answer_index": 0
+	},
+	"question_42": {
+		"text": "What does 'ETB' commonly stand for in Magic slang?",
+		"alternatives": ["End the Battle", "Enter the Battlefield", "Exile Target Beast", "Extra Turn Bonus"],
+		"correct_answer_index": 1
+	},
+	"question_43": {
+		"text": "Which Quidditch position does Harry play?",
+		"alternatives": ["Keeper", "Beater", "Chaser", "Seeker"],
+		"correct_answer_index": 3
+	},
+	"question_44": {
+		"text": "What is the main difference between cake flour and all-purpose flour?",
+		"alternatives": ["Color", "Protein content", "Price", "Origin"],
+		"correct_answer_index": 1
+	},
+	"question_45": {
+		"text": "What is the luxury division of Honda?",
+		"alternatives": ["Infiniti", "Lexus", "Acura", "Genesis"],
+		"correct_answer_index": 2
+	},
+	"question_46": {
+		"text": "Which female artist had a hit with 'You Oughta Know' in 1995?",
+		"alternatives": ["Alanis Morissette", "Fiona Apple", "Tori Amos", "Bjork"],
+		"correct_answer_index": 0
+	},
+	"question_47": {
+		"text": "What is the smallest bone in the human body?",
+		"alternatives": ["Stapes", "Malleus", "Incus", "Hyoid"],
+		"correct_answer_index": 0
+	},
+	"question_48": {
+		"text": "At which track is the NASCAR All-Star Race typically held?",
+		"alternatives": ["Charlotte Motor Speedway", "Bristol Motor Speedway", "Richmond Raceway", "North Wilkesboro Speedway"],
+		"correct_answer_index": 0
+	},
+	"question_49": {
+		"text": "Which planeswalker is known as the 'Mind Sculptor'?",
+		"alternatives": ["Jace Beleren", "Jace, the Mind Sculptor", "Both A and B", "Vraska"],
+		"correct_answer_index": 2
+	},
+	"question_50": {
+		"text": "What form does Harry's Patronus take?",
+		"alternatives": ["Stag", "Doe", "Otter", "Hare"],
+		"correct_answer_index": 0
+	},
+	"question_51": {
+		"text": "What temperature should eggs be when making meringue?",
+		"alternatives": ["Cold", "Room temperature", "Slightly warm", "Hot"],
+		"correct_answer_index": 1
+	},
+	"question_52": {
+		"text": "Which vehicle is known as the 'Beetle'?",
+		"alternatives": ["Volkswagen Beetle", "Mini Cooper", "Fiat 500", "Smart Car"],
+		"correct_answer_index": 0
+	},
+	"question_53": {
+		"text": "Which band sang 'Black' and 'Alive'?",
+		"alternatives": ["Stone Temple Pilots", "Pearl Jam", "Soundgarden", "Alice in Chains"],
+		"correct_answer_index": 1
+	},
+	"question_54": {
+		"text": "How many pairs of ribs do humans typically have?",
+		"alternatives": ["10", "11", "12", "13"],
+		"correct_answer_index": 2
+	},
+	"question_55": {
+		"text": "Which NASCAR driver is nicknamed 'Smoke'?",
+		"alternatives": ["Tony Stewart", "Kevin Harvick", "Kurt Busch", "Denny Hamlin"],
+		"correct_answer_index": 0
+	},
+	"question_56": {
+		"text": "What does the 'Flying' keyword mean in Magic?",
+		"alternatives": ["Can't be blocked", "Can only be blocked by creatures with flying or reach", "Deals damage to any target", "Can attack the turn it's played"],
+		"correct_answer_index": 1
+	},
+	"question_57": {
+		"text": "Who kills Dobby the house-elf?",
+		"alternatives": ["Voldemort", "Bellatrix Lestrange", "Lucius Malfoy", "Fenrir Greyback"],
+		"correct_answer_index": 1
+	},
+	"question_58": {
+		"text": "What is the 'windowpane test' used for in baking?",
+		"alternatives": ["Testing oven temperature", "Checking gluten development", "Testing doneness", "Measuring ingredients"],
+		"correct_answer_index": 1
+	},
+	"question_59": {
+		"text": "What type of engine does a Tesla Model S have?",
+		"alternatives": ["V8 Gasoline", "V6 Hybrid", "Electric Motor", "Rotary Engine"],
+		"correct_answer_index": 2
+	},
+	"question_60": {
+		"text": "Which band released 'Creep' in 1992?",
+		"alternatives": ["Blur", "Oasis", "Radiohead", "Stone Temple Pilots"],
+		"correct_answer_index": 2
+	},
+	"question_61": {
+		"text": "Which blood vessels carry blood away from the heart?",
+		"alternatives": ["Veins", "Arteries", "Capillaries", "Venules"],
+		"correct_answer_index": 1
+	},
+	"question_62": {
+		"text": "What does 'The Big One' refer to in NASCAR?",
+		"alternatives": ["The Daytona 500", "A multi-car crash", "The championship", "The fastest lap"],
+		"correct_answer_index": 1
+	},
+	"question_63": {
+		"text": "Which format allows only the most recent sets in Magic?",
+		"alternatives": ["Modern", "Legacy", "Standard", "Vintage"],
+		"correct_answer_index": 2
+	},
+	"question_64": {
+		"text": "What is the name of the Weasley family home?",
+		"alternatives": ["The Burrow", "The Den", "The Nest", "The Warren"],
+		"correct_answer_index": 0
+	},
+	"question_65": {
+		"text": "Which ingredient helps prevent crystallization in candy making?",
+		"alternatives": ["Salt", "Cream of tartar", "Vanilla", "Butter"],
+		"correct_answer_index": 1
+	},
+	"question_66": {
+		"text": "Which motorcycle manufacturer makes the Ninja series?",
+		"alternatives": ["Honda", "Yamaha", "Kawasaki", "Suzuki"],
+		"correct_answer_index": 2
+	},
+	"question_67": {
+		"text": "What was the name of Kurt Cobain's wife?",
+		"alternatives": ["Kim Deal", "Courtney Love", "Kat Bjelland", "Tori Amos"],
+		"correct_answer_index": 1
+	},
+	"question_68": {
+		"text": "What is the medical term for the windpipe?",
+		"alternatives": ["Esophagus", "Larynx", "Trachea", "Pharynx"],
+		"correct_answer_index": 2
+	},
+	"question_69": {
+		"text": "Which NASCAR track is known as 'The Lady in Black'?",
+		"alternatives": ["Darlington Raceway", "Richmond Raceway", "Martinsville Speedway", "North Wilkesboro Speedway"],
+		"correct_answer_index": 0
+	},
+	"question_70": {
+		"text": "What is the most expensive Magic card ever sold at auction?",
+		"alternatives": ["Ancestral Recall", "Black Lotus", "Time Walk", "Mox Ruby"],
+		"correct_answer_index": 1
+	},
+	"question_71": {
+		"text": "Which magical creature can only be seen by those who have witnessed death?",
+		"alternatives": ["Dementors", "Thestrals", "Boggarts", "Hippogriffs"],
+		"correct_answer_index": 1
+	},
+	"question_72": {
+		"text": "What is the ideal internal temperature for baked bread?",
+		"alternatives": ["180°F", "190°F", "200°F", "210°F"],
+		"correct_answer_index": 2
+	},
+	"question_73": {
+		"text": "What does SUV stand for?",
+		"alternatives": ["Super Utility Vehicle", "Sport Utility Vehicle", "Standard Urban Vehicle", "Special Use Vehicle"],
+		"correct_answer_index": 1
+	},
+	"question_74": {
+		"text": "Which pop star released 'Vogue' in 1990?",
+		"alternatives": ["Janet Jackson", "Madonna", "Whitney Houston", "Mariah Carey"],
+		"correct_answer_index": 1
+	},
+	"question_75": {
+		"text": "Which muscle is responsible for breathing?",
+		"alternatives": ["Intercostal muscles", "Diaphragm", "Pectoralis major", "Latissimus dorsi"],
+		"correct_answer_index": 1
+	},
+	"question_76": {
+		"text": "What is the NASCAR term for the last-place finisher?",
+		"alternatives": ["Caboose", "Tail-ender", "Brought up the rear", "There's no special term"],
+		"correct_answer_index": 3
+	},
+	"question_77": {
+		"text": "Which set introduced the Planeswalker card type in Magic?",
+		"alternatives": ["Time Spiral", "Future Sight", "Lorwyn", "Planar Chaos"],
+		"correct_answer_index": 2
+	},
+	"question_78": {
+		"text": "What is Voldemort's real name?",
+		"alternatives": ["Tom Marvolo Riddle", "Thomas Riddle", "Timothy Riddle", "Tobias Riddle"],
+		"correct_answer_index": 0
+	},
+	"question_79": {
+		"text": "What does 'scaling' mean in professional baking?",
+		"alternatives": ["Measuring ingredients by weight", "Adjusting oven temperature", "Rolling dough", "Decorating cakes"],
+		"correct_answer_index": 0
+	},
+	"question_80": {
+		"text": "Which company makes the 911 sports car?",
+		"alternatives": ["Ferrari", "Lamborghini", "Porsche", "Maserati"],
+		"correct_answer_index": 2
+	},
+	"question_81": {
+		"text": "What was the Spice Girls' debut single?",
+		"alternatives": ["Say You'll Be There", "2 Become 1", "Wannabe", "Mama"],
+		"correct_answer_index": 2
+	},
+	"question_82": {
+		"text": "How many vertebrae are in the human spine?",
+		"alternatives": ["31", "32", "33", "34"],
+		"correct_answer_index": 2
+	},
+	"question_83": {
+		"text": "Which NASCAR driver is known as 'The King'?",
+		"alternatives": ["Dale Earnhardt Sr.", "Richard Petty", "David Pearson", "Cale Yarborough"],
+		"correct_answer_index": 1
+	},
+	"question_84": {
+		"text": "What does 'Hexproof' prevent in Magic?",
+		"alternatives": ["All damage", "Being blocked", "Being targeted by opponents' spells", "Being sacrificed"],
+		"correct_answer_index": 2
+	},
+	"question_85": {
+		"text": "Which professor teaches Transfiguration at Hogwarts?",
+		"alternatives": ["Severus Snape", "Minerva McGonagall", "Filius Flitwick", "Pomona Sprout"],
+		"correct_answer_index": 1
+	},
+	"question_86": {
+		"text": "Which sugar creates the most tender cake texture?",
+		"alternatives": ["Granulated sugar", "Brown sugar", "Powdered sugar", "Superfine sugar"],
+		"correct_answer_index": 3
+	},
+	"question_87": {
+		"text": "What is the top speed of most commercial aircraft?",
+		"alternatives": ["500-600 mph", "600-700 mph", "700-800 mph", "800-900 mph"],
+		"correct_answer_index": 1
+	},
+	"question_88": {
+		"text": "Who sang 'Nothing Compares 2 U'?",
+		"alternatives": ["Sinéad O'Connor", "Tori Amos", "Björk", "Fiona Apple"],
+		"correct_answer_index": 0
+	},
+	"question_89": {
+		"text": "What is the largest muscle in the human body?",
+		"alternatives": ["Quadriceps", "Gluteus maximus", "Latissimus dorsi", "Gastrocnemius"],
+		"correct_answer_index": 1
+	},
+	"question_90": {
+		"text": "What does 'drafting' mean in NASCAR?",
+		"alternatives": ["Selecting pit crew", "Following closely behind another car", "Planning race strategy", "Choosing starting position"],
+		"correct_answer_index": 1
+	},
+	"question_91": {
+		"text": "Which card is known as the most powerful card in Magic?",
+		"alternatives": ["Ancestral Recall", "Black Lotus", "Time Walk", "Mox Sapphire"],
+		"correct_answer_index": 1
+	},
+	"question_92": {
+		"text": "How many teeth does an adult human typically have?",
+		"alternatives": ["28", "30", "32", "34"],
+		"correct_answer_index": 2
+	},
+	"question_93": {
+		"text": "At what temperature should butter be for making pastry dough?",
+		"alternatives": ["Room temperature", "Slightly warm", "Cold", "Melted"],
+		"correct_answer_index": 2
+	},
+	"question_94": {
+		"text": "Which car manufacturer owns Lamborghini?",
+		"alternatives": ["Ferrari", "BMW", "Volkswagen Group", "Mercedes-Benz"],
+		"correct_answer_index": 2
+	},
+	"question_95": {
+		"text": "Which band released 'Zombie' in 1994?",
+		"alternatives": ["No Doubt", "Garbage", "The Cranberries", "Hole"],
+		"correct_answer_index": 2
+	},
+	"question_96": {
+		"text": "Which organ produces insulin?",
+		"alternatives": ["Liver", "Kidney", "Pancreas", "Spleen"],
+		"correct_answer_index": 2
+	},
+	"question_97": {
+		"text": "What does 'loose' mean in NASCAR terminology?",
+		"alternatives": ["Car won't turn", "Car turns too much", "Engine problem", "Tire problem"],
+		"correct_answer_index": 1
+	},
+	"question_98": {
+		"text": "What plane is Jace Beleren originally from in Magic lore?",
+		"alternatives": ["Ravnica", "Vryn", "Zendikar", "Innistrad"],
+		"correct_answer_index": 1
+	},
+	"question_99": {
+		"text": "What is the medical term for the kneecap?",
+		"alternatives": ["Patella", "Fibula", "Tibia", "Femur"],
+		"correct_answer_index": 0
+	},
+	"question_100": {
+		"text": "What is the purpose of adding salt to bread dough?",
+		"alternatives": ["Flavor only", "Controls yeast activity", "Adds color", "Increases rise"],
+		"correct_answer_index": 1
+	}
+}

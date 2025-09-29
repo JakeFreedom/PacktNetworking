@@ -1,0 +1,502 @@
+{
+	"question_01": {
+		"text": "What does the term 'cream butter and sugar' mean in baking?",
+		"alternatives": ["Mix until smooth", "Beat until light and fluffy", "Melt together", "Fold gently"],
+		"correct_answer_index": 1
+	},
+	"question_02": {
+		"text": "What is the ideal temperature for proofing yeast?",
+		"alternatives": ["80-90°F", "100-110°F", "120-130°F", "140-150°F"],
+		"correct_answer_index": 1
+	},
+	"question_03": {
+		"text": "Which ingredient is responsible for gluten development in bread?",
+		"alternatives": ["Yeast", "Salt", "Flour", "Water"],
+		"correct_answer_index": 2
+	},
+	"question_04": {
+		"text": "What is the purpose of blind baking a pie crust?",
+		"alternatives": ["To add flavor", "To prevent soggy bottom", "To make it golden", "To cook faster"],
+		"correct_answer_index": 1
+	},
+	"question_05": {
+		"text": "At what temperature should butter be for making pastry dough?",
+		"alternatives": ["Room temperature", "Slightly warm", "Cold", "Melted"],
+		"correct_answer_index": 2
+	},
+	"question_06": {
+		"text": "What does 'folding' mean in baking terminology?",
+		"alternatives": ["Mixing vigorously", "Gentle incorporation motion", "Kneading", "Whisking"],
+		"correct_answer_index": 1
+	},
+	"question_07": {
+		"text": "Which leavening agent produces carbon dioxide through fermentation?",
+		"alternatives": ["Baking soda", "Baking powder", "Yeast", "Cream of tartar"],
+		"correct_answer_index": 2
+	},
+	"question_08": {
+		"text": "What is the main difference between cake flour and all-purpose flour?",
+		"alternatives": ["Color", "Protein content", "Price", "Origin"],
+		"correct_answer_index": 1
+	},
+	"question_09": {
+		"text": "What temperature should eggs be when making meringue?",
+		"alternatives": ["Cold", "Room temperature", "Slightly warm", "Hot"],
+		"correct_answer_index": 1
+	},
+	"question_10": {
+		"text": "What is the 'windowpane test' used for?",
+		"alternatives": ["Testing oven temperature", "Checking gluten development", "Testing doneness", "Measuring ingredients"],
+		"correct_answer_index": 1
+	},
+	"question_11": {
+		"text": "Which ingredient helps prevent crystallization in candy making?",
+		"alternatives": ["Salt", "Cream of tartar", "Vanilla", "Butter"],
+		"correct_answer_index": 1
+	},
+	"question_12": {
+		"text": "What is the ideal internal temperature for baked bread?",
+		"alternatives": ["180°F", "190°F", "200°F", "210°F"],
+		"correct_answer_index": 2
+	},
+	"question_13": {
+		"text": "What does 'scaling' mean in professional baking?",
+		"alternatives": ["Measuring ingredients by weight", "Adjusting oven temperature", "Rolling dough", "Decorating cakes"],
+		"correct_answer_index": 0
+	},
+	"question_14": {
+		"text": "Which sugar creates the most tender cake texture?",
+		"alternatives": ["Granulated sugar", "Brown sugar", "Powdered sugar", "Superfine sugar"],
+		"correct_answer_index": 3
+	},
+	"question_15": {
+		"text": "What is the purpose of adding salt to bread dough?",
+		"alternatives": ["Flavor only", "Controls yeast activity", "Adds color", "Increases rise"],
+		"correct_answer_index": 1
+	},
+	"question_16": {
+		"text": "What is a 'crumb' in baking terminology?",
+		"alternatives": ["Leftover pieces", "Interior texture", "Topping", "Mistake"],
+		"correct_answer_index": 1
+	},
+	"question_17": {
+		"text": "Which fat creates the flakiest pie crust?",
+		"alternatives": ["Butter", "Shortening", "Lard", "Oil"],
+		"correct_answer_index": 2
+	},
+	"question_18": {
+		"text": "What does 'proofing' mean for bread?",
+		"alternatives": ["Testing temperature", "Final rise before baking", "Checking ingredients", "Kneading"],
+		"correct_answer_index": 1
+	},
+	"question_19": {
+		"text": "What is the ideal humidity for storing bread?",
+		"alternatives": ["Very dry", "Moderate humidity", "Very humid", "Humidity doesn't matter"],
+		"correct_answer_index": 1
+	},
+	"question_20": {
+		"text": "Which ingredient acts as both a leavener and tenderizer?",
+		"alternatives": ["Baking soda", "Eggs", "Sugar", "Butter"],
+		"correct_answer_index": 1
+	},
+	"question_21": {
+		"text": "What is the 'ribbon stage' in baking?",
+		"alternatives": ["Decorating technique", "Egg and sugar mixture consistency", "Dough texture", "Icing consistency"],
+		"correct_answer_index": 1
+	},
+	"question_22": {
+		"text": "Which flour has the highest protein content?",
+		"alternatives": ["Cake flour", "All-purpose flour", "Bread flour", "Pastry flour"],
+		"correct_answer_index": 2
+	},
+	"question_23": {
+		"text": "What does 'tempering' chocolate involve?",
+		"alternatives": ["Melting slowly", "Controlled heating and cooling", "Adding ingredients", "Whipping"],
+		"correct_answer_index": 1
+	},
+	"question_24": {
+		"text": "What is the purpose of scoring bread before baking?",
+		"alternatives": ["Decoration", "Controls expansion", "Faster baking", "Better flavor"],
+		"correct_answer_index": 1
+	},
+	"question_25": {
+		"text": "Which ingredient helps bread stay fresh longer?",
+		"alternatives": ["Sugar", "Fat", "Salt", "Eggs"],
+		"correct_answer_index": 1
+	},
+	"question_26": {
+		"text": "What is 'autolyse' in bread making?",
+		"alternatives": ["Yeast activation", "Flour and water rest", "Final shaping", "Oven preparation"],
+		"correct_answer_index": 1
+	},
+	"question_27": {
+		"text": "What temperature should chocolate be melted at?",
+		"alternatives": ["High heat", "Medium heat", "Low heat", "No heat"],
+		"correct_answer_index": 2
+	},
+	"question_28": {
+		"text": "What is the difference between Dutch-process and natural cocoa?",
+		"alternatives": ["Color", "Acidity level", "Price", "Origin"],
+		"correct_answer_index": 1
+	},
+	"question_29": {
+		"text": "Which mixing method is used for muffins?",
+		"alternatives": ["Creaming", "Muffin method", "Foaming", "Rubbing in"],
+		"correct_answer_index": 1
+	},
+	"question_30": {
+		"text": "What does 'docking' a pie crust mean?",
+		"alternatives": ["Crimping edges", "Poking holes", "Brushing with egg", "Chilling"],
+		"correct_answer_index": 1
+	},
+	"question_31": {
+		"text": "What is the ideal room temperature for bread rising?",
+		"alternatives": ["65-70°F", "75-80°F", "85-90°F", "95-100°F"],
+		"correct_answer_index": 1
+	},
+	"question_32": {
+		"text": "Which ingredient prevents egg whites from whipping properly?",
+		"alternatives": ["Sugar", "Salt", "Fat", "Acid"],
+		"correct_answer_index": 2
+	},
+	"question_33": {
+		"text": "What is 'mise en place' in baking?",
+		"alternatives": ["French pastry", "Preparing ingredients", "Oven technique", "Decorating method"],
+		"correct_answer_index": 1
+	},
+	"question_34": {
+		"text": "What does 'bench rest' mean?",
+		"alternatives": ["Baker's break", "Dough resting period", "Equipment storage", "Temperature check"],
+		"correct_answer_index": 1
+	},
+	"question_35": {
+		"text": "Which sugar caramelizes at the lowest temperature?",
+		"alternatives": ["Granulated sugar", "Brown sugar", "Fructose", "Glucose"],
+		"correct_answer_index": 2
+	},
+	"question_36": {
+		"text": "What is the purpose of egg wash on pastries?",
+		"alternatives": ["Flavor", "Golden color and shine", "Moisture", "Binding"],
+		"correct_answer_index": 1
+	},
+	"question_37": {
+		"text": "What does 'overproofed' mean?",
+		"alternatives": ["Too much yeast", "Risen too long", "Too hot", "Over-mixed"],
+		"correct_answer_index": 1
+	},
+	"question_38": {
+		"text": "Which tool is essential for measuring flour accurately?",
+		"alternatives": ["Measuring cups", "Kitchen scale", "Sifter", "Spoon"],
+		"correct_answer_index": 1
+	},
+	"question_39": {
+		"text": "What is the 'creaming method' used for?",
+		"alternatives": ["Bread", "Cakes and cookies", "Pastries", "Meringues"],
+		"correct_answer_index": 1
+	},
+	"question_40": {
+		"text": "What temperature kills yeast?",
+		"alternatives": ["120°F", "130°F", "140°F", "150°F"],
+		"correct_answer_index": 2
+	},
+	"question_41": {
+		"text": "What is 'lamination' in pastry making?",
+		"alternatives": ["Rolling thin", "Folding butter into dough", "Decorating", "Glazing"],
+		"correct_answer_index": 1
+	},
+	"question_42": {
+		"text": "Which ingredient makes cookies chewy versus crispy?",
+		"alternatives": ["Flour type", "Sugar type", "Fat content", "Moisture content"],
+		"correct_answer_index": 3
+	},
+	"question_43": {
+		"text": "What is the purpose of vanilla extract in baking?",
+		"alternatives": ["Leavening", "Flavor enhancement", "Color", "Preservation"],
+		"correct_answer_index": 1
+	},
+	"question_44": {
+		"text": "What does 'blooming' gelatin mean?",
+		"alternatives": ["Heating it", "Dissolving in liquid", "Softening in cold water", "Whipping it"],
+		"correct_answer_index": 2
+	},
+	"question_45": {
+		"text": "Which method produces the most tender cake?",
+		"alternatives": ["Creaming", "Muffin method", "Foaming", "Reverse creaming"],
+		"correct_answer_index": 3
+	},
+	"question_46": {
+		"text": "What is 'punching down' dough?",
+		"alternatives": ["Aggressive kneading", "Deflating risen dough", "Shaping technique", "Testing doneness"],
+		"correct_answer_index": 1
+	},
+	"question_47": {
+		"text": "What temperature should butter be for creaming?",
+		"alternatives": ["Cold", "Room temperature", "Slightly warm", "Melted"],
+		"correct_answer_index": 1
+	},
+	"question_48": {
+		"text": "What is 'gluten washing'?",
+		"alternatives": ["Cleaning technique", "Flour testing method", "Dough preparation", "Equipment maintenance"],
+		"correct_answer_index": 1
+	},
+	"question_49": {
+		"text": "Which pan material conducts heat best for baking?",
+		"alternatives": ["Glass", "Aluminum", "Stainless steel", "Cast iron"],
+		"correct_answer_index": 1
+	},
+	"question_50": {
+		"text": "What is 'baker's percentage'?",
+		"alternatives": ["Profit margin", "Ingredient ratios", "Success rate", "Temperature percentage"],
+		"correct_answer_index": 1
+	},
+	"question_51": {
+		"text": "What does 'dough hydration' refer to?",
+		"alternatives": ["Adding water", "Water to flour ratio", "Humidity level", "Moisture content"],
+		"correct_answer_index": 1
+	},
+	"question_52": {
+		"text": "Which ingredient helps create a crispy crust on bread?",
+		"alternatives": ["Sugar", "Steam", "Oil", "Milk"],
+		"correct_answer_index": 1
+	},
+	"question_53": {
+		"text": "What is 'choux pastry' used for?",
+		"alternatives": ["Pie crusts", "Éclairs and cream puffs", "Cookies", "Bread"],
+		"correct_answer_index": 1
+	},
+	"question_54": {
+		"text": "What does 'soft peak' mean for whipped cream?",
+		"alternatives": ["Just starting to thicken", "Peaks that bend over", "Stiff peaks", "Over-whipped"],
+		"correct_answer_index": 1
+	},
+	"question_55": {
+		"text": "What is the purpose of cornstarch in baking?",
+		"alternatives": ["Sweetening", "Thickening", "Leavening", "Coloring"],
+		"correct_answer_index": 1
+	},
+	"question_56": {
+		"text": "Which ingredient prevents sugar from crystallizing in caramel?",
+		"alternatives": ["Water", "Lemon juice", "Butter", "Cream"],
+		"correct_answer_index": 1
+	},
+	"question_57": {
+		"text": "What is 'pre-ferment' in bread making?",
+		"alternatives": ["Yeast activation", "Starter dough", "Final rise", "Oven preparation"],
+		"correct_answer_index": 1
+	},
+	"question_58": {
+		"text": "What temperature should a cake be when done?",
+		"alternatives": ["180°F", "200°F", "210°F", "Varies by cake"],
+		"correct_answer_index": 3
+	},
+	"question_59": {
+		"text": "What is 'pâte brisée'?",
+		"alternatives": ["Sweet pastry", "Short pastry", "Puff pastry", "Choux pastry"],
+		"correct_answer_index": 1
+	},
+	"question_60": {
+		"text": "Which factor most affects gluten development?",
+		"alternatives": ["Temperature", "Time", "Mixing/kneading", "Ingredients"],
+		"correct_answer_index": 2
+	},
+	"question_61": {
+		"text": "What is 'ganache'?",
+		"alternatives": ["Chocolate and cream mixture", "Egg-based sauce", "Sugar syrup", "Butter cream"],
+		"correct_answer_index": 0
+	},
+	"question_62": {
+		"text": "What does 'par-bake' mean?",
+		"alternatives": ["Fully baked", "Partially baked", "Over-baked", "Under-baked"],
+		"correct_answer_index": 1
+	},
+	"question_63": {
+		"text": "Which ingredient makes bread crust darker?",
+		"alternatives": ["Salt", "Sugar", "Fat", "Protein"],
+		"correct_answer_index": 1
+	},
+	"question_64": {
+		"text": "What is 'enriched dough'?",
+		"alternatives": ["High protein", "Contains eggs, butter, sugar", "Whole grain", "Extra yeast"],
+		"correct_answer_index": 1
+	},
+	"question_65": {
+		"text": "What does 'staling' refer to in bread?",
+		"alternatives": ["Getting moldy", "Losing freshness", "Becoming hard", "Retrogradation process"],
+		"correct_answer_index": 3
+	},
+	"question_66": {
+		"text": "Which leavening agent requires an acid to activate?",
+		"alternatives": ["Yeast", "Baking powder", "Baking soda", "Cream of tartar"],
+		"correct_answer_index": 2
+	},
+	"question_67": {
+		"text": "What is 'pâte sucrée'?",
+		"alternatives": ["Savory pastry", "Sweet pastry", "Bread dough", "Cookie dough"],
+		"correct_answer_index": 1
+	},
+	"question_68": {
+		"text": "What temperature should chocolate chip cookies be baked at?",
+		"alternatives": ["325°F", "350°F", "375°F", "400°F"],
+		"correct_answer_index": 1
+	},
+	"question_69": {
+		"text": "What is 'couverture' chocolate?",
+		"alternatives": ["Cooking chocolate", "High-quality chocolate", "White chocolate", "Milk chocolate"],
+		"correct_answer_index": 1
+	},
+	"question_70": {
+		"text": "What does 'dégorgement' mean in pastry?",
+		"alternatives": ["Decorating technique", "Removing excess liquid", "Mixing method", "Cooling process"],
+		"correct_answer_index": 1
+	},
+	"question_71": {
+		"text": "Which ingredient creates lift in angel food cake?",
+		"alternatives": ["Baking powder", "Yeast", "Whipped egg whites", "Steam"],
+		"correct_answer_index": 2
+	},
+	"question_72": {
+		"text": "What is 'straight dough method'?",
+		"alternatives": ["No kneading", "All ingredients mixed at once", "Gradual mixing", "Hand mixing only"],
+		"correct_answer_index": 1
+	},
+	"question_73": {
+		"text": "What does 'bloom' mean for chocolate?",
+		"alternatives": ["Melting properly", "White discoloration", "Best quality", "Fresh chocolate"],
+		"correct_answer_index": 1
+	},
+	"question_74": {
+		"text": "Which sugar dissolves fastest in batters?",
+		"alternatives": ["Granulated", "Brown", "Powdered", "Raw"],
+		"correct_answer_index": 2
+	},
+	"question_75": {
+		"text": "What is 'pâte à choux'?",
+		"alternatives": ["Pie dough", "Cookie dough", "Cream puff pastry", "Bread dough"],
+		"correct_answer_index": 2
+	},
+	"question_76": {
+		"text": "What does 'retarding' mean in baking?",
+		"alternatives": ["Slowing rise with cold", "Speeding up process", "Adding more yeast", "Checking doneness"],
+		"correct_answer_index": 0
+	},
+	"question_77": {
+		"text": "Which fat creates the most flavor in pastries?",
+		"alternatives": ["Vegetable oil", "Shortening", "Butter", "Margarine"],
+		"correct_answer_index": 2
+	},
+	"question_78": {
+		"text": "What is 'crème anglaise'?",
+		"alternatives": ["Buttercream", "Custard sauce", "Whipped cream", "Pastry cream"],
+		"correct_answer_index": 1
+	},
+	"question_79": {
+		"text": "What does 'tourne' mean in pastry?",
+		"alternatives": ["Turning dough", "Decorating technique", "Temperature control", "Timing method"],
+		"correct_answer_index": 0
+	},
+	"question_80": {
+		"text": "Which ingredient helps cookies spread less during baking?",
+		"alternatives": ["More flour", "Less sugar", "Cooler dough", "All of the above"],
+		"correct_answer_index": 3
+	},
+	"question_81": {
+		"text": "What is 'spring form' pan used for?",
+		"alternatives": ["Cookies", "Cheesecakes", "Bread", "Muffins"],
+		"correct_answer_index": 1
+	},
+	"question_82": {
+		"text": "What does 'macerate' mean in baking?",
+		"alternatives": ["Grinding ingredients", "Soaking fruit in liquid", "Heating gently", "Mixing thoroughly"],
+		"correct_answer_index": 1
+	},
+	"question_83": {
+		"text": "Which technique creates layers in puff pastry?",
+		"alternatives": ["Folding", "Lamination", "Kneading", "Rolling"],
+		"correct_answer_index": 1
+	},
+	"question_84": {
+		"text": "What is 'crumb coat' in cake decorating?",
+		"alternatives": ["Final decoration", "Thin layer of frosting", "Cake topping", "Crumb mixture"],
+		"correct_answer_index": 1
+	},
+	"question_85": {
+		"text": "What temperature should eggs be for making custard?",
+		"alternatives": ["Cold", "Room temperature", "Slightly warm", "Hot"],
+		"correct_answer_index": 1
+	},
+	"question_86": {
+		"text": "What is 'proofing basket' used for?",
+		"alternatives": ["Mixing dough", "Shaping bread", "Testing yeast", "Storing bread"],
+		"correct_answer_index": 1
+	},
+	"question_87": {
+		"text": "Which ingredient prevents ice crystals in ice cream?",
+		"alternatives": ["Sugar", "Egg yolks", "Cream", "All contribute"],
+		"correct_answer_index": 3
+	},
+	"question_88": {
+		"text": "What does 'docking' do to pizza dough?",
+		"alternatives": ["Adds flavor", "Prevents puffing", "Helps rising", "Creates texture"],
+		"correct_answer_index": 1
+	},
+	"question_89": {
+		"text": "What is 'baker's ammonia'?",
+		"alternatives": ["Cleaning agent", "Traditional leavening agent", "Flavoring", "Preservative"],
+		"correct_answer_index": 1
+	},
+	"question_90": {
+		"text": "Which method is best for incorporating dry ingredients into cake batter?",
+		"alternatives": ["Whisking vigorously", "Folding gently", "Mixing on high speed", "Sifting only"],
+		"correct_answer_index": 1
+	},
+	"question_91": {
+		"text": "What is 'devil's food cake' known for?",
+		"alternatives": ["Spicy flavor", "Dark chocolate flavor", "Red color", "Dense texture"],
+		"correct_answer_index": 1
+	},
+	"question_92": {
+		"text": "What does 'bloom strength' refer to in gelatin?",
+		"alternatives": ["Color intensity", "Gelling power", "Flavor strength", "Melting point"],
+		"correct_answer_index": 1
+	},
+	"question_93": {
+		"text": "Which flour produces the most tender pastry?",
+		"alternatives": ["Bread flour", "All-purpose flour", "Pastry flour", "Cake flour"],
+		"correct_answer_index": 2
+	},
+	"question_94": {
+		"text": "What is 'Swiss meringue'?",
+		"alternatives": ["Cold preparation", "Hot preparation", "Chocolate meringue", "Flavored meringue"],
+		"correct_answer_index": 1
+	},
+	"question_95": {
+		"text": "What does 'slack dough' mean?",
+		"alternatives": ["Under-mixed", "High hydration", "Low gluten", "Cold dough"],
+		"correct_answer_index": 1
+	},
+	"question_96": {
+		"text": "Which ingredient makes the best pie crust?",
+		"alternatives": ["All butter", "All shortening", "Butter and shortening mix", "Oil"],
+		"correct_answer_index": 2
+	},
+	"question_97": {
+		"text": "What is 'caramelization' temperature for sugar?",
+		"alternatives": ["250°F", "300°F", "320°F", "350°F"],
+		"correct_answer_index": 2
+	},
+	"question_98": {
+		"text": "What does 'sweating' butter mean?",
+		"alternatives": ["Melting slowly", "Getting too warm", "Separating", "Clarifying"],
+		"correct_answer_index": 1
+	},
+	"question_99": {
+		"text": "Which technique creates the lightest sponge cake?",
+		"alternatives": ["Creaming method", "Foaming method", "Muffin method", "Rubbing in method"],
+		"correct_answer_index": 1
+	},
+	"question_100": {
+		"text": "What is 'baker's dozen'?",
+		"alternatives": ["12 items", "13 items", "10 items", "15 items"],
+		"correct_answer_index": 1
+	}
+}

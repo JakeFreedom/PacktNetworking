@@ -1,0 +1,502 @@
+{
+	"question_01": {
+		"text": "What does the term 'cream butter and sugar' mean in baking?",
+		"alternatives": ["Mix until smooth", "Beat until light and fluffy", "Melt together", "Fold gently"],
+		"correct_answer_index": 1
+	},
+	"question_02": {
+		"text": "What popular children's toy was invented by Ole Kirk Christiansen?",
+		"alternatives": ["Barbie", "LEGO", "Hot Wheels", "Play-Doh"],
+		"correct_answer_index": 1
+	},
+	"question_03": {
+		"text": "What is the most effective way to kill germs when washing hands?",
+		"alternatives": ["Cold water only", "Hot water and soap for 20 seconds", "Hand sanitizer only", "Quick rinse"],
+		"correct_answer_index": 1
+	},
+	"question_04": {
+		"text": "What does BMW stand for?",
+		"alternatives": ["Bavarian Motor Works", "Berlin Motor Works", "British Motor Works", "Belgian Motor Works"],
+		"correct_answer_index": 0
+	},
+	"question_05": {
+		"text": "What does 'HTML' stand for in web development?",
+		"alternatives": ["High Tech Modern Language", "HyperText Markup Language", "Home Tool Markup Language", "Hyperlink Text Management Language"],
+		"correct_answer_index": 1
+	},
+	"question_06": {
+		"text": "What does 'CPU' stand for?",
+		"alternatives": ["Central Processing Unit", "Computer Processing Unit", "Central Program Unit", "Computer Program Unit"],
+		"correct_answer_index": 0
+	},
+	"question_07": {
+		"text": "What is the ideal temperature for proofing yeast?",
+		"alternatives": ["80-90°F", "100-110°F", "120-130°F", "140-150°F"],
+		"correct_answer_index": 1
+	},
+	"question_08": {
+		"text": "In the children's game 'Simon Says', what happens if you follow an instruction without 'Simon Says'?",
+		"alternatives": ["You win", "You're out", "You get a point", "Nothing happens"],
+		"correct_answer_index": 1
+	},
+	"question_09": {
+		"text": "Which cleaning product should never be mixed with bleach?",
+		"alternatives": ["Baking soda", "Ammonia", "Dish soap", "Water"],
+		"correct_answer_index": 1
+	},
+	"question_10": {
+		"text": "Which company makes the Mustang?",
+		"alternatives": ["Chevrolet", "Ford", "Dodge", "Plymouth"],
+		"correct_answer_index": 1
+	},
+	"question_11": {
+		"text": "What programming language was created by Guido van Rossum?",
+		"alternatives": ["Java", "Python", "C++", "JavaScript"],
+		"correct_answer_index": 1
+	},
+	"question_12": {
+		"text": "How many bits are in a byte?",
+		"alternatives": ["4", "6", "8", "10"],
+		"correct_answer_index": 2
+	},
+	"question_13": {
+		"text": "Which ingredient is responsible for gluten development in bread?",
+		"alternatives": ["Yeast", "Salt", "Flour", "Water"],
+		"correct_answer_index": 2
+	},
+	"question_14": {
+		"text": "What is the main character's name in the children's book 'Where the Wild Things Are'?",
+		"alternatives": ["Max", "Sam", "Ben", "Alex"],
+		"correct_answer_index": 0
+	},
+	"question_15": {
+		"text": "What is the pH level of pure water?",
+		"alternatives": ["6", "7", "8", "9"],
+		"correct_answer_index": 1
+	},
+	"question_16": {
+		"text": "What country is Ferrari from?",
+		"alternatives": ["Germany", "France", "Italy", "Spain"],
+		"correct_answer_index": 2
+	},
+	"question_17": {
+		"text": "What does 'CSS' stand for in web development?",
+		"alternatives": ["Cascading Style Sheets", "Computer Style Sheets", "Creative Style System", "Cascading System Sheets"],
+		"correct_answer_index": 0
+	},
+	"question_18": {
+		"text": "What does 'RAM' stand for?",
+		"alternatives": ["Read Access Memory", "Random Access Memory", "Rapid Access Memory", "Remote Access Memory"],
+		"correct_answer_index": 1
+	},
+	"question_19": {
+		"text": "What is the purpose of blind baking a pie crust?",
+		"alternatives": ["To add flavor", "To prevent soggy bottom", "To make it golden", "To cook faster"],
+		"correct_answer_index": 1
+	},
+	"question_20": {
+		"text": "How many colors are in a standard box of Crayola crayons?",
+		"alternatives": ["16", "24", "32", "64"],
+		"correct_answer_index": 1
+	},
+	"question_21": {
+		"text": "What temperature water is best for removing blood stains?",
+		"alternatives": ["Hot water", "Warm water", "Cold water", "Boiling water"],
+		"correct_answer_index": 2
+	},
+	"question_22": {
+		"text": "What does ABS stand for in automotive terms?",
+		"alternatives": ["Automatic Brake System", "Anti-lock Braking System", "Advanced Brake Safety", "Auto Brake Support"],
+		"correct_answer_index": 1
+	},
+	"question_23": {
+		"text": "In programming, what does 'IDE' stand for?",
+		"alternatives": ["Integrated Development Environment", "Internal Development Engine", "Interactive Design Environment", "Intelligent Development Editor"],
+		"correct_answer_index": 0
+	},
+	"question_24": {
+		"text": "What is the standard keyboard layout called?",
+		"alternatives": ["ABCDEF", "QWERTY", "AZERTY", "DVORAK"],
+		"correct_answer_index": 1
+	},
+	"question_25": {
+		"text": "What does 'folding' mean in baking terminology?",
+		"alternatives": ["Mixing vigorously", "Gentle incorporation motion", "Kneading", "Whisking"],
+		"correct_answer_index": 1
+	},
+	"question_26": {
+		"text": "What children's game involves trying to keep a balloon in the air?",
+		"alternatives": ["Balloon Pop", "Keep It Up", "Hot Potato", "Musical Chairs"],
+		"correct_answer_index": 1
+	},
+	"question_27": {
+		"text": "What is the most common ingredient in glass cleaners?",
+		"alternatives": ["Vinegar", "Ammonia", "Alcohol", "Bleach"],
+		"correct_answer_index": 1
+	},
+	"question_28": {
+		"text": "Which car manufacturer produces the Prius?",
+		"alternatives": ["Honda", "Nissan", "Toyota", "Mazda"],
+		"correct_answer_index": 2
+	},
+	"question_29": {
+		"text": "What does 'SQL' stand for?",
+		"alternatives": ["Structured Query Language", "Standard Query Language", "Simple Query Language", "System Query Language"],
+		"correct_answer_index": 0
+	},
+	"question_30": {
+		"text": "What company created the Windows operating system?",
+		"alternatives": ["Apple", "Google", "Microsoft", "IBM"],
+		"correct_answer_index": 2
+	},
+	"question_31": {
+		"text": "Which leavening agent produces carbon dioxide through fermentation?",
+		"alternatives": ["Baking soda", "Baking powder", "Yeast", "Cream of tartar"],
+		"correct_answer_index": 2
+	},
+	"question_32": {
+		"text": "What is the first book in the 'Harry Potter' series for children?",
+		"alternatives": ["Chamber of Secrets", "Philosopher's Stone", "Prisoner of Azkaban", "Goblet of Fire"],
+		"correct_answer_index": 1
+	},
+	"question_33": {
+		"text": "How often should you replace your kitchen sponge?",
+		"alternatives": ["Every day", "Every week", "Every month", "When it falls apart"],
+		"correct_answer_index": 1
+	},
+	"question_34": {
+		"text": "What is the luxury division of Honda?",
+		"alternatives": ["Infiniti", "Lexus", "Acura", "Genesis"],
+		"correct_answer_index": 2
+	},
+	"question_35": {
+		"text": "Which programming language is known for its use of indentation for code blocks?",
+		"alternatives": ["Java", "C++", "Python", "JavaScript"],
+		"correct_answer_index": 2
+	},
+	"question_36": {
+		"text": "What does 'Wi-Fi' stand for?",
+		"alternatives": ["Wireless Fidelity", "Wide Fidelity", "Wireless Frequency", "It doesn't stand for anything"],
+		"correct_answer_index": 3
+	},
+	"question_37": {
+		"text": "What is the main difference between cake flour and all-purpose flour?",
+		"alternatives": ["Color", "Protein content", "Price", "Origin"],
+		"correct_answer_index": 1
+	},
+	"question_38": {
+		"text": "In the children's song, what did Old MacDonald have?",
+		"alternatives": ["A zoo", "A farm", "A ranch", "A garden"],
+		"correct_answer_index": 1
+	},
+	"question_39": {
+		"text": "What should you do first when cleaning up a spill?",
+		"alternatives": ["Get paper towels", "Assess if it's safe", "Start mopping", "Take a photo"],
+		"correct_answer_index": 1
+	},
+	"question_40": {
+		"text": "Which vehicle is known as the 'Beetle'?",
+		"alternatives": ["Volkswagen Beetle", "Mini Cooper", "Fiat 500", "Smart Car"],
+		"correct_answer_index": 0
+	},
+	"question_41": {
+		"text": "What does 'API' stand for in programming?",
+		"alternatives": ["Application Programming Interface", "Advanced Programming Interface", "Automated Programming Interface", "Application Process Interface"],
+		"correct_answer_index": 0
+	},
+	"question_42": {
+		"text": "What does 'SSD' stand for in computer storage?",
+		"alternatives": ["Super Speed Drive", "Solid State Drive", "System Storage Drive", "Serial Storage Device"],
+		"correct_answer_index": 1
+	},
+	"question_43": {
+		"text": "What temperature should eggs be when making meringue?",
+		"alternatives": ["Cold", "Room temperature", "Slightly warm", "Hot"],
+		"correct_answer_index": 1
+	},
+	"question_44": {
+		"text": "What color do you get when you mix red and yellow?",
+		"alternatives": ["Purple", "Green", "Orange", "Brown"],
+		"correct_answer_index": 2
+	},
+	"question_45": {
+		"text": "What is the best way to remove crayon marks from walls?",
+		"alternatives": ["Soap and water", "WD-40 or hair dryer", "Bleach", "Paint over it"],
+		"correct_answer_index": 1
+	},
+	"question_46": {
+		"text": "What type of engine does a Tesla Model S have?",
+		"alternatives": ["V8 Gasoline", "V6 Hybrid", "Electric Motor", "Rotary Engine"],
+		"correct_answer_index": 2
+	},
+	"question_47": {
+		"text": "In programming, what is a 'bug'?",
+		"alternatives": ["A feature", "An error in code", "A virus", "A comment"],
+		"correct_answer_index": 1
+	},
+	"question_48": {
+		"text": "What does 'URL' stand for?",
+		"alternatives": ["Universal Resource Locator", "Uniform Resource Locator", "Universal Reference Link", "Uniform Reference Locator"],
+		"correct_answer_index": 1
+	},
+	"question_49": {
+		"text": "What is the 'windowpane test' used for in baking?",
+		"alternatives": ["Testing oven temperature", "Checking gluten development", "Testing doneness", "Measuring ingredients"],
+		"correct_answer_index": 1
+	},
+	"question_50": {
+		"text": "What nursery rhyme character sat on a wall?",
+		"alternatives": ["Jack and Jill", "Humpty Dumpty", "Little Bo Peep", "Mary, Mary, Quite Contrary"],
+		"correct_answer_index": 1
+	},
+	"question_51": {
+		"text": "Which cleaning method is most effective against viruses?",
+		"alternatives": ["Dusting", "Disinfecting", "Vacuuming", "Organizing"],
+		"correct_answer_index": 1
+	},
+	"question_52": {
+		"text": "What does SUV stand for?",
+		"alternatives": ["Super Utility Vehicle", "Sport Utility Vehicle", "Standard Urban Vehicle", "Special Use Vehicle"],
+		"correct_answer_index": 1
+	},
+	"question_53": {
+		"text": "What does 'OOP' stand for in programming?",
+		"alternatives": ["Object-Oriented Programming", "Open Operating Platform", "Organized Object Processing", "Optimal Operation Protocol"],
+		"correct_answer_index": 0
+	},
+	"question_54": {
+		"text": "What is the brain of a computer called?",
+		"alternatives": ["RAM", "Hard Drive", "CPU", "Motherboard"],
+		"correct_answer_index": 2
+	},
+	"question_55": {
+		"text": "Which ingredient helps prevent crystallization in candy making?",
+		"alternatives": ["Salt", "Cream of tartar", "Vanilla", "Butter"],
+		"correct_answer_index": 1
+	},
+	"question_56": {
+		"text": "How many sides does a stop sign have?",
+		"alternatives": ["6", "7", "8", "9"],
+		"correct_answer_index": 2
+	},
+	"question_57": {
+		"text": "What is the recommended ratio of bleach to water for disinfecting?",
+		"alternatives": ["1:5", "1:10", "1:100", "1:1000"],
+		"correct_answer_index": 1
+	},
+	"question_58": {
+		"text": "Which motorcycle manufacturer makes the Ninja series?",
+		"alternatives": ["Honda", "Yamaha", "Kawasaki", "Suzuki"],
+		"correct_answer_index": 2
+	},
+	"question_59": {
+		"text": "What does 'Git' refer to in programming?",
+		"alternatives": ["A programming language", "A version control system", "A text editor", "A web browser"],
+		"correct_answer_index": 1
+	},
+	"question_60": {
+		"text": "What does 'USB' stand for?",
+		"alternatives": ["Universal Serial Bus", "Universal System Bus", "United Serial Bus", "Universal Storage Bus"],
+		"correct_answer_index": 0
+	},
+	"question_61": {
+		"text": "What is the ideal internal temperature for baked bread?",
+		"alternatives": ["180°F", "190°F", "200°F", "210°F"],
+		"correct_answer_index": 2
+	},
+	"question_62": {
+		"text": "What game involves players freezing when the music stops?",
+		"alternatives": ["Red Light Green Light", "Musical Chairs", "Freeze Dance", "Simon Says"],
+		"correct_answer_index": 2
+	},
+	"question_63": {
+		"text": "How long should you let disinfectant sit on surfaces to be effective?",
+		"alternatives": ["10 seconds", "1 minute", "5 minutes", "It works instantly"],
+		"correct_answer_index": 1
+	},
+	"question_64": {
+		"text": "What company makes the 911 sports car?",
+		"alternatives": ["Ferrari", "Lamborghini", "Porsche", "Maserati"],
+		"correct_answer_index": 2
+	},
+	"question_65": {
+		"text": "What does 'JSON' stand for?",
+		"alternatives": ["JavaScript Object Notation", "Java Standard Object Notation", "JavaScript Open Notation", "Java Script Object Network"],
+		"correct_answer_index": 0
+	},
+	"question_66": {
+		"text": "What is the maximum amount of RAM a 32-bit system can use?",
+		"alternatives": ["2GB", "4GB", "8GB", "16GB"],
+		"correct_answer_index": 1
+	},
+	"question_67": {
+		"text": "What does 'scaling' mean in professional baking?",
+		"alternatives": ["Measuring ingredients by weight", "Adjusting oven temperature", "Rolling dough", "Decorating cakes"],
+		"correct_answer_index": 0
+	},
+	"question_68": {
+		"text": "What do children traditionally leave out for Santa on Christmas Eve?",
+		"alternatives": ["Candy and soda", "Cookies and milk", "Cake and coffee", "Fruit and juice"],
+		"correct_answer_index": 1
+	},
+	"question_69": {
+		"text": "What should you clean first when cleaning a bathroom?",
+		"alternatives": ["Toilet", "Sink", "Mirrors", "Floor"],
+		"correct_answer_index": 2
+	},
+	"question_70": {
+		"text": "What is the top speed of most commercial aircraft?",
+		"alternatives": ["500-600 mph", "600-700 mph", "700-800 mph", "800-900 mph"],
+		"correct_answer_index": 1
+	},
+	"question_71": {
+		"text": "What programming paradigm does Java primarily use?",
+		"alternatives": ["Functional", "Procedural", "Object-Oriented", "Logic"],
+		"correct_answer_index": 2
+	},
+	"question_72": {
+		"text": "What company created the iPhone?",
+		"alternatives": ["Google", "Samsung", "Apple", "Microsoft"],
+		"correct_answer_index": 2
+	},
+	"question_73": {
+		"text": "Which sugar creates the most tender cake texture?",
+		"alternatives": ["Granulated sugar", "Brown sugar", "Powdered sugar", "Superfine sugar"],
+		"correct_answer_index": 3
+	},
+	"question_74": {
+		"text": "What is the first letter of the alphabet?",
+		"alternatives": ["A", "B", "C", "1"],
+		"correct_answer_index": 0
+	},
+	"question_75": {
+		"text": "What is the active ingredient in most toilet bowl cleaners?",
+		"alternatives": ["Bleach", "Hydrochloric acid", "Ammonia", "Vinegar"],
+		"correct_answer_index": 1
+	},
+	"question_76": {
+		"text": "Which car manufacturer owns Lamborghini?",
+		"alternatives": ["Ferrari", "BMW", "Volkswagen Group", "Mercedes-Benz"],
+		"correct_answer_index": 2
+	},
+	"question_77": {
+		"text": "What does 'HTTP' stand for?",
+		"alternatives": ["HyperText Transfer Protocol", "High Transfer Text Protocol", "HyperText Transmission Protocol", "Home Text Transfer Protocol"],
+		"correct_answer_index": 0
+	},
+	"question_78": {
+		"text": "What does 'GPU' stand for?",
+		"alternatives": ["General Processing Unit", "Graphics Processing Unit", "Game Processing Unit", "Graphic Program Unit"],
+		"correct_answer_index": 1
+	},
+	"question_79": {
+		"text": "At what temperature should butter be for making pastry dough?",
+		"alternatives": ["Room temperature", "Slightly warm", "Cold", "Melted"],
+		"correct_answer_index": 2
+	},
+	"question_80": {
+		"text": "How many players are typically in a game of hide and seek?",
+		"alternatives": ["2 or more", "Exactly 4", "Exactly 6", "At least 8"],
+		"correct_answer_index": 0
+	},
+	"question_81": {
+		"text": "What type of mop is best for hardwood floors?",
+		"alternatives": ["String mop", "Microfiber mop", "Sponge mop", "Steam mop"],
+		"correct_answer_index": 1
+	},
+	"question_82": {
+		"text": "What does RPM stand for in automotive terms?",
+		"alternatives": ["Rotations Per Minute", "Revolutions Per Minute", "Rounds Per Minute", "Rate Per Minute"],
+		"correct_answer_index": 1
+	},
+	"question_83": {
+		"text": "In programming, what is 'debugging'?",
+		"alternatives": ["Writing new code", "Finding and fixing errors", "Testing software", "Documenting code"],
+		"correct_answer_index": 1
+	},
+	"question_84": {
+		"text": "What does 'BIOS' stand for?",
+		"alternatives": ["Basic Input/Output System", "Binary Input/Output System", "Basic Internal Operating System", "Binary Internal Operating System"],
+		"correct_answer_index": 0
+	},
+	"question_85": {
+		"text": "What is the purpose of adding salt to bread dough?",
+		"alternatives": ["Flavor only", "Controls yeast activity", "Adds color", "Increases rise"],
+		"correct_answer_index": 1
+	},
+	"question_86": {
+		"text": "In the game of hopscotch, what do you typically throw?",
+		"alternatives": ["A ball", "A rock or small object", "A coin", "A bean bag"],
+		"correct_answer_index": 1
+	},
+	"question_87": {
+		"text": "What is the best way to prevent mold in the bathroom?",
+		"alternatives": ["Keep it dark", "Good ventilation", "Keep it cold", "Use air fresheners"],
+		"correct_answer_index": 1
+	},
+	"question_88": {
+		"text": "What is the fastest production car in the world as of 2023?",
+		"alternatives": ["Bugatti Chiron", "Koenigsegg Jesko Absolut", "SSC Tuatara", "Hennessey Venom F5"],
+		"correct_answer_index": 2
+	},
+	"question_89": {
+		"text": "What does 'AI' stand for in computer science?",
+		"alternatives": ["Automated Intelligence", "Artificial Intelligence", "Advanced Intelligence", "Algorithmic Intelligence"],
+		"correct_answer_index": 1
+	},
+	"question_90": {
+		"text": "What is the most common computer port type today?",
+		"alternatives": ["Serial", "Parallel", "USB", "PS/2"],
+		"correct_answer_index": 2
+	},
+	"question_91": {
+		"text": "Which flour has the highest protein content?",
+		"alternatives": ["Cake flour", "All-purpose flour", "Bread flour", "Pastry flour"],
+		"correct_answer_index": 2
+	},
+	"question_92": {
+		"text": "What sound does a cow make?",
+		"alternatives": ["Woof", "Meow", "Moo", "Oink"],
+		"correct_answer_index": 2
+	},
+	"question_93": {
+		"text": "How often should you vacuum carpeted areas?",
+		"alternatives": ["Daily", "Weekly", "Monthly", "Yearly"],
+		"correct_answer_index": 1
+	},
+	"question_94": {
+		"text": "What does 4WD mean in vehicles?",
+		"alternatives": ["4-Wheel Drive", "4-Way Drive", "4-Wind Drive", "4-Weight Drive"],
+		"correct_answer_index": 0
+	},
+	"question_95": {
+		"text": "What is the first step in the software development lifecycle?",
+		"alternatives": ["Coding", "Testing", "Planning/Requirements", "Deployment"],
+		"correct_answer_index": 2
+	},
+	"question_96": {
+		"text": "What does 'OS' stand for in computing?",
+		"alternatives": ["Operating System", "Open System", "Online Service", "Organized Software"],
+		"correct_answer_index": 0
+	},
+	"question_97": {
+		"text": "What does 'tempering' chocolate involve?",
+		"alternatives": ["Melting slowly", "Controlled heating and cooling", "Adding ingredients", "Whipping"],
+		"correct_answer_index": 1
+	},
+	"question_98": {
+		"text": "What primary colors make purple?",
+		"alternatives": ["Red and yellow", "Blue and yellow", "Red and blue", "Red and green"],
+		"correct_answer_index": 2
+	},
+	"question_99": {
+		"text": "What is the recommended frequency for deep cleaning a house?",
+		"alternatives": ["Weekly", "Monthly", "Seasonally", "Yearly"],
+		"correct_answer_index": 2
+	},
+	"question_100": {
+		"text": "Which country produces the most cars annually?",
+		"alternatives": ["United States", "Germany", "Japan", "China"],
+		"correct_answer_index": 3
+	}
+}

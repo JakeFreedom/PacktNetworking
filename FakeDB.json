@@ -1,0 +1,12 @@
+{
+  "user1": {
+	"password":"test",
+	"avatar":"res://UI/Avatar/female_idle.png",
+	"name":"Megan(The Awesome)"
+  },
+  "user2": {
+	"password":"test",
+	"avatar":"res://UI/Avatar/player_idle.png",
+	"name":"Jake(The Great)"
+  }
+}

@@ -1,0 +1,502 @@
+{
+	"question_01": {
+		"text": "What is the name of Harry Potter's owl?",
+		"alternatives": ["Hedwig", "Errol", "Pigwidgeon", "Hermes"],
+		"correct_answer_index": 0
+	},
+	"question_02": {
+		"text": "Which house at Hogwarts does Harry Potter belong to?",
+		"alternatives": ["Slytherin", "Hufflepuff", "Ravenclaw", "Gryffindor"],
+		"correct_answer_index": 3
+	},
+	"question_03": {
+		"text": "What platform do students use to board the Hogwarts Express?",
+		"alternatives": ["Platform 9", "Platform 9¼", "Platform 9½", "Platform 10"],
+		"correct_answer_index": 1
+	},
+	"question_04": {
+		"text": "Who is the headmaster of Hogwarts when Harry first arrives?",
+		"alternatives": ["Severus Snape", "Minerva McGonagall", "Albus Dumbledore", "Dolores Umbridge"],
+		"correct_answer_index": 2
+	},
+	"question_05": {
+		"text": "What is Hermione Granger's middle name?",
+		"alternatives": ["Jane", "Jean", "June", "Joan"],
+		"correct_answer_index": 1
+	},
+	"question_06": {
+		"text": "Which spell is used to disarm an opponent?",
+		"alternatives": ["Stupefy", "Expelliarmus", "Petrificus Totalus", "Impedimenta"],
+		"correct_answer_index": 1
+	},
+	"question_07": {
+		"text": "What is the core of Harry's wand?",
+		"alternatives": ["Dragon heartstring", "Phoenix feather", "Unicorn hair", "Veela hair"],
+		"correct_answer_index": 1
+	},
+	"question_08": {
+		"text": "Who is the Half-Blood Prince?",
+		"alternatives": ["Tom Riddle", "Severus Snape", "Remus Lupin", "Sirius Black"],
+		"correct_answer_index": 1
+	},
+	"question_09": {
+		"text": "What does the spell 'Lumos' do?",
+		"alternatives": ["Creates light", "Unlocks doors", "Repairs objects", "Levitates objects"],
+		"correct_answer_index": 0
+	},
+	"question_10": {
+		"text": "What is the name of the three-headed dog guarding the Philosopher's Stone?",
+		"alternatives": ["Fang", "Fluffy", "Norbert", "Aragog"],
+		"correct_answer_index": 1
+	},
+	"question_11": {
+		"text": "Which Quidditch position does Harry play?",
+		"alternatives": ["Keeper", "Beater", "Chaser", "Seeker"],
+		"correct_answer_index": 3
+	},
+	"question_12": {
+		"text": "What form does Harry's Patronus take?",
+		"alternatives": ["Stag", "Doe", "Otter", "Hare"],
+		"correct_answer_index": 0
+	},
+	"question_13": {
+		"text": "Who kills Dobby the house-elf?",
+		"alternatives": ["Voldemort", "Bellatrix Lestrange", "Lucius Malfoy", "Fenrir Greyback"],
+		"correct_answer_index": 1
+	},
+	"question_14": {
+		"text": "What is the name of the Weasley family home?",
+		"alternatives": ["The Burrow", "The Den", "The Nest", "The Warren"],
+		"correct_answer_index": 0
+	},
+	"question_15": {
+		"text": "Which magical creature can only be seen by those who have witnessed death?",
+		"alternatives": ["Dementors", "Thestrals", "Boggarts", "Hippogriffs"],
+		"correct_answer_index": 1
+	},
+	"question_16": {
+		"text": "What is Voldemort's real name?",
+		"alternatives": ["Tom Marvolo Riddle", "Thomas Riddle", "Timothy Riddle", "Tobias Riddle"],
+		"correct_answer_index": 0
+	},
+	"question_17": {
+		"text": "Which professor teaches Transfiguration?",
+		"alternatives": ["Severus Snape", "Minerva McGonagall", "Filius Flitwick", "Pomona Sprout"],
+		"correct_answer_index": 1
+	},
+	"question_18": {
+		"text": "What is the name of the pub in Hogsmeade?",
+		"alternatives": ["The Leaky Cauldron", "The Three Broomsticks", "The Hog's Head", "Both B and C"],
+		"correct_answer_index": 3
+	},
+	"question_19": {
+		"text": "Which Horcrux is destroyed first?",
+		"alternatives": ["Tom Riddle's diary", "Marvolo Gaunt's ring", "Salazar Slytherin's locket", "Helga Hufflepuff's cup"],
+		"correct_answer_index": 0
+	},
+	"question_20": {
+		"text": "What does 'Muggle' mean?",
+		"alternatives": ["A magical creature", "A non-magical person", "A type of spell", "A magical plant"],
+		"correct_answer_index": 1
+	},
+	"question_21": {
+		"text": "Who gives Harry his first broomstick?",
+		"alternatives": ["Dumbledore", "McGonagall", "Hagrid", "Sirius Black"],
+		"correct_answer_index": 1
+	},
+	"question_22": {
+		"text": "What is the name of the dragon that Harry faces in the Triwizard Tournament?",
+		"alternatives": ["Hungarian Horntail", "Chinese Fireball", "Common Welsh Green", "Norwegian Ridgeback"],
+		"correct_answer_index": 0
+	},
+	"question_23": {
+		"text": "Which spell creates the Dark Mark?",
+		"alternatives": ["Morsmordre", "Crucio", "Avada Kedavra", "Imperio"],
+		"correct_answer_index": 0
+	},
+	"question_24": {
+		"text": "What is Luna Lovegood's father's name?",
+		"alternatives": ["Xenophilius", "Lysander", "Lorcan", "Xeno"],
+		"correct_answer_index": 0
+	},
+	"question_25": {
+		"text": "Which subject does Professor Binns teach?",
+		"alternatives": ["Defense Against the Dark Arts", "History of Magic", "Astronomy", "Divination"],
+		"correct_answer_index": 1
+	},
+	"question_26": {
+		"text": "What is the password to enter Dumbledore's office in Harry's second year?",
+		"alternatives": ["Lemon drops", "Cockroach clusters", "Sherbet lemons", "Ice mice"],
+		"correct_answer_index": 2
+	},
+	"question_27": {
+		"text": "Who is the ghost of Gryffindor House?",
+		"alternatives": ["The Bloody Baron", "The Fat Friar", "The Grey Lady", "Nearly Headless Nick"],
+		"correct_answer_index": 3
+	},
+	"question_28": {
+		"text": "What does R.A.B. stand for?",
+		"alternatives": ["Regulus Arcturus Black", "Robert Anthony Burke", "Richard Albert Brown", "Raymond Alexander Bell"],
+		"correct_answer_index": 0
+	},
+	"question_29": {
+		"text": "Which potion allows the drinker to take the form of someone else?",
+		"alternatives": ["Veritaserum", "Felix Felicis", "Polyjuice Potion", "Wolfsbane Potion"],
+		"correct_answer_index": 2
+	},
+	"question_30": {
+		"text": "What is the name of Hagrid's three-headed dog brother?",
+		"alternatives": ["This is a trick question", "Fluffy", "Norbert", "Grawp"],
+		"correct_answer_index": 0
+	},
+	"question_31": {
+		"text": "Who destroys the locket Horcrux?",
+		"alternatives": ["Harry Potter", "Hermione Granger", "Ron Weasley", "Albus Dumbledore"],
+		"correct_answer_index": 2
+	},
+	"question_32": {
+		"text": "What is the incantation for the Killing Curse?",
+		"alternatives": ["Crucio", "Imperio", "Avada Kedavra", "Sectumsempra"],
+		"correct_answer_index": 2
+	},
+	"question_33": {
+		"text": "Which magical object shows the deepest desires of one's heart?",
+		"alternatives": ["Pensieve", "Mirror of Erised", "Marauder's Map", "Time-Turner"],
+		"correct_answer_index": 1
+	},
+	"question_34": {
+		"text": "What is the name of the Weasley twins?",
+		"alternatives": ["Fred and George", "Gred and Forge", "Both A and B", "Frank and Gregory"],
+		"correct_answer_index": 2
+	},
+	"question_35": {
+		"text": "Who opens the Chamber of Secrets?",
+		"alternatives": ["Tom Riddle", "Ginny Weasley", "Both A and B", "Draco Malfoy"],
+		"correct_answer_index": 2
+	},
+	"question_36": {
+		"text": "What creature is the symbol of Ravenclaw House?",
+		"alternatives": ["Raven", "Eagle", "Owl", "Hawk"],
+		"correct_answer_index": 1
+	},
+	"question_37": {
+		"text": "Who teaches Defense Against the Dark Arts in Harry's third year?",
+		"alternatives": ["Gilderoy Lockhart", "Remus Lupin", "Mad-Eye Moody", "Dolores Umbridge"],
+		"correct_answer_index": 1
+	},
+	"question_38": {
+		"text": "What does Felix Felicis do?",
+		"alternatives": ["Makes you invisible", "Brings good luck", "Heals injuries", "Increases strength"],
+		"correct_answer_index": 1
+	},
+	"question_39": {
+		"text": "Which Unforgivable Curse controls the victim's actions?",
+		"alternatives": ["Avada Kedavra", "Crucio", "Imperio", "Sectumsempra"],
+		"correct_answer_index": 2
+	},
+	"question_40": {
+		"text": "What is the name of Voldemort's snake?",
+		"alternatives": ["Basilisk", "Nagini", "Aragog", "Norbert"],
+		"correct_answer_index": 1
+	},
+	"question_41": {
+		"text": "Who kills Professor Dumbledore?",
+		"alternatives": ["Voldemort", "Bellatrix Lestrange", "Severus Snape", "Draco Malfoy"],
+		"correct_answer_index": 2
+	},
+	"question_42": {
+		"text": "What does the Marauder's Map show?",
+		"alternatives": ["Treasure locations", "Secret passages", "Everyone's location in Hogwarts", "Both B and C"],
+		"correct_answer_index": 3
+	},
+	"question_43": {
+		"text": "Which house values loyalty and hard work?",
+		"alternatives": ["Gryffindor", "Slytherin", "Ravenclaw", "Hufflepuff"],
+		"correct_answer_index": 3
+	},
+	"question_44": {
+		"text": "What is Hermione's cat's name?",
+		"alternatives": ["Crookshanks", "Scabbers", "Mrs. Norris", "Fluffy"],
+		"correct_answer_index": 0
+	},
+	"question_45": {
+		"text": "Who is the author of 'The Tales of Beedle the Bard'?",
+		"alternatives": ["J.K. Rowling", "Beedle the Bard", "Bathilda Bagshot", "Rita Skeeter"],
+		"correct_answer_index": 1
+	},
+	"question_46": {
+		"text": "What is the first password to Gryffindor Tower?",
+		"alternatives": ["Balderdash", "Caput Draconis", "Pig snout", "Fortuna Major"],
+		"correct_answer_index": 1
+	},
+	"question_47": {
+		"text": "Which Death Eater is revealed to be Mad-Eye Moody in Harry's fourth year?",
+		"alternatives": ["Barty Crouch Jr.", "Lucius Malfoy", "Peter Pettigrew", "Antonin Dolohov"],
+		"correct_answer_index": 0
+	},
+	"question_48": {
+		"text": "What does 'Obliviate' do?",
+		"alternatives": ["Kills the target", "Erases memories", "Creates illusions", "Paralyzes the target"],
+		"correct_answer_index": 1
+	},
+	"question_49": {
+		"text": "Who gives Harry the Invisibility Cloak?",
+		"alternatives": ["Dumbledore", "Sirius Black", "Hagrid", "McGonagall"],
+		"correct_answer_index": 0
+	},
+	"question_50": {
+		"text": "What is the name of the Weasley's owl?",
+		"alternatives": ["Hedwig", "Errol", "Pigwidgeon", "Hermes"],
+		"correct_answer_index": 1
+	},
+	"question_51": {
+		"text": "Which potion is known as 'Liquid Luck'?",
+		"alternatives": ["Polyjuice Potion", "Veritaserum", "Felix Felicis", "Amortentia"],
+		"correct_answer_index": 2
+	},
+	"question_52": {
+		"text": "What does Hermione smell in Amortentia?",
+		"alternatives": ["Fresh parchment, spearmint, and Ron's hair", "Books, mint, and chocolate", "Roses, old books, and coffee", "Grass, new parchment, and spearmint toothpaste"],
+		"correct_answer_index": 3
+	},
+	"question_53": {
+		"text": "Who becomes the new Defense Against the Dark Arts teacher in Harry's fifth year?",
+		"alternatives": ["Remus Lupin", "Severus Snape", "Dolores Umbridge", "Gilderoy Lockhart"],
+		"correct_answer_index": 2
+	},
+	"question_54": {
+		"text": "What is the name of Sirius Black's family home?",
+		"alternatives": ["12 Grimmauld Place", "The Black Manor", "Grimmauld Square", "Black House"],
+		"correct_answer_index": 0
+	},
+	"question_55": {
+		"text": "Which spell did Hermione use to fix Harry's glasses?",
+		"alternatives": ["Reparo", "Oculus Reparo", "Episkey", "Vulnera Sanentur"],
+		"correct_answer_index": 1
+	},
+	"question_56": {
+		"text": "What are the three Deathly Hallows?",
+		"alternatives": ["Wand, Stone, Cloak", "Elder Wand, Resurrection Stone, Invisibility Cloak", "Death's Wand, Life Stone, Ghost Cloak", "Magic Wand, Phoenix Stone, Cloak of Shadows"],
+		"correct_answer_index": 1
+	},
+	"question_57": {
+		"text": "Who is the conductor of the Knight Bus?",
+		"alternatives": ["Stan Shunpike", "Ernie Prang", "Cornelius Fudge", "Kingsley Shacklebolt"],
+		"correct_answer_index": 0
+	},
+	"question_58": {
+		"text": "What is the name of the wizarding prison?",
+		"alternatives": ["Azkaban", "Alcatraz", "Nurmengard", "The Tower"],
+		"correct_answer_index": 0
+	},
+	"question_59": {
+		"text": "Which character says 'After all this time?' 'Always'?",
+		"alternatives": ["Lily and Snape", "Dumbledore and Snape", "Harry and Snape", "McGonagall and Snape"],
+		"correct_answer_index": 1
+	},
+	"question_60": {
+		"text": "What does the spell 'Expecto Patronum' do?",
+		"alternatives": ["Disarms opponents", "Conjures a Patronus", "Creates light", "Heals wounds"],
+		"correct_answer_index": 1
+	},
+	"question_61": {
+		"text": "Who is the youngest Weasley child?",
+		"alternatives": ["Ron", "Ginny", "Fred", "George"],
+		"correct_answer_index": 1
+	},
+	"question_62": {
+		"text": "What creature lives in the Chamber of Secrets?",
+		"alternatives": ["Dragon", "Basilisk", "Giant Spider", "Dementor"],
+		"correct_answer_index": 1
+	},
+	"question_63": {
+		"text": "Which Horcrux is hidden in Bellatrix Lestrange's vault?",
+		"alternatives": ["Slytherin's locket", "Hufflepuff's cup", "Ravenclaw's diadem", "Riddle's diary"],
+		"correct_answer_index": 1
+	},
+	"question_64": {
+		"text": "What is the name of Neville's remembrall?",
+		"alternatives": ["It doesn't have a specific name", "Rememberall", "Memory Ball", "Forget-Me-Not"],
+		"correct_answer_index": 0
+	},
+	"question_65": {
+		"text": "Who becomes headmaster after Dumbledore's death?",
+		"alternatives": ["McGonagall", "Snape", "Umbridge", "Flitwick"],
+		"correct_answer_index": 1
+	},
+	"question_66": {
+		"text": "What is the motto of Hogwarts?",
+		"alternatives": ["Draco dormiens nunquam titillandus", "Magic is might", "Knowledge is power", "Courage above all"],
+		"correct_answer_index": 0
+	},
+	"question_67": {
+		"text": "Which spell turns an object into a Portkey?",
+		"alternatives": ["Portus", "Transitus", "Moveus", "Teleportus"],
+		"correct_answer_index": 0
+	},
+	"question_68": {
+		"text": "What is the name of the Dursley's son?",
+		"alternatives": ["Dudley", "Dennis", "Derek", "David"],
+		"correct_answer_index": 0
+	},
+	"question_69": {
+		"text": "Which professor has a wooden leg?",
+		"alternatives": ["Snape", "Mad-Eye Moody", "Lupin", "Lockhart"],
+		"correct_answer_index": 1
+	},
+	"question_70": {
+		"text": "What does Harry see in the Mirror of Erised?",
+		"alternatives": ["Himself as a great wizard", "His parents", "Himself winning the Quidditch Cup", "Voldemort defeated"],
+		"correct_answer_index": 1
+	},
+	"question_71": {
+		"text": "Which magical creature guards the entrance to the Gryffindor common room?",
+		"alternatives": ["The Fat Lady", "The Grey Lady", "The Bloody Baron", "Nearly Headless Nick"],
+		"correct_answer_index": 0
+	},
+	"question_72": {
+		"text": "What is the name of the candy that makes you roar like a lion?",
+		"alternatives": ["Chocolate Frogs", "Bertie Bott's Every Flavour Beans", "Fizzing Whizzbees", "Roaring Lions"],
+		"correct_answer_index": 3
+	},
+	"question_73": {
+		"text": "Who kills Bellatrix Lestrange?",
+		"alternatives": ["Harry Potter", "Hermione Granger", "Molly Weasley", "Neville Longbottom"],
+		"correct_answer_index": 2
+	},
+	"question_74": {
+		"text": "What is the name of the tree that attacks people?",
+		"alternatives": ["Whomping Willow", "Screaming Sapling", "Fighting Fir", "Battling Birch"],
+		"correct_answer_index": 0
+	},
+	"question_75": {
+		"text": "Which subject does Professor Trelawney teach?",
+		"alternatives": ["Astronomy", "Divination", "Arithmancy", "Ancient Runes"],
+		"correct_answer_index": 1
+	},
+	"question_76": {
+		"text": "What is Ginny Weasley's full name?",
+		"alternatives": ["Ginerva Molly Weasley", "Ginevra Molly Weasley", "Ginifer Molly Weasley", "Ginette Molly Weasley"],
+		"correct_answer_index": 1
+	},
+	"question_77": {
+		"text": "Which charm makes objects unplottable?",
+		"alternatives": ["Fidelius Charm", "Protean Charm", "Unplottable Charm", "Disillusionment Charm"],
+		"correct_answer_index": 0
+	},
+	"question_78": {
+		"text": "What does S.P.E.W. stand for?",
+		"alternatives": ["Society for the Protection of Elfish Welfare", "Students Promoting Equal Wizarding", "Spell Practice Every Wednesday", "Society Promoting Elf Welfare"],
+		"correct_answer_index": 0
+	},
+	"question_79": {
+		"text": "Who kills Hedwig?",
+		"alternatives": ["Death Eater", "Voldemort", "Snape", "It's not specified"],
+		"correct_answer_index": 0
+	},
+	"question_80": {
+		"text": "What is the name of the Potions textbook Harry uses in his sixth year?",
+		"alternatives": ["Advanced Potion-Making", "Magical Draughts and Potions", "The Half-Blood Prince's Book", "Potions for the Advanced Student"],
+		"correct_answer_index": 0
+	},
+	"question_81": {
+		"text": "Which Death Eater killed Sirius Black?",
+		"alternatives": ["Lucius Malfoy", "Bellatrix Lestrange", "Antonin Dolohov", "Fenrir Greyback"],
+		"correct_answer_index": 1
+	},
+	"question_82": {
+		"text": "What is the name of the three-headed dog's lullaby?",
+		"alternatives": ["Any music puts Fluffy to sleep", "Celestina Warbeck's songs", "A specific magical lullaby", "The information is not given"],
+		"correct_answer_index": 0
+	},
+	"question_83": {
+		"text": "Which house does Luna Lovegood belong to?",
+		"alternatives": ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"],
+		"correct_answer_index": 2
+	},
+	"question_84": {
+		"text": "What is the maximum speed of a Firebolt broomstick?",
+		"alternatives": ["150 mph", "200 mph", "0 to 150 mph in ten seconds", "It's never specified"],
+		"correct_answer_index": 2
+	},
+	"question_85": {
+		"text": "Who was the original owner of Harry's Invisibility Cloak?",
+		"alternatives": ["James Potter", "Ignotus Peverell", "Albus Dumbledore", "Both A and B"],
+		"correct_answer_index": 3
+	},
+	"question_86": {
+		"text": "What is the name of the centaur who teaches Divination?",
+		"alternatives": ["Firenze", "Bane", "Ronan", "Magorian"],
+		"correct_answer_index": 0
+	},
+	"question_87": {
+		"text": "Which spell did Snape invent that causes deep cuts?",
+		"alternatives": ["Sectumsempra", "Levicorpus", "Muffliato", "Langlock"],
+		"correct_answer_index": 0
+	},
+	"question_88": {
+		"text": "What does the Time-Turner allow Hermione to do?",
+		"alternatives": ["See the future", "Travel back in time", "Stop time", "Speed up time"],
+		"correct_answer_index": 1
+	},
+	"question_89": {
+		"text": "Who is the half-giant brother of Hagrid?",
+		"alternatives": ["Grawp", "Karkus", "Golgomath", "Fridwulfa"],
+		"correct_answer_index": 0
+	},
+	"question_90": {
+		"text": "What creature does Hagrid introduce in his first Care of Magical Creatures lesson?",
+		"alternatives": ["Hippogriffs", "Blast-Ended Skrewts", "Thestrals", "Bowtruckles"],
+		"correct_answer_index": 0
+	},
+	"question_91": {
+		"text": "Which Weasley brother loses an ear?",
+		"alternatives": ["Fred", "George", "Percy", "Charlie"],
+		"correct_answer_index": 1
+	},
+	"question_92": {
+		"text": "What is the incantation for the Summoning Charm?",
+		"alternatives": ["Accio", "Avada", "Alohomora", "Aguamenti"],
+		"correct_answer_index": 0
+	},
+	"question_93": {
+		"text": "Who becomes Minister of Magic after Cornelius Fudge?",
+		"alternatives": ["Kingsley Shacklebolt", "Rufus Scrimgeour", "Pius Thicknesse", "Arthur Weasley"],
+		"correct_answer_index": 1
+	},
+	"question_94": {
+		"text": "What is the name of the village near Hogwarts?",
+		"alternatives": ["Hogsmeade", "Little Whinging", "Godric's Hollow", "Ottery St Catchpole"],
+		"correct_answer_index": 0
+	},
+	"question_95": {
+		"text": "Which spell makes the caster's voice louder?",
+		"alternatives": ["Amplificatum", "Sonorus", "Loudicus", "Vociferus"],
+		"correct_answer_index": 1
+	},
+	"question_96": {
+		"text": "What is the name of Dumbledore's phoenix?",
+		"alternatives": ["Fawkes", "Phoenix", "Flamel", "Ignis"],
+		"correct_answer_index": 0
+	},
+	"question_97": {
+		"text": "Which potion requires a bezoar as an antidote?",
+		"alternatives": ["Most poisons", "Veritaserum", "Polyjuice Potion", "Felix Felicis"],
+		"correct_answer_index": 0
+	},
+	"question_98": {
+		"text": "What is the name of the magical hospital?",
+		"alternatives": ["St. Bartholomew's", "St. Mungo's", "St. Mary's", "St. Margaret's"],
+		"correct_answer_index": 1
+	},
+	"question_99": {
+		"text": "Who kills Nagini?",
+		"alternatives": ["Harry Potter", "Hermione Granger", "Ron Weasley", "Neville Longbottom"],
+		"correct_answer_index": 3
+	},
+	"question_100": {
+		"text": "What are the last words of the Harry Potter series?",
+		"alternatives": ["The End", "All was well", "And they lived happily ever after", "Mischief managed"],
+		"correct_answer_index": 1
+	}
+}

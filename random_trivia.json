@@ -1,0 +1,502 @@
+{
+	"question_01": {
+		"text": "What is the capital of Australia?",
+		"alternatives": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+		"correct_answer_index": 2
+	},
+	"question_02": {
+		"text": "Which planet is known as the Red Planet?",
+		"alternatives": ["Venus", "Mars", "Jupiter", "Saturn"],
+		"correct_answer_index": 1
+	},
+	"question_03": {
+		"text": "Who painted the Mona Lisa?",
+		"alternatives": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Michelangelo"],
+		"correct_answer_index": 2
+	},
+	"question_04": {
+		"text": "What is the largest ocean on Earth?",
+		"alternatives": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+		"correct_answer_index": 3
+	},
+	"question_05": {
+		"text": "Which element has the chemical symbol 'O'?",
+		"alternatives": ["Gold", "Oxygen", "Silver", "Iron"],
+		"correct_answer_index": 1
+	},
+	"question_06": {
+		"text": "In which year did World War II end?",
+		"alternatives": ["1944", "1945", "1946", "1947"],
+		"correct_answer_index": 1
+	},
+	"question_07": {
+		"text": "What is the smallest country in the world?",
+		"alternatives": ["Monaco", "San Marino", "Vatican City", "Liechtenstein"],
+		"correct_answer_index": 2
+	},
+	"question_08": {
+		"text": "Who wrote 'Romeo and Juliet'?",
+		"alternatives": ["Charles Dickens", "William Shakespeare", "Jane Austen", "Mark Twain"],
+		"correct_answer_index": 1
+	},
+	"question_09": {
+		"text": "What is the hardest natural substance on Earth?",
+		"alternatives": ["Gold", "Iron", "Diamond", "Platinum"],
+		"correct_answer_index": 2
+	},
+	"question_10": {
+		"text": "Which country invented pizza?",
+		"alternatives": ["Greece", "Italy", "France", "Spain"],
+		"correct_answer_index": 1
+	},
+	"question_11": {
+		"text": "What is the largest mammal in the world?",
+		"alternatives": ["African Elephant", "Blue Whale", "Giraffe", "Polar Bear"],
+		"correct_answer_index": 1
+	},
+	"question_12": {
+		"text": "How many bones are in an adult human body?",
+		"alternatives": ["196", "206", "216", "226"],
+		"correct_answer_index": 1
+	},
+	"question_13": {
+		"text": "What is the currency of Japan?",
+		"alternatives": ["Yuan", "Won", "Yen", "Rupee"],
+		"correct_answer_index": 2
+	},
+	"question_14": {
+		"text": "Which gas makes up about 78% of Earth's atmosphere?",
+		"alternatives": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+		"correct_answer_index": 2
+	},
+	"question_15": {
+		"text": "Who invented the telephone?",
+		"alternatives": ["Thomas Edison", "Alexander Graham Bell", "Nikola Tesla", "Benjamin Franklin"],
+		"correct_answer_index": 1
+	},
+	"question_16": {
+		"text": "What is the tallest mountain in the world?",
+		"alternatives": ["K2", "Mount Kilimanjaro", "Mount Everest", "Mount McKinley"],
+		"correct_answer_index": 2
+	},
+	"question_17": {
+		"text": "Which continent is the largest?",
+		"alternatives": ["Africa", "North America", "Asia", "Europe"],
+		"correct_answer_index": 2
+	},
+	"question_18": {
+		"text": "What does 'www' stand for?",
+		"alternatives": ["World Wide Web", "World Web Width", "Wide World Web", "Web World Wide"],
+		"correct_answer_index": 0
+	},
+	"question_19": {
+		"text": "Which animal is known as the King of the Jungle?",
+		"alternatives": ["Tiger", "Lion", "Elephant", "Leopard"],
+		"correct_answer_index": 1
+	},
+	"question_20": {
+		"text": "What is the freezing point of water in Celsius?",
+		"alternatives": ["0°C", "32°C", "100°C", "-32°C"],
+		"correct_answer_index": 0
+	},
+	"question_21": {
+		"text": "Which Shakespeare play features the character Hamlet?",
+		"alternatives": ["Macbeth", "Othello", "Hamlet", "King Lear"],
+		"correct_answer_index": 2
+	},
+	"question_22": {
+		"text": "What is the largest desert in the world?",
+		"alternatives": ["Gobi Desert", "Sahara Desert", "Antarctic Desert", "Arabian Desert"],
+		"correct_answer_index": 2
+	},
+	"question_23": {
+		"text": "Which planet is closest to the Sun?",
+		"alternatives": ["Venus", "Mercury", "Earth", "Mars"],
+		"correct_answer_index": 1
+	},
+	"question_24": {
+		"text": "What is the main ingredient in guacamole?",
+		"alternatives": ["Tomato", "Avocado", "Onion", "Pepper"],
+		"correct_answer_index": 1
+	},
+	"question_25": {
+		"text": "Which country has the most time zones?",
+		"alternatives": ["Russia", "United States", "China", "Canada"],
+		"correct_answer_index": 0
+	},
+	"question_26": {
+		"text": "What is the chemical symbol for gold?",
+		"alternatives": ["Go", "Gd", "Au", "Ag"],
+		"correct_answer_index": 2
+	},
+	"question_27": {
+		"text": "Who was the first person to walk on the moon?",
+		"alternatives": ["Buzz Aldrin", "Neil Armstrong", "John Glenn", "Alan Shepard"],
+		"correct_answer_index": 1
+	},
+	"question_28": {
+		"text": "What is the longest river in the world?",
+		"alternatives": ["Amazon River", "Nile River", "Mississippi River", "Yangtze River"],
+		"correct_answer_index": 1
+	},
+	"question_29": {
+		"text": "Which organ in the human body produces insulin?",
+		"alternatives": ["Liver", "Kidney", "Pancreas", "Heart"],
+		"correct_answer_index": 2
+	},
+	"question_30": {
+		"text": "What is the fastest land animal?",
+		"alternatives": ["Lion", "Cheetah", "Leopard", "Gazelle"],
+		"correct_answer_index": 1
+	},
+	"question_31": {
+		"text": "Which country gifted the Statue of Liberty to the United States?",
+		"alternatives": ["England", "Spain", "France", "Italy"],
+		"correct_answer_index": 2
+	},
+	"question_32": {
+		"text": "What is the smallest planet in our solar system?",
+		"alternatives": ["Mars", "Venus", "Mercury", "Pluto"],
+		"correct_answer_index": 2
+	},
+	"question_33": {
+		"text": "Which vitamin is produced when skin is exposed to sunlight?",
+		"alternatives": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
+		"correct_answer_index": 3
+	},
+	"question_34": {
+		"text": "What is the most spoken language in the world?",
+		"alternatives": ["English", "Mandarin Chinese", "Spanish", "Hindi"],
+		"correct_answer_index": 1
+	},
+	"question_35": {
+		"text": "Which blood type is known as the universal donor?",
+		"alternatives": ["A", "B", "AB", "O"],
+		"correct_answer_index": 3
+	},
+	"question_36": {
+		"text": "What is the capital of Canada?",
+		"alternatives": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+		"correct_answer_index": 2
+	},
+	"question_37": {
+		"text": "Which movie won the Academy Award for Best Picture in 1994?",
+		"alternatives": ["Forrest Gump", "The Lion King", "Pulp Fiction", "The Shawshank Redemption"],
+		"correct_answer_index": 0
+	},
+	"question_38": {
+		"text": "What is the boiling point of water in Celsius?",
+		"alternatives": ["90°C", "100°C", "110°C", "120°C"],
+		"correct_answer_index": 1
+	},
+	"question_39": {
+		"text": "Which ancient wonder of the world was located in Alexandria?",
+		"alternatives": ["Hanging Gardens", "Colossus of Rhodes", "Lighthouse of Alexandria", "Temple of Artemis"],
+		"correct_answer_index": 2
+	},
+	"question_40": {
+		"text": "What is the largest bone in the human body?",
+		"alternatives": ["Tibia", "Femur", "Humerus", "Fibula"],
+		"correct_answer_index": 1
+	},
+	"question_41": {
+		"text": "Which composer wrote 'The Four Seasons'?",
+		"alternatives": ["Mozart", "Beethoven", "Vivaldi", "Bach"],
+		"correct_answer_index": 2
+	},
+	"question_42": {
+		"text": "What is the most abundant gas in the universe?",
+		"alternatives": ["Oxygen", "Helium", "Hydrogen", "Nitrogen"],
+		"correct_answer_index": 2
+	},
+	"question_43": {
+		"text": "Which country is known as the Land of the Rising Sun?",
+		"alternatives": ["China", "Korea", "Japan", "Thailand"],
+		"correct_answer_index": 2
+	},
+	"question_44": {
+		"text": "What is the study of earthquakes called?",
+		"alternatives": ["Geology", "Seismology", "Meteorology", "Astronomy"],
+		"correct_answer_index": 1
+	},
+	"question_45": {
+		"text": "Which painter cut off his own ear?",
+		"alternatives": ["Pablo Picasso", "Vincent van Gogh", "Claude Monet", "Salvador Dalí"],
+		"correct_answer_index": 1
+	},
+	"question_46": {
+		"text": "What is the largest island in the world?",
+		"alternatives": ["Australia", "Greenland", "New Guinea", "Borneo"],
+		"correct_answer_index": 1
+	},
+	"question_47": {
+		"text": "Which element has the atomic number 1?",
+		"alternatives": ["Helium", "Hydrogen", "Lithium", "Carbon"],
+		"correct_answer_index": 1
+	},
+	"question_48": {
+		"text": "Who wrote '1984'?",
+		"alternatives": ["Aldous Huxley", "George Orwell", "Ray Bradbury", "H.G. Wells"],
+		"correct_answer_index": 1
+	},
+	"question_49": {
+		"text": "What is the deepest ocean trench?",
+		"alternatives": ["Puerto Rico Trench", "Java Trench", "Mariana Trench", "Peru-Chile Trench"],
+		"correct_answer_index": 2
+	},
+	"question_50": {
+		"text": "Which planet has the most moons?",
+		"alternatives": ["Jupiter", "Saturn", "Uranus", "Neptune"],
+		"correct_answer_index": 1
+	},
+	"question_51": {
+		"text": "What is the most common blood type?",
+		"alternatives": ["A+", "B+", "AB+", "O+"],
+		"correct_answer_index": 3
+	},
+	"question_52": {
+		"text": "Which war was fought between the North and South in America?",
+		"alternatives": ["Revolutionary War", "Civil War", "War of 1812", "Spanish-American War"],
+		"correct_answer_index": 1
+	},
+	"question_53": {
+		"text": "What is the speed of light?",
+		"alternatives": ["299,792,458 m/s", "300,000,000 m/s", "299,000,000 m/s", "298,000,000 m/s"],
+		"correct_answer_index": 0
+	},
+	"question_54": {
+		"text": "Which instrument measures atmospheric pressure?",
+		"alternatives": ["Thermometer", "Barometer", "Hygrometer", "Anemometer"],
+		"correct_answer_index": 1
+	},
+	"question_55": {
+		"text": "What is the capital of Brazil?",
+		"alternatives": ["São Paulo", "Rio de Janeiro", "Brasília", "Salvador"],
+		"correct_answer_index": 2
+	},
+	"question_56": {
+		"text": "Which mammal is known to have the most powerful bite in the world?",
+		"alternatives": ["Lion", "Shark", "Crocodile", "Hippopotamus"],
+		"correct_answer_index": 3
+	},
+	"question_57": {
+		"text": "What does 'HTTP' stand for?",
+		"alternatives": ["HyperText Transfer Protocol", "HyperText Transmission Protocol", "High Transfer Text Protocol", "HyperTransfer Text Protocol"],
+		"correct_answer_index": 0
+	},
+	"question_58": {
+		"text": "Which country has won the most FIFA World Cups?",
+		"alternatives": ["Germany", "Argentina", "Brazil", "Italy"],
+		"correct_answer_index": 2
+	},
+	"question_59": {
+		"text": "What is the hardest rock?",
+		"alternatives": ["Granite", "Marble", "Diamond", "Quartz"],
+		"correct_answer_index": 2
+	},
+	"question_60": {
+		"text": "Which bird is a symbol of peace?",
+		"alternatives": ["Eagle", "Dove", "Robin", "Swan"],
+		"correct_answer_index": 1
+	},
+	"question_61": {
+		"text": "What is the largest continent by population?",
+		"alternatives": ["Africa", "Europe", "Asia", "North America"],
+		"correct_answer_index": 2
+	},
+	"question_62": {
+		"text": "Which metal is liquid at room temperature?",
+		"alternatives": ["Lead", "Mercury", "Tin", "Zinc"],
+		"correct_answer_index": 1
+	},
+	"question_63": {
+		"text": "Who invented the light bulb?",
+		"alternatives": ["Nikola Tesla", "Thomas Edison", "Alexander Graham Bell", "Benjamin Franklin"],
+		"correct_answer_index": 1
+	},
+	"question_64": {
+		"text": "What is the smallest unit of matter?",
+		"alternatives": ["Molecule", "Atom", "Proton", "Electron"],
+		"correct_answer_index": 1
+	},
+	"question_65": {
+		"text": "Which ocean is the smallest?",
+		"alternatives": ["Indian Ocean", "Atlantic Ocean", "Arctic Ocean", "Southern Ocean"],
+		"correct_answer_index": 2
+	},
+	"question_66": {
+		"text": "What is the most expensive spice in the world?",
+		"alternatives": ["Vanilla", "Cardamom", "Saffron", "Cinnamon"],
+		"correct_answer_index": 2
+	},
+	"question_67": {
+		"text": "Which Greek god is the king of the gods?",
+		"alternatives": ["Poseidon", "Hades", "Zeus", "Apollo"],
+		"correct_answer_index": 2
+	},
+	"question_68": {
+		"text": "What is the most abundant element in Earth's crust?",
+		"alternatives": ["Silicon", "Aluminum", "Iron", "Oxygen"],
+		"correct_answer_index": 3
+	},
+	"question_69": {
+		"text": "Which country is both in Europe and Asia?",
+		"alternatives": ["Russia", "Turkey", "Kazakhstan", "All of the above"],
+		"correct_answer_index": 3
+	},
+	"question_70": {
+		"text": "What is the study of plants called?",
+		"alternatives": ["Zoology", "Botany", "Geology", "Biology"],
+		"correct_answer_index": 1
+	},
+	"question_71": {
+		"text": "Which vitamin deficiency causes scurvy?",
+		"alternatives": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
+		"correct_answer_index": 2
+	},
+	"question_72": {
+		"text": "What is the largest type of penguin?",
+		"alternatives": ["King Penguin", "Emperor Penguin", "Adelie Penguin", "Chinstrap Penguin"],
+		"correct_answer_index": 1
+	},
+	"question_73": {
+		"text": "Which instrument is used to measure wind speed?",
+		"alternatives": ["Barometer", "Thermometer", "Anemometer", "Hygrometer"],
+		"correct_answer_index": 2
+	},
+	"question_74": {
+		"text": "What is the currency of the United Kingdom?",
+		"alternatives": ["Euro", "Dollar", "Pound Sterling", "Franc"],
+		"correct_answer_index": 2
+	},
+	"question_75": {
+		"text": "Which organ can regenerate itself?",
+		"alternatives": ["Heart", "Brain", "Liver", "Kidney"],
+		"correct_answer_index": 2
+	},
+	"question_76": {
+		"text": "What is the most widely eaten fish in the world?",
+		"alternatives": ["Salmon", "Tuna", "Herring", "Cod"],
+		"correct_answer_index": 2
+	},
+	"question_77": {
+		"text": "Which country invented gunpowder?",
+		"alternatives": ["India", "China", "Egypt", "Greece"],
+		"correct_answer_index": 1
+	},
+	"question_78": {
+		"text": "What is the largest snake in the world?",
+		"alternatives": ["Python", "Anaconda", "Boa Constrictor", "King Cobra"],
+		"correct_answer_index": 1
+	},
+	"question_79": {
+		"text": "Which planet is known for its rings?",
+		"alternatives": ["Jupiter", "Saturn", "Uranus", "Neptune"],
+		"correct_answer_index": 1
+	},
+	"question_80": {
+		"text": "What is the study of the weather called?",
+		"alternatives": ["Geology", "Astronomy", "Meteorology", "Oceanography"],
+		"correct_answer_index": 2
+	},
+	"question_81": {
+		"text": "Which country has the longest coastline?",
+		"alternatives": ["Russia", "Canada", "Norway", "Australia"],
+		"correct_answer_index": 1
+	},
+	"question_82": {
+		"text": "What is the most common element in the human body?",
+		"alternatives": ["Carbon", "Hydrogen", "Oxygen", "Nitrogen"],
+		"correct_answer_index": 2
+	},
+	"question_83": {
+		"text": "Which artist painted 'The Starry Night'?",
+		"alternatives": ["Claude Monet", "Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci"],
+		"correct_answer_index": 1
+	},
+	"question_84": {
+		"text": "What is the largest city in the world by population?",
+		"alternatives": ["New York", "Tokyo", "Shanghai", "Delhi"],
+		"correct_answer_index": 1
+	},
+	"question_85": {
+		"text": "Which gas is most responsible for global warming?",
+		"alternatives": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Methane"],
+		"correct_answer_index": 2
+	},
+	"question_86": {
+		"text": "What is the fastest fish in the ocean?",
+		"alternatives": ["Tuna", "Sailfish", "Marlin", "Swordfish"],
+		"correct_answer_index": 1
+	},
+	"question_87": {
+		"text": "Which country invented paper?",
+		"alternatives": ["Egypt", "Greece", "China", "India"],
+		"correct_answer_index": 2
+	},
+	"question_88": {
+		"text": "What is the largest lake in the world?",
+		"alternatives": ["Lake Superior", "Caspian Sea", "Lake Victoria", "Lake Baikal"],
+		"correct_answer_index": 1
+	},
+	"question_89": {
+		"text": "Which hormone regulates blood sugar?",
+		"alternatives": ["Adrenaline", "Insulin", "Testosterone", "Estrogen"],
+		"correct_answer_index": 1
+	},
+	"question_90": {
+		"text": "What is the most abundant protein in the human body?",
+		"alternatives": ["Keratin", "Collagen", "Hemoglobin", "Insulin"],
+		"correct_answer_index": 1
+	},
+	"question_91": {
+		"text": "Which country is famous for inventing chocolate?",
+		"alternatives": ["Switzerland", "Belgium", "Mexico", "Ghana"],
+		"correct_answer_index": 2
+	},
+	"question_92": {
+		"text": "What is the oldest known civilization?",
+		"alternatives": ["Egyptian", "Greek", "Mesopotamian", "Chinese"],
+		"correct_answer_index": 2
+	},
+	"question_93": {
+		"text": "Which planet has the shortest day?",
+		"alternatives": ["Mercury", "Venus", "Jupiter", "Saturn"],
+		"correct_answer_index": 2
+	},
+	"question_94": {
+		"text": "What is the most common cause of death worldwide?",
+		"alternatives": ["Cancer", "Heart Disease", "Stroke", "Accidents"],
+		"correct_answer_index": 1
+	},
+	"question_95": {
+		"text": "Which country has the most natural lakes?",
+		"alternatives": ["Finland", "Canada", "Russia", "Sweden"],
+		"correct_answer_index": 1
+	},
+	"question_96": {
+		"text": "What is the strongest muscle in the human body?",
+		"alternatives": ["Bicep", "Quadriceps", "Heart", "Jaw"],
+		"correct_answer_index": 3
+	},
+	"question_97": {
+		"text": "Which tree produces acorns?",
+		"alternatives": ["Pine", "Maple", "Oak", "Birch"],
+		"correct_answer_index": 2
+	},
+	"question_98": {
+		"text": "What is the most spoken language in South America?",
+		"alternatives": ["Spanish", "Portuguese", "English", "French"],
+		"correct_answer_index": 0
+	},
+	"question_99": {
+		"text": "Which insect can lift 50 times its own body weight?",
+		"alternatives": ["Beetle", "Ant", "Grasshopper", "Bee"],
+		"correct_answer_index": 1
+	},
+	"question_100": {
+		"text": "What is the most recycled material in the world?",
+		"alternatives": ["Paper", "Plastic", "Glass", "Steel"],
+		"correct_answer_index": 3
+	}
+}

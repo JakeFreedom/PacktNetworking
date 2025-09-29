@@ -1,0 +1,502 @@
+{
+	"question_01": {
+		"text": "What does BMW stand for?",
+		"alternatives": ["Bavarian Motor Works", "Berlin Motor Works", "British Motor Works", "Belgian Motor Works"],
+		"correct_answer_index": 0
+	},
+	"question_02": {
+		"text": "Which company makes the Mustang?",
+		"alternatives": ["Chevrolet", "Ford", "Dodge", "Plymouth"],
+		"correct_answer_index": 1
+	},
+	"question_03": {
+		"text": "What is the fastest production car in the world as of 2023?",
+		"alternatives": ["Bugatti Chiron", "Koenigsegg Jesko Absolut", "SSC Tuatara", "Hennessey Venom F5"],
+		"correct_answer_index": 2
+	},
+	"question_04": {
+		"text": "Which country is Ferrari from?",
+		"alternatives": ["Germany", "France", "Italy", "Spain"],
+		"correct_answer_index": 2
+	},
+	"question_05": {
+		"text": "What does ABS stand for in automotive terms?",
+		"alternatives": ["Automatic Brake System", "Anti-lock Braking System", "Advanced Brake Safety", "Auto Brake Support"],
+		"correct_answer_index": 1
+	},
+	"question_06": {
+		"text": "Which car manufacturer produces the Prius?",
+		"alternatives": ["Honda", "Nissan", "Toyota", "Mazda"],
+		"correct_answer_index": 2
+	},
+	"question_07": {
+		"text": "What is the luxury division of Honda?",
+		"alternatives": ["Infiniti", "Lexus", "Acura", "Genesis"],
+		"correct_answer_index": 2
+	},
+	"question_08": {
+		"text": "Which vehicle is known as the 'Beetle'?",
+		"alternatives": ["Volkswagen Beetle", "Mini Cooper", "Fiat 500", "Smart Car"],
+		"correct_answer_index": 0
+	},
+	"question_09": {
+		"text": "What type of engine does a Tesla Model S have?",
+		"alternatives": ["V8 Gasoline", "V6 Hybrid", "Electric Motor", "Rotary Engine"],
+		"correct_answer_index": 2
+	},
+	"question_10": {
+		"text": "Which motorcycle manufacturer makes the Ninja series?",
+		"alternatives": ["Honda", "Yamaha", "Kawasaki", "Suzuki"],
+		"correct_answer_index": 2
+	},
+	"question_11": {
+		"text": "What does SUV stand for?",
+		"alternatives": ["Super Utility Vehicle", "Sport Utility Vehicle", "Standard Urban Vehicle", "Special Use Vehicle"],
+		"correct_answer_index": 1
+	},
+	"question_12": {
+		"text": "Which company makes the 911 sports car?",
+		"alternatives": ["Ferrari", "Lamborghini", "Porsche", "Maserati"],
+		"correct_answer_index": 2
+	},
+	"question_13": {
+		"text": "What is the top speed of most commercial aircraft?",
+		"alternatives": ["500-600 mph", "600-700 mph", "700-800 mph", "800-900 mph"],
+		"correct_answer_index": 1
+	},
+	"question_14": {
+		"text": "Which car manufacturer owns Lamborghini?",
+		"alternatives": ["Ferrari", "BMW", "Volkswagen Group", "Mercedes-Benz"],
+		"correct_answer_index": 2
+	},
+	"question_15": {
+		"text": "What does RPM stand for?",
+		"alternatives": ["Rotations Per Minute", "Revolutions Per Minute", "Rounds Per Minute", "Rate Per Minute"],
+		"correct_answer_index": 1
+	},
+	"question_16": {
+		"text": "Which ship famously sank in 1912?",
+		"alternatives": ["Lusitania", "Titanic", "Britannic", "Olympic"],
+		"correct_answer_index": 1
+	},
+	"question_17": {
+		"text": "What is the most common type of transmission in the US?",
+		"alternatives": ["Manual", "Automatic", "CVT", "Semi-automatic"],
+		"correct_answer_index": 1
+	},
+	"question_18": {
+		"text": "Which airplane manufacturer makes the 737?",
+		"alternatives": ["Airbus", "Boeing", "Bombardier", "Embraer"],
+		"correct_answer_index": 1
+	},
+	"question_19": {
+		"text": "What does 4WD mean?",
+		"alternatives": ["4-Wheel Drive", "4-Way Drive", "4-Wind Drive", "4-Weight Drive"],
+		"correct_answer_index": 0
+	},
+	"question_20": {
+		"text": "Which country produces the most cars annually?",
+		"alternatives": ["United States", "Germany", "Japan", "China"],
+		"correct_answer_index": 3
+	},
+	"question_21": {
+		"text": "What is the luxury division of Toyota?",
+		"alternatives": ["Acura", "Infiniti", "Lexus", "Genesis"],
+		"correct_answer_index": 2
+	},
+	"question_22": {
+		"text": "Which motorcycle is known as the 'Hog'?",
+		"alternatives": ["Indian", "Harley-Davidson", "Ducati", "Triumph"],
+		"correct_answer_index": 1
+	},
+	"question_23": {
+		"text": "What does GPS stand for?",
+		"alternatives": ["Global Positioning System", "General Position System", "Geographic Position Service", "Global Position Service"],
+		"correct_answer_index": 0
+	},
+	"question_24": {
+		"text": "Which car company makes the Corvette?",
+		"alternatives": ["Ford", "Dodge", "Chevrolet", "Pontiac"],
+		"correct_answer_index": 2
+	},
+	"question_25": {
+		"text": "What is the fastest commercial aircraft?",
+		"alternatives": ["Boeing 747", "Airbus A380", "Concorde", "Boeing 787"],
+		"correct_answer_index": 2
+	},
+	"question_26": {
+		"text": "Which truck manufacturer makes the F-150?",
+		"alternatives": ["Chevrolet", "RAM", "Ford", "GMC"],
+		"correct_answer_index": 2
+	},
+	"question_27": {
+		"text": "What does VIN stand for?",
+		"alternatives": ["Vehicle Identification Number", "Vehicle Information Number", "Vehicle Index Number", "Vehicular ID Number"],
+		"correct_answer_index": 0
+	},
+	"question_28": {
+		"text": "Which company makes the Wrangler?",
+		"alternatives": ["Ford", "Chevrolet", "Jeep", "Toyota"],
+		"correct_answer_index": 2
+	},
+	"question_29": {
+		"text": "What is the most expensive car ever sold at auction?",
+		"alternatives": ["Ferrari 250 GTO", "Bugatti Type 57SC", "Mercedes-Benz 300SLR", "Ferrari 330 P4"],
+		"correct_answer_index": 0
+	},
+	"question_30": {
+		"text": "Which aircraft has the nickname 'Jumbo Jet'?",
+		"alternatives": ["Airbus A380", "Boeing 747", "Boeing 777", "Airbus A340"],
+		"correct_answer_index": 1
+	},
+	"question_31": {
+		"text": "What does EV stand for?",
+		"alternatives": ["Engine Vehicle", "Electric Vehicle", "Enhanced Vehicle", "Efficient Vehicle"],
+		"correct_answer_index": 1
+	},
+	"question_32": {
+		"text": "Which car manufacturer has a prancing horse logo?",
+		"alternatives": ["Lamborghini", "Ferrari", "Porsche", "Maserati"],
+		"correct_answer_index": 1
+	},
+	"question_33": {
+		"text": "What is the standard octane rating for premium gasoline in the US?",
+		"alternatives": ["87", "89", "91", "93"],
+		"correct_answer_index": 3
+	},
+	"question_34": {
+		"text": "Which motorcycle manufacturer makes the R1?",
+		"alternatives": ["Honda", "Kawasaki", "Suzuki", "Yamaha"],
+		"correct_answer_index": 3
+	},
+	"question_35": {
+		"text": "What does MPG stand for?",
+		"alternatives": ["Miles Per Gallon", "Miles Per Grade", "Maximum Performance Grade", "Motor Performance Grade"],
+		"correct_answer_index": 0
+	},
+	"question_36": {
+		"text": "Which car is known as the 'Ultimate Driving Machine'?",
+		"alternatives": ["Mercedes-Benz", "BMW", "Audi", "Volkswagen"],
+		"correct_answer_index": 1
+	},
+	"question_37": {
+		"text": "What is the largest passenger ship in the world?",
+		"alternatives": ["Titanic II", "Symphony of the Seas", "Wonder of the Seas", "Oasis of the Seas"],
+		"correct_answer_index": 2
+	},
+	"question_38": {
+		"text": "Which company makes the Model T?",
+		"alternatives": ["General Motors", "Chrysler", "Ford", "Studebaker"],
+		"correct_answer_index": 2
+	},
+	"question_39": {
+		"text": "What does CVT stand for in automotive terms?",
+		"alternatives": ["Continuous Variable Transmission", "Constantly Variable Transmission", "Continuously Variable Transmission", "Central Variable Transmission"],
+		"correct_answer_index": 2
+	},
+	"question_40": {
+		"text": "Which aircraft manufacturer makes the A320?",
+		"alternatives": ["Boeing", "Airbus", "Bombardier", "Embraer"],
+		"correct_answer_index": 1
+	},
+	"question_41": {
+		"text": "What is the best-selling pickup truck in America?",
+		"alternatives": ["Chevrolet Silverado", "RAM 1500", "Ford F-150", "Toyota Tacoma"],
+		"correct_answer_index": 2
+	},
+	"question_42": {
+		"text": "Which car manufacturer makes the GT-R?",
+		"alternatives": ["Toyota", "Honda", "Mazda", "Nissan"],
+		"correct_answer_index": 3
+	},
+	"question_43": {
+		"text": "What does ESC stand for in vehicle safety?",
+		"alternatives": ["Electronic Stability Control", "Emergency Stop Control", "Electronic Speed Control", "Engine Safety Control"],
+		"correct_answer_index": 0
+	},
+	"question_44": {
+		"text": "Which train holds the world speed record for conventional wheeled trains?",
+		"alternatives": ["Shinkansen", "TGV", "ICE", "AVE"],
+		"correct_answer_index": 1
+	},
+	"question_45": {
+		"text": "What is the luxury division of Nissan?",
+		"alternatives": ["Lexus", "Acura", "Infiniti", "Genesis"],
+		"correct_answer_index": 2
+	},
+	"question_46": {
+		"text": "Which motorcycle manufacturer makes the CBR series?",
+		"alternatives": ["Yamaha", "Kawasaki", "Suzuki", "Honda"],
+		"correct_answer_index": 3
+	},
+	"question_47": {
+		"text": "What does AWD stand for?",
+		"alternatives": ["All-Wheel Drive", "Auto-Wheel Drive", "Advanced Wheel Drive", "Automatic Wheel Drive"],
+		"correct_answer_index": 0
+	},
+	"question_48": {
+		"text": "Which car company produces the Camaro?",
+		"alternatives": ["Ford", "Dodge", "Chevrolet", "Plymouth"],
+		"correct_answer_index": 2
+	},
+	"question_49": {
+		"text": "What is the fastest helicopter in the world?",
+		"alternatives": ["AH-64 Apache", "CH-47 Chinook", "Eurocopter X3", "Sikorsky X2"],
+		"correct_answer_index": 3
+	},
+	"question_50": {
+		"text": "Which car manufacturer has four interlocking rings as its logo?",
+		"alternatives": ["BMW", "Mercedes-Benz", "Audi", "Volkswagen"],
+		"correct_answer_index": 2
+	},
+	"question_51": {
+		"text": "What does VTOL stand for in aviation?",
+		"alternatives": ["Vertical Take-Off and Landing", "Variable Thrust Output Level", "Velocity and Thrust Optimization Lift", "Vertical Transport Operations Lift"],
+		"correct_answer_index": 0
+	},
+	"question_52": {
+		"text": "Which truck is known as 'The Heartbeat of America'?",
+		"alternatives": ["Ford F-150", "Chevrolet Silverado", "RAM 1500", "GMC Sierra"],
+		"correct_answer_index": 1
+	},
+	"question_53": {
+		"text": "What is the top speed of a Formula 1 car?",
+		"alternatives": ["200-220 mph", "220-240 mph", "240-260 mph", "260-280 mph"],
+		"correct_answer_index": 0
+	},
+	"question_54": {
+		"text": "Which company makes the Challenger?",
+		"alternatives": ["Chevrolet", "Ford", "Dodge", "Plymouth"],
+		"correct_answer_index": 2
+	},
+	"question_55": {
+		"text": "What does PSI stand for in tire pressure?",
+		"alternatives": ["Pressure System Index", "Pounds per Square Inch", "Pressure Safety Indicator", "Physical Strength Index"],
+		"correct_answer_index": 1
+	},
+	"question_56": {
+		"text": "Which motorcycle manufacturer makes the Panigale?",
+		"alternatives": ["Aprilia", "Ducati", "MV Agusta", "KTM"],
+		"correct_answer_index": 1
+	},
+	"question_57": {
+		"text": "What is the most produced aircraft in history?",
+		"alternatives": ["Boeing 737", "Airbus A320", "Cessna 172", "Boeing 747"],
+		"correct_answer_index": 2
+	},
+	"question_58": {
+		"text": "Which car company makes the Outback?",
+		"alternatives": ["Toyota", "Honda", "Mazda", "Subaru"],
+		"correct_answer_index": 3
+	},
+	"question_59": {
+		"text": "What does DRS stand for in Formula 1?",
+		"alternatives": ["Drag Reduction System", "Dynamic Racing System", "Direct Racing Support", "Drive Response System"],
+		"correct_answer_index": 0
+	},
+	"question_60": {
+		"text": "Which ship class includes the USS Nimitz?",
+		"alternatives": ["Destroyer", "Cruiser", "Aircraft Carrier", "Battleship"],
+		"correct_answer_index": 2
+	},
+	"question_61": {
+		"text": "What is the luxury division of Hyundai?",
+		"alternatives": ["Infiniti", "Acura", "Lexus", "Genesis"],
+		"correct_answer_index": 3
+	},
+	"question_62": {
+		"text": "Which car manufacturer makes the Viper?",
+		"alternatives": ["Chevrolet", "Ford", "Dodge", "Pontiac"],
+		"correct_answer_index": 2
+	},
+	"question_63": {
+		"text": "What does CAFE stand for in automotive regulations?",
+		"alternatives": ["Corporate Average Fuel Economy", "Clean Air Fuel Efficiency", "Carbon Assessment Fuel Economy", "Clean Automotive Fuel Emissions"],
+		"correct_answer_index": 0
+	},
+	"question_64": {
+		"text": "Which motorcycle is known as the 'Gixxer'?",
+		"alternatives": ["Honda CBR", "Yamaha R1", "Kawasaki Ninja", "Suzuki GSX-R"],
+		"correct_answer_index": 3
+	},
+	"question_65": {
+		"text": "What is the fastest land vehicle ever recorded?",
+		"alternatives": ["Bugatti Chiron", "Thrust SSC", "Bloodhound SSC", "Blue Flame"],
+		"correct_answer_index": 1
+	},
+	"question_66": {
+		"text": "Which car company produces the Accord?",
+		"alternatives": ["Toyota", "Nissan", "Honda", "Mazda"],
+		"correct_answer_index": 2
+	},
+	"question_67": {
+		"text": "What does NHTSA stand for?",
+		"alternatives": ["National Highway Traffic Safety Administration", "National Highway Transportation Safety Agency", "National Highway Travel Safety Administration", "National Highway Traffic Standards Agency"],
+		"correct_answer_index": 0
+	},
+	"question_68": {
+		"text": "Which aircraft is known as the 'Flying Fortress'?",
+		"alternatives": ["B-17", "B-25", "B-29", "B-52"],
+		"correct_answer_index": 0
+	},
+	"question_69": {
+		"text": "What is the best-selling electric car of all time?",
+		"alternatives": ["Nissan Leaf", "Tesla Model S", "Tesla Model 3", "BMW i3"],
+		"correct_answer_index": 2
+	},
+	"question_70": {
+		"text": "Which truck manufacturer makes the Tundra?",
+		"alternatives": ["Ford", "Chevrolet", "RAM", "Toyota"],
+		"correct_answer_index": 3
+	},
+	"question_71": {
+		"text": "What does MSRP stand for?",
+		"alternatives": ["Maximum Suggested Retail Price", "Manufacturer's Suggested Retail Price", "Minimum Standard Retail Price", "Motor Sales Retail Price"],
+		"correct_answer_index": 1
+	},
+	"question_72": {
+		"text": "Which car manufacturer has a bull as its logo?",
+		"alternatives": ["Ferrari", "Maserati", "Lamborghini", "Alfa Romeo"],
+		"correct_answer_index": 2
+	},
+	"question_73": {
+		"text": "What is the maximum legal speed limit on German Autobahns?",
+		"alternatives": ["120 km/h", "130 km/h", "No limit on some sections", "160 km/h"],
+		"correct_answer_index": 2
+	},
+	"question_74": {
+		"text": "Which motorcycle manufacturer makes the Duke series?",
+		"alternatives": ["Honda", "Yamaha", "Kawasaki", "KTM"],
+		"correct_answer_index": 3
+	},
+	"question_75": {
+		"text": "What does OEM stand for in automotive terms?",
+		"alternatives": ["Original Equipment Manufacturer", "Optimal Engine Management", "Official Equipment Manual", "Operational Engine Module"],
+		"correct_answer_index": 0
+	},
+	"question_76": {
+		"text": "Which car is known as the 'People's Car'?",
+		"alternatives": ["Ford Model T", "Volkswagen Beetle", "Toyota Corolla", "Honda Civic"],
+		"correct_answer_index": 1
+	},
+	"question_77": {
+		"text": "What is the largest aircraft by wingspan?",
+		"alternatives": ["Antonov An-225", "Airbus A380", "Stratolaunch", "Boeing 747"],
+		"correct_answer_index": 2
+	},
+	"question_78": {
+		"text": "Which car company makes the Miata?",
+		"alternatives": ["Toyota", "Honda", "Nissan", "Mazda"],
+		"correct_answer_index": 3
+	},
+	"question_79": {
+		"text": "What does EPA stand for in vehicle ratings?",
+		"alternatives": ["Engine Performance Agency", "Environmental Protection Agency", "Electric Power Authority", "Emission Prevention Agency"],
+		"correct_answer_index": 1
+	},
+	"question_80": {
+		"text": "Which submarine was the first nuclear-powered vessel?",
+		"alternatives": ["USS Seawolf", "USS Nautilus", "USS Triton", "USS Skipjack"],
+		"correct_answer_index": 1
+	},
+	"question_81": {
+		"text": "What is the most common car color worldwide?",
+		"alternatives": ["Black", "White", "Silver", "Blue"],
+		"correct_answer_index": 1
+	},
+	"question_82": {
+		"text": "Which car manufacturer makes the 370Z?",
+		"alternatives": ["Toyota", "Honda", "Mazda", "Nissan"],
+		"correct_answer_index": 3
+	},
+	"question_83": {
+		"text": "What does IIHS stand for?",
+		"alternatives": ["International Insurance Highway Safety", "Insurance Institute for Highway Safety", "Independent Institute for Highway Standards", "International Institute for Highway Safety"],
+		"correct_answer_index": 1
+	},
+	"question_84": {
+		"text": "Which aircraft is known as the 'Warthog'?",
+		"alternatives": ["F-16", "A-10", "F-18", "F-15"],
+		"correct_answer_index": 1
+	},
+	"question_85": {
+		"text": "What is the best-selling car model of all time?",
+		"alternatives": ["Ford Model T", "Volkswagen Beetle", "Toyota Corolla", "Honda Civic"],
+		"correct_answer_index": 2
+	},
+	"question_86": {
+		"text": "Which motorcycle manufacturer makes the Street Triple?",
+		"alternatives": ["Ducati", "Triumph", "Aprilia", "MV Agusta"],
+		"correct_answer_index": 1
+	},
+	"question_87": {
+		"text": "What does DOT stand for on tires?",
+		"alternatives": ["Date of Testing", "Department of Transportation", "Durability and Operations Testing", "Drive Optimization Technology"],
+		"correct_answer_index": 1
+	},
+	"question_88": {
+		"text": "Which car company produces the Camry?",
+		"alternatives": ["Honda", "Nissan", "Toyota", "Mazda"],
+		"correct_answer_index": 2
+	},
+	"question_89": {
+		"text": "What is the fastest production motorcycle?",
+		"alternatives": ["Kawasaki Ninja H2R", "Suzuki Hayabusa", "Yamaha R1M", "BMW S1000RR"],
+		"correct_answer_index": 0
+	},
+	"question_90": {
+		"text": "Which truck is known as 'Ram Tough'?",
+		"alternatives": ["Ford F-150", "Chevrolet Silverado", "RAM 1500", "GMC Sierra"],
+		"correct_answer_index": 2
+	},
+	"question_91": {
+		"text": "What does CARFAX report on?",
+		"alternatives": ["Car financing", "Vehicle history", "Insurance rates", "Fuel economy"],
+		"correct_answer_index": 1
+	},
+	"question_92": {
+		"text": "Which car manufacturer has a three-pointed star logo?",
+		"alternatives": ["BMW", "Audi", "Mercedes-Benz", "Volkswagen"],
+		"correct_answer_index": 2
+	},
+	"question_93": {
+		"text": "What is the standard tire rotation pattern for FWD cars?",
+		"alternatives": ["Front to back", "Cross pattern", "Forward cross", "X pattern"],
+		"correct_answer_index": 2
+	},
+	"question_94": {
+		"text": "Which aircraft manufacturer makes the Citation series?",
+		"alternatives": ["Gulfstream", "Bombardier", "Cessna", "Embraer"],
+		"correct_answer_index": 2
+	},
+	"question_95": {
+		"text": "What is the top speed of most school buses?",
+		"alternatives": ["55 mph", "65 mph", "75 mph", "85 mph"],
+		"correct_answer_index": 0
+	},
+	"question_96": {
+		"text": "Which car company makes the WRX?",
+		"alternatives": ["Mitsubishi", "Subaru", "Honda", "Toyota"],
+		"correct_answer_index": 1
+	},
+	"question_97": {
+		"text": "What does TSB stand for in automotive terms?",
+		"alternatives": ["Technical Service Bulletin", "Transportation Safety Board", "Tire Safety Bulletin", "Traffic Signal Board"],
+		"correct_answer_index": 0
+	},
+	"question_98": {
+		"text": "Which motorcycle is known as the 'Busa'?",
+		"alternatives": ["Kawasaki ZX-14R", "Yamaha R1", "Honda CBR1000RR", "Suzuki Hayabusa"],
+		"correct_answer_index": 3
+	},
+	"question_99": {
+		"text": "What is the longest commercial flight route in the world?",
+		"alternatives": ["New York to Singapore", "Sydney to Dallas", "Singapore to New York", "London to Sydney"],
+		"correct_answer_index": 2
+	},
+	"question_100": {
+		"text": "Which car manufacturer produces the Tahoe?",
+		"alternatives": ["Ford", "Chevrolet", "GMC", "Cadillac"],
+		"correct_answer_index": 1
+	}
+}

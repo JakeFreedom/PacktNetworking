@@ -1,0 +1,33 @@
+[gd_scene load_steps=2 format=3 uid="uid://fpueq3xx1w86"]
+
+[ext_resource type="Script" uid="uid://dxlo7bac70dft" path="res://QuizGame/QuizServer.gd" id="1_cva2t"]
+
+[node name="Main" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_cva2t")
+db = "res://FakeDB.json"
+ChangeToServerSceneFile = "uid://cmqcepwlql7ig"
+questionFiles = ["harry_potter_trivia_questions.json", "res://mtg_trivia_questions.json", "res://song_trivia_questions.json", "res://vehicle_trivia_questions.json", "res://anatomy_trivia_questions.json"]
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_right = 150.0
+offset_bottom = 23.0
+text = "I'm the QUIZ server"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 2.0
+offset_top = -192.0
+offset_right = 402.0
+offset_bottom = -152.0
+grow_vertical = 2

@@ -1,0 +1,31 @@
+[gd_scene load_steps=3 format=3 uid="uid://buu6xvp0ncaci"]
+
+[ext_resource type="Script" uid="uid://cakylke5g1hwu" path="res://Network/Chat_System/ChatClient.gd" id="1_0ubqw"]
+[ext_resource type="PackedScene" uid="uid://bh2yuxicbw510" path="res://Network/Chat_System/ChatControl.tscn" id="1_m1dp7"]
+
+[node name="Main" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_0ubqw")
+
+[node name="AvatarCardsScrollContainer" type="ScrollContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="AvatarCardHBoxContainer" type="HBoxContainer" parent="AvatarCardsScrollContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="."]
+visible = false
+layout_mode = 2
+offset_right = 1.0
+offset_bottom = 23.0
+text = "I'm client"
+
+[node name="ChatControl" parent="." instance=ExtResource("1_m1dp7")]
+layout_mode = 1

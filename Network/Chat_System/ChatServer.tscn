@@ -1,0 +1,32 @@
+[gd_scene load_steps=3 format=3 uid="uid://bhwbydu8s8b0r"]
+
+[ext_resource type="Script" uid="uid://dxg2gu51mtg0b" path="res://Network/Chat_System/ChatServer.gd" id="1_2bdgi"]
+[ext_resource type="PackedScene" uid="uid://bh2yuxicbw510" path="res://Network/Chat_System/ChatControl.tscn" id="1_ly6lq"]
+
+[node name="Main" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_2bdgi")
+dbFile = "res://FakeDB.json"
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = "I'm Server"
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="ScrollContainer"]
+layout_mode = 2
+
+[node name="ChatControl" parent="." instance=ExtResource("1_ly6lq")]
+visible = false
+layout_mode = 1

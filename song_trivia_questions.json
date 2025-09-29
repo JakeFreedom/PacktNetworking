@@ -1,0 +1,502 @@
+{
+	"question_01": {
+		"text": "Who sang the hit song 'Bohemian Rhapsody'?",
+		"alternatives": ["The Beatles", "Queen", "Led Zeppelin", "The Rolling Stones"],
+		"correct_answer_index": 1
+	},
+	"question_02": {
+		"text": "What year was Michael Jackson's 'Thriller' album released?",
+		"alternatives": ["1981", "1982", "1983", "1984"],
+		"correct_answer_index": 1
+	},
+	"question_03": {
+		"text": "Which artist wrote and performed 'Purple Rain'?",
+		"alternatives": ["Prince", "Michael Jackson", "Stevie Wonder", "David Bowie"],
+		"correct_answer_index": 0
+	},
+	"question_04": {
+		"text": "What is the best-selling album of all time?",
+		"alternatives": ["Dark Side of the Moon", "Back in Black", "Thriller", "The Eagles Greatest Hits"],
+		"correct_answer_index": 2
+	},
+	"question_05": {
+		"text": "Who composed 'Yesterday' by The Beatles?",
+		"alternatives": ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"],
+		"correct_answer_index": 1
+	},
+	"question_06": {
+		"text": "Which song contains the lyrics 'Is this the real life? Is this just fantasy?'",
+		"alternatives": ["We Will Rock You", "Bohemian Rhapsody", "Another One Bites the Dust", "Don't Stop Me Now"],
+		"correct_answer_index": 1
+	},
+	"question_07": {
+		"text": "What instrument is Jimi Hendrix famous for playing?",
+		"alternatives": ["Piano", "Drums", "Guitar", "Bass"],
+		"correct_answer_index": 2
+	},
+	"question_08": {
+		"text": "Which band released the album 'Abbey Road'?",
+		"alternatives": ["The Rolling Stones", "The Beatles", "Led Zeppelin", "Pink Floyd"],
+		"correct_answer_index": 1
+	},
+	"question_09": {
+		"text": "What does 'MTV' stand for?",
+		"alternatives": ["Music Television", "Modern Television", "Musical TV", "Media Television"],
+		"correct_answer_index": 0
+	},
+	"question_10": {
+		"text": "Who sang 'Like a Rolling Stone'?",
+		"alternatives": ["Bob Dylan", "Neil Young", "Leonard Cohen", "Johnny Cash"],
+		"correct_answer_index": 0
+	},
+	"question_11": {
+		"text": "Which city is considered the birthplace of jazz?",
+		"alternatives": ["Chicago", "New York", "New Orleans", "Nashville"],
+		"correct_answer_index": 2
+	},
+	"question_12": {
+		"text": "What was Elvis Presley's middle name?",
+		"alternatives": ["Aaron", "Allan", "Andrew", "Albert"],
+		"correct_answer_index": 0
+	},
+	"question_13": {
+		"text": "Which song was a hit for both Whitney Houston and Dolly Parton?",
+		"alternatives": ["I Will Always Love You", "Greatest Love of All", "I Wanna Dance with Somebody", "How Will I Know"],
+		"correct_answer_index": 0
+	},
+	"question_14": {
+		"text": "Who is known as the 'King of Pop'?",
+		"alternatives": ["Elvis Presley", "Michael Jackson", "Prince", "David Bowie"],
+		"correct_answer_index": 1
+	},
+	"question_15": {
+		"text": "Which band performed 'Hotel California'?",
+		"alternatives": ["Fleetwood Mac", "The Eagles", "Lynyrd Skynyrd", "The Doobie Brothers"],
+		"correct_answer_index": 1
+	},
+	"question_16": {
+		"text": "What genre of music did Bob Marley popularize?",
+		"alternatives": ["Calypso", "Reggae", "Ska", "Dancehall"],
+		"correct_answer_index": 1
+	},
+	"question_17": {
+		"text": "Which artist released the album 'Born in the U.S.A.'?",
+		"alternatives": ["Bob Dylan", "Bruce Springsteen", "Neil Young", "Tom Petty"],
+		"correct_answer_index": 1
+	},
+	"question_18": {
+		"text": "What was the first music video played on MTV?",
+		"alternatives": ["Video Killed the Radio Star", "Money for Nothing", "Take On Me", "Billie Jean"],
+		"correct_answer_index": 0
+	},
+	"question_19": {
+		"text": "Who wrote the song 'Imagine'?",
+		"alternatives": ["Paul McCartney", "John Lennon", "George Harrison", "Bob Dylan"],
+		"correct_answer_index": 1
+	},
+	"question_20": {
+		"text": "Which instrument did Louis Armstrong famously play?",
+		"alternatives": ["Piano", "Saxophone", "Trumpet", "Trombone"],
+		"correct_answer_index": 2
+	},
+	"question_21": {
+		"text": "What is Eminem's real name?",
+		"alternatives": ["Marshall Mathers", "Michael Myers", "Martin Miller", "Marcus Moore"],
+		"correct_answer_index": 0
+	},
+	"question_22": {
+		"text": "Which song begins with 'Just a small town girl, living in a lonely world'?",
+		"alternatives": ["Don't Stop Believin'", "Any Way You Want It", "Separate Ways", "Open Arms"],
+		"correct_answer_index": 0
+	},
+	"question_23": {
+		"text": "Who performed the original version of 'Respect'?",
+		"alternatives": ["Aretha Franklin", "Otis Redding", "Ray Charles", "Sam Cooke"],
+		"correct_answer_index": 1
+	},
+	"question_24": {
+		"text": "Which band released 'Stairway to Heaven'?",
+		"alternatives": ["Deep Purple", "Black Sabbath", "Led Zeppelin", "The Who"],
+		"correct_answer_index": 2
+	},
+	"question_25": {
+		"text": "What instrument is associated with BB King?",
+		"alternatives": ["Harmonica", "Piano", "Guitar", "Saxophone"],
+		"correct_answer_index": 2
+	},
+	"question_26": {
+		"text": "Which artist had a hit with 'Sweet Child O' Mine'?",
+		"alternatives": ["Metallica", "Guns N' Roses", "AC/DC", "Aerosmith"],
+		"correct_answer_index": 1
+	},
+	"question_27": {
+		"text": "What does 'R&B' stand for?",
+		"alternatives": ["Rock and Blues", "Rhythm and Blues", "Rap and Bass", "Rock and Beat"],
+		"correct_answer_index": 1
+	},
+	"question_28": {
+		"text": "Who sang 'My Way'?",
+		"alternatives": ["Dean Martin", "Frank Sinatra", "Tony Bennett", "Sammy Davis Jr."],
+		"correct_answer_index": 1
+	},
+	"question_29": {
+		"text": "Which country music legend was known as 'The Man in Black'?",
+		"alternatives": ["Willie Nelson", "Hank Williams", "Johnny Cash", "Waylon Jennings"],
+		"correct_answer_index": 2
+	},
+	"question_30": {
+		"text": "What was Madonna's first hit single?",
+		"alternatives": ["Like a Virgin", "Holiday", "Borderline", "Lucky Star"],
+		"correct_answer_index": 1
+	},
+	"question_31": {
+		"text": "Which band performed 'We Are the Champions'?",
+		"alternatives": ["The Who", "Queen", "The Rolling Stones", "AC/DC"],
+		"correct_answer_index": 1
+	},
+	"question_32": {
+		"text": "Who wrote 'Blue Suede Shoes'?",
+		"alternatives": ["Elvis Presley", "Carl Perkins", "Chuck Berry", "Little Richard"],
+		"correct_answer_index": 1
+	},
+	"question_33": {
+		"text": "Which artist released the album 'The Dark Side of the Moon'?",
+		"alternatives": ["Led Zeppelin", "Pink Floyd", "The Who", "Deep Purple"],
+		"correct_answer_index": 1
+	},
+	"question_34": {
+		"text": "What was the first rap song to hit #1 on the Billboard Hot 100?",
+		"alternatives": ["Rapper's Delight", "The Message", "Ice Ice Baby", "U Can't Touch This"],
+		"correct_answer_index": 2
+	},
+	"question_35": {
+		"text": "Who sang 'I Will Survive'?",
+		"alternatives": ["Diana Ross", "Gloria Gaynor", "Donna Summer", "Chaka Khan"],
+		"correct_answer_index": 1
+	},
+	"question_36": {
+		"text": "Which instrument did John Coltrane primarily play?",
+		"alternatives": ["Trumpet", "Piano", "Saxophone", "Bass"],
+		"correct_answer_index": 2
+	},
+	"question_37": {
+		"text": "What was Nirvana's biggest hit song?",
+		"alternatives": ["Come As You Are", "Smells Like Teen Spirit", "In Bloom", "Lithium"],
+		"correct_answer_index": 1
+	},
+	"question_38": {
+		"text": "Who composed the opera 'La Bohème'?",
+		"alternatives": ["Mozart", "Verdi", "Puccini", "Wagner"],
+		"correct_answer_index": 2
+	},
+	"question_39": {
+		"text": "Which song contains the lyric 'Hello darkness, my old friend'?",
+		"alternatives": ["The Sound of Silence", "Bridge Over Troubled Water", "Mrs. Robinson", "Scarborough Fair"],
+		"correct_answer_index": 0
+	},
+	"question_40": {
+		"text": "What genre is Kraftwerk associated with?",
+		"alternatives": ["Punk Rock", "Electronic", "Progressive Rock", "New Wave"],
+		"correct_answer_index": 1
+	},
+	"question_41": {
+		"text": "Who had a hit with 'Billie Jean'?",
+		"alternatives": ["Prince", "Michael Jackson", "Stevie Wonder", "Marvin Gaye"],
+		"correct_answer_index": 1
+	},
+	"question_42": {
+		"text": "Which band released the album 'Nevermind'?",
+		"alternatives": ["Pearl Jam", "Soundgarden", "Nirvana", "Alice in Chains"],
+		"correct_answer_index": 2
+	},
+	"question_43": {
+		"text": "What instrument did Miles Davis primarily play?",
+		"alternatives": ["Saxophone", "Piano", "Trumpet", "Trombone"],
+		"correct_answer_index": 2
+	},
+	"question_44": {
+		"text": "Who sang 'What a Wonderful World'?",
+		"alternatives": ["Nat King Cole", "Louis Armstrong", "Ella Fitzgerald", "Duke Ellington"],
+		"correct_answer_index": 1
+	},
+	"question_45": {
+		"text": "Which artist released 'Born to Run'?",
+		"alternatives": ["Bob Dylan", "Neil Young", "Bruce Springsteen", "Tom Petty"],
+		"correct_answer_index": 2
+	},
+	"question_46": {
+		"text": "What was the Beatles' last studio album?",
+		"alternatives": ["Abbey Road", "Let It Be", "The White Album", "Revolver"],
+		"correct_answer_index": 0
+	},
+	"question_47": {
+		"text": "Who performed 'Stand By Me'?",
+		"alternatives": ["Sam Cooke", "Otis Redding", "Ben E. King", "Wilson Pickett"],
+		"correct_answer_index": 2
+	},
+	"question_48": {
+		"text": "Which city is known as the home of country music?",
+		"alternatives": ["Memphis", "Austin", "Nashville", "New Orleans"],
+		"correct_answer_index": 2
+	},
+	"question_49": {
+		"text": "Who wrote 'Hallelujah'?",
+		"alternatives": ["Bob Dylan", "Leonard Cohen", "Neil Young", "Joni Mitchell"],
+		"correct_answer_index": 1
+	},
+	"question_50": {
+		"text": "Which band performed 'Sweet Caroline'?",
+		"alternatives": ["The Beach Boys", "Neil Diamond", "The Monkees", "Simon and Garfunkel"],
+		"correct_answer_index": 1
+	},
+	"question_51": {
+		"text": "What was Elvis Presley's first hit song?",
+		"alternatives": ["Hound Dog", "That's All Right", "Heartbreak Hotel", "Don't Be Cruel"],
+		"correct_answer_index": 1
+	},
+	"question_52": {
+		"text": "Who sang 'Like a Prayer'?",
+		"alternatives": ["Whitney Houston", "Madonna", "Janet Jackson", "Mariah Carey"],
+		"correct_answer_index": 1
+	},
+	"question_53": {
+		"text": "Which instrument is Yo-Yo Ma famous for playing?",
+		"alternatives": ["Violin", "Piano", "Cello", "Viola"],
+		"correct_answer_index": 2
+	},
+	"question_54": {
+		"text": "Who performed 'The Times They Are a-Changin''?",
+		"alternatives": ["Neil Young", "Bob Dylan", "Leonard Cohen", "Woody Guthrie"],
+		"correct_answer_index": 1
+	},
+	"question_55": {
+		"text": "What genre is associated with bands like Black Sabbath and Iron Maiden?",
+		"alternatives": ["Progressive Rock", "Punk Rock", "Heavy Metal", "Hard Rock"],
+		"correct_answer_index": 2
+	},
+	"question_56": {
+		"text": "Who sang 'Superstition'?",
+		"alternatives": ["Marvin Gaye", "Stevie Wonder", "James Brown", "Ray Charles"],
+		"correct_answer_index": 1
+	},
+	"question_57": {
+		"text": "Which song was Dolly Parton's signature hit?",
+		"alternatives": ["9 to 5", "Jolene", "Islands in the Stream", "I Will Always Love You"],
+		"correct_answer_index": 1
+	},
+	"question_58": {
+		"text": "Who composed 'The Four Seasons' classical piece?",
+		"alternatives": ["Mozart", "Bach", "Vivaldi", "Beethoven"],
+		"correct_answer_index": 2
+	},
+	"question_59": {
+		"text": "Which band released 'Back in Black'?",
+		"alternatives": ["Led Zeppelin", "AC/DC", "Black Sabbath", "Deep Purple"],
+		"correct_answer_index": 1
+	},
+	"question_60": {
+		"text": "What was Aretha Franklin known as?",
+		"alternatives": ["Queen of Soul", "First Lady of Soul", "Princess of R&B", "Empress of Blues"],
+		"correct_answer_index": 0
+	},
+	"question_61": {
+		"text": "Who sang 'Good Vibrations'?",
+		"alternatives": ["The Beatles", "The Beach Boys", "The Byrds", "The Monkees"],
+		"correct_answer_index": 1
+	},
+	"question_62": {
+		"text": "Which artist released the album 'Kind of Blue'?",
+		"alternatives": ["John Coltrane", "Charlie Parker", "Miles Davis", "Duke Ellington"],
+		"correct_answer_index": 2
+	},
+	"question_63": {
+		"text": "What instrument did Keith Moon play?",
+		"alternatives": ["Guitar", "Bass", "Drums", "Keyboard"],
+		"correct_answer_index": 2
+	},
+	"question_64": {
+		"text": "Who performed 'Rocket Man'?",
+		"alternatives": ["David Bowie", "Elton John", "Rod Stewart", "Billy Joel"],
+		"correct_answer_index": 1
+	},
+	"question_65": {
+		"text": "Which song begins with 'Mama, just killed a man'?",
+		"alternatives": ["We Will Rock You", "Bohemian Rhapsody", "Somebody to Love", "Under Pressure"],
+		"correct_answer_index": 1
+	},
+	"question_66": {
+		"text": "Who sang 'Ring of Fire'?",
+		"alternatives": ["Hank Williams", "Willie Nelson", "Johnny Cash", "Waylon Jennings"],
+		"correct_answer_index": 2
+	},
+	"question_67": {
+		"text": "Which band performed 'Money'?",
+		"alternatives": ["Led Zeppelin", "The Who", "Pink Floyd", "Deep Purple"],
+		"correct_answer_index": 2
+	},
+	"question_68": {
+		"text": "What was Frank Sinatra's nickname?",
+		"alternatives": ["The Voice", "Ol' Blue Eyes", "The Chairman", "All of the above"],
+		"correct_answer_index": 3
+	},
+	"question_69": {
+		"text": "Who wrote 'Georgia on My Mind'?",
+		"alternatives": ["Ray Charles", "Hoagy Carmichael", "Duke Ellington", "Nat King Cole"],
+		"correct_answer_index": 1
+	},
+	"question_70": {
+		"text": "Which artist had a hit with 'Purple Haze'?",
+		"alternatives": ["Eric Clapton", "Jimi Hendrix", "Carlos Santana", "Stevie Ray Vaughan"],
+		"correct_answer_index": 1
+	},
+	"question_71": {
+		"text": "What genre did The Ramones help pioneer?",
+		"alternatives": ["New Wave", "Punk Rock", "Alternative Rock", "Grunge"],
+		"correct_answer_index": 1
+	},
+	"question_72": {
+		"text": "Who sang 'Dancing Queen'?",
+		"alternatives": ["Fleetwood Mac", "ABBA", "Bee Gees", "The Carpenters"],
+		"correct_answer_index": 1
+	},
+	"question_73": {
+		"text": "Which instrument did Buddy Holly play?",
+		"alternatives": ["Piano", "Guitar", "Harmonica", "Saxophone"],
+		"correct_answer_index": 1
+	},
+	"question_74": {
+		"text": "Who performed 'The Way You Make Me Feel'?",
+		"alternatives": ["Prince", "Michael Jackson", "Stevie Wonder", "Luther Vandross"],
+		"correct_answer_index": 1
+	},
+	"question_75": {
+		"text": "Which song was a signature hit for Patsy Cline?",
+		"alternatives": ["Crazy", "Coal Miner's Daughter", "Stand by Your Man", "Harper Valley PTA"],
+		"correct_answer_index": 0
+	},
+	"question_76": {
+		"text": "Who released the album 'Rumours'?",
+		"alternatives": ["The Eagles", "Fleetwood Mac", "Steely Dan", "Chicago"],
+		"correct_answer_index": 1
+	},
+	"question_77": {
+		"text": "What instrument is Itzhak Perlman famous for playing?",
+		"alternatives": ["Piano", "Cello", "Violin", "Clarinet"],
+		"correct_answer_index": 2
+	},
+	"question_78": {
+		"text": "Who sang 'American Pie'?",
+		"alternatives": ["James Taylor", "Don McLean", "Cat Stevens", "Gordon Lightfoot"],
+		"correct_answer_index": 1
+	},
+	"question_79": {
+		"text": "Which band performed 'Tainted Love'?",
+		"alternatives": ["Depeche Mode", "Soft Cell", "New Order", "Duran Duran"],
+		"correct_answer_index": 1
+	},
+	"question_80": {
+		"text": "Who wrote 'A Change Is Gonna Come'?",
+		"alternatives": ["Marvin Gaye", "Sam Cooke", "Otis Redding", "Ray Charles"],
+		"correct_answer_index": 1
+	},
+	"question_81": {
+		"text": "Which artist released 'The Wall'?",
+		"alternatives": ["Led Zeppelin", "Pink Floyd", "The Who", "Genesis"],
+		"correct_answer_index": 1
+	},
+	"question_82": {
+		"text": "Who sang 'At Last'?",
+		"alternatives": ["Billie Holiday", "Ella Fitzgerald", "Etta James", "Sarah Vaughan"],
+		"correct_answer_index": 2
+	},
+	"question_83": {
+		"text": "What was The Supremes' biggest hit?",
+		"alternatives": ["Stop! In the Name of Love", "You Can't Hurry Love", "Baby Love", "Where Did Our Love Go"],
+		"correct_answer_index": 0
+	},
+	"question_84": {
+		"text": "Who performed 'Heroes'?",
+		"alternatives": ["Lou Reed", "David Bowie", "Iggy Pop", "T. Rex"],
+		"correct_answer_index": 1
+	},
+	"question_85": {
+		"text": "Which instrument did Ray Charles primarily play?",
+		"alternatives": ["Guitar", "Piano", "Harmonica", "Organ"],
+		"correct_answer_index": 1
+	},
+	"question_86": {
+		"text": "Who sang 'Mack the Knife'?",
+		"alternatives": ["Frank Sinatra", "Dean Martin", "Bobby Darin", "Sammy Davis Jr."],
+		"correct_answer_index": 2
+	},
+	"question_87": {
+		"text": "Which band released 'London Calling'?",
+		"alternatives": ["The Sex Pistols", "The Clash", "The Damned", "Buzzcocks"],
+		"correct_answer_index": 1
+	},
+	"question_88": {
+		"text": "Who wrote 'Over the Rainbow'?",
+		"alternatives": ["Irving Berlin", "Cole Porter", "Harold Arlen", "George Gershwin"],
+		"correct_answer_index": 2
+	},
+	"question_89": {
+		"text": "Which artist had a hit with 'Waterloo Sunset'?",
+		"alternatives": ["The Beatles", "The Rolling Stones", "The Kinks", "The Who"],
+		"correct_answer_index": 2
+	},
+	"question_90": {
+		"text": "Who performed 'La Vida Loca'?",
+		"alternatives": ["Enrique Iglesias", "Ricky Martin", "Marc Anthony", "Luis Miguel"],
+		"correct_answer_index": 1
+	},
+	"question_91": {
+		"text": "What instrument did Django Reinhardt play?",
+		"alternatives": ["Piano", "Guitar", "Violin", "Accordion"],
+		"correct_answer_index": 1
+	},
+	"question_92": {
+		"text": "Who sang 'Both Sides Now'?",
+		"alternatives": ["Carole King", "Joni Mitchell", "Joan Baez", "Judy Collins"],
+		"correct_answer_index": 1
+	},
+	"question_93": {
+		"text": "Which song was The Police's biggest hit?",
+		"alternatives": ["Roxanne", "Message in a Bottle", "Every Breath You Take", "Don't Stand So Close to Me"],
+		"correct_answer_index": 2
+	},
+	"question_94": {
+		"text": "Who performed 'Fly Me to the Moon'?",
+		"alternatives": ["Tony Bennett", "Frank Sinatra", "Dean Martin", "Nat King Cole"],
+		"correct_answer_index": 1
+	},
+	"question_95": {
+		"text": "Which artist released 'Blood on the Tracks'?",
+		"alternatives": ["Neil Young", "Bob Dylan", "Leonard Cohen", "Tom Waits"],
+		"correct_answer_index": 1
+	},
+	"question_96": {
+		"text": "Who sang 'Killing Me Softly'?",
+		"alternatives": ["Carole King", "Roberta Flack", "Diana Ross", "Aretha Franklin"],
+		"correct_answer_index": 1
+	},
+	"question_97": {
+		"text": "Which band performed 'Sultans of Swing'?",
+		"alternatives": ["Eric Clapton", "Dire Straits", "Fleetwood Mac", "Steely Dan"],
+		"correct_answer_index": 1
+	},
+	"question_98": {
+		"text": "Who wrote 'Strange Fruit'?",
+		"alternatives": ["Billie Holiday", "Abel Meeropol", "Duke Ellington", "Langston Hughes"],
+		"correct_answer_index": 1
+	},
+	"question_99": {
+		"text": "Which artist had a hit with 'Take Five'?",
+		"alternatives": ["Miles Davis", "John Coltrane", "Dave Brubeck", "Bill Evans"],
+		"correct_answer_index": 2
+	},
+	"question_100": {
+		"text": "Who performed 'The Night We Met'?",
+		"alternatives": ["Ed Sheeran", "Lord Huron", "Bon Iver", "The National"],
+		"correct_answer_index": 1
+	}
+}

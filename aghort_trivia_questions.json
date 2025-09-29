@@ -1,0 +1,602 @@
+{
+	"question_01":
+		{
+			"text": "What is the process by which plants make their own food using sunlight?",
+			"alternatives": ["Respiration", "Photosynthesis", "Transpiration", "Germination"],
+			"correct_answer_index": 1
+		},
+	"question_02":
+		{
+			"text": "Which nutrient deficiency causes yellowing of leaves?",
+			"alternatives": ["Phosphorus", "Potassium", "Nitrogen", "Calcium"],
+			"correct_answer_index": 2
+		},
+	"question_03":
+		{
+			"text": "What is the ideal pH range for most garden plants?",
+			"alternatives": ["4.0-5.0", "6.0-7.0", "8.0-9.0", "9.0-10.0"],
+			"correct_answer_index": 1
+		},
+	"question_04":
+		{
+			"text": "Which crop is known as 'King of Cereals'?",
+			"alternatives": ["Rice", "Wheat", "Corn", "Barley"],
+			"correct_answer_index": 2
+		},
+	"question_05":
+		{
+			"text": "What does NPK stand for in fertilizers?",
+			"alternatives": ["Nitrogen, Phosphorus, Potassium", "Nickel, Phosphorus, Potassium", "Nitrogen, Phosphate, Potash", "Natural Plant Kompound"],
+			"correct_answer_index": 0
+		},
+	"question_06":
+		{
+			"text": "Which plant part is responsible for water and nutrient absorption?",
+			"alternatives": ["Stems", "Leaves", "Roots", "Flowers"],
+			"correct_answer_index": 2
+		},
+	"question_07":
+		{
+			"text": "What is companion planting?",
+			"alternatives": ["Planting crops in rows", "Growing plants that benefit each other together", "Planting the same crop repeatedly", "Indoor gardening"],
+			"correct_answer_index": 1
+		},
+	"question_08":
+		{
+			"text": "Which hormone is responsible for fruit ripening?",
+			"alternatives": ["Auxin", "Gibberellin", "Ethylene", "Cytokinin"],
+			"correct_answer_index": 2
+		},
+	"question_09":
+		{
+			"text": "What is the term for growing plants without soil?",
+			"alternatives": ["Hydroponics", "Aquaponics", "Aeroponics", "Geoponics"],
+			"correct_answer_index": 0
+		},
+	"question_10":
+		{
+			"text": "Which crop rotation practice helps maintain soil fertility?",
+			"alternatives": ["Growing the same crop every year", "Alternating legumes with other crops", "Never changing crops", "Only growing cash crops"],
+			"correct_answer_index": 1
+		},
+	"question_11":
+		{
+			"text": "What is the scientific name for the common tomato?",
+			"alternatives": ["Lycopersicon esculentum", "Solanum tuberosum", "Capsicum annuum", "Allium cepa"],
+			"correct_answer_index": 0
+		},
+	"question_12":
+		{
+			"text": "Which insect is considered beneficial for pollination?",
+			"alternatives": ["Aphids", "Bees", "Caterpillars", "Beetles"],
+			"correct_answer_index": 1
+		},
+	"question_13":
+		{
+			"text": "What is the term for the science of growing fruits?",
+			"alternatives": ["Olericulture", "Pomology", "Floriculture", "Viticulture"],
+			"correct_answer_index": 1
+		},
+	"question_14":
+		{
+			"text": "Which layer of soil is most fertile?",
+			"alternatives": ["Subsoil", "Topsoil", "Bedrock", "Clay layer"],
+			"correct_answer_index": 1
+		},
+	"question_15":
+		{
+			"text": "What is the process of removing weeds called?",
+			"alternatives": ["Pruning", "Cultivation", "Weeding", "Thinning"],
+			"correct_answer_index": 2
+		},
+	"question_16":
+		{
+			"text": "Which plant disease is caused by fungi?",
+			"alternatives": ["Mosaic virus", "Bacterial wilt", "Powdery mildew", "Yellows disease"],
+			"correct_answer_index": 2
+		},
+	"question_17":
+		{
+			"text": "What is the term for plants that complete their life cycle in two years?",
+			"alternatives": ["Annuals", "Biennials", "Perennials", "Ephemeral"],
+			"correct_answer_index": 1
+		},
+	"question_18":
+		{
+			"text": "Which method of propagation produces genetically identical plants?",
+			"alternatives": ["Seed propagation", "Vegetative propagation", "Cross-pollination", "Hybridization"],
+			"correct_answer_index": 1
+		},
+	"question_19":
+		{
+			"text": "What is the main purpose of mulching?",
+			"alternatives": ["Decoration", "Moisture retention and weed control", "Increasing soil pH", "Attracting insects"],
+			"correct_answer_index": 1
+		},
+	"question_20":
+		{
+			"text": "Which crop is a legume that fixes nitrogen in soil?",
+			"alternatives": ["Corn", "Wheat", "Soybeans", "Rice"],
+			"correct_answer_index": 2
+		},
+	"question_21":
+		{
+			"text": "What is the term for the cultivation of grapes?",
+			"alternatives": ["Pomology", "Viticulture", "Olericulture", "Silviculture"],
+			"correct_answer_index": 1
+		},
+	"question_22":
+		{
+			"text": "Which greenhouse gas is primarily released by rice paddies?",
+			"alternatives": ["Carbon dioxide", "Nitrous oxide", "Methane", "Sulfur dioxide"],
+			"correct_answer_index": 2
+		},
+	"question_23":
+		{
+			"text": "What is the process of controlled breeding to improve crop varieties?",
+			"alternatives": ["Natural selection", "Plant breeding", "Genetic drift", "Mutation"],
+			"correct_answer_index": 1
+		},
+	"question_24":
+		{
+			"text": "Which part of the flower produces pollen?",
+			"alternatives": ["Pistil", "Stamen", "Petals", "Sepals"],
+			"correct_answer_index": 1
+		},
+	"question_25":
+		{
+			"text": "What is the term for growing plants in water with dissolved nutrients?",
+			"alternatives": ["Hydroponics", "Xerophytic", "Halophytic", "Epiphytic"],
+			"correct_answer_index": 0
+		},
+	"question_26":
+		{
+			"text": "Which pest management approach uses natural predators?",
+			"alternatives": ["Chemical control", "Biological control", "Mechanical control", "Cultural control"],
+			"correct_answer_index": 1
+		},
+	"question_27":
+		{
+			"text": "What is the optimal temperature range for most seed germination?",
+			"alternatives": ["32-40°F", "65-75°F", "85-95°F", "100-110°F"],
+			"correct_answer_index": 1
+		},
+	"question_28":
+		{
+			"text": "Which agricultural practice helps prevent soil erosion?",
+			"alternatives": ["Monoculture", "Contour farming", "Deep tillage", "Overgrazing"],
+			"correct_answer_index": 1
+		},
+	"question_29":
+		{
+			"text": "What is the science of growing vegetables called?",
+			"alternatives": ["Pomology", "Floriculture", "Olericulture", "Agronomy"],
+			"correct_answer_index": 2
+		},
+	"question_30":
+		{
+			"text": "Which plant hormone promotes cell division?",
+			"alternatives": ["Auxin", "Gibberellin", "Cytokinin", "Abscisic acid"],
+			"correct_answer_index": 2
+		},
+	"question_31":
+		{
+			"text": "What is the term for plants adapted to dry conditions?",
+			"alternatives": ["Hydrophytes", "Xerophytes", "Mesophytes", "Halophytes"],
+			"correct_answer_index": 1
+		},
+	"question_32":
+		{
+			"text": "Which irrigation method is most water-efficient?",
+			"alternatives": ["Flood irrigation", "Sprinkler irrigation", "Drip irrigation", "Furrow irrigation"],
+			"correct_answer_index": 2
+		},
+	"question_33":
+		{
+			"text": "What is the primary function of stomata in plants?",
+			"alternatives": ["Water absorption", "Gas exchange", "Nutrient storage", "Structural support"],
+			"correct_answer_index": 1
+		},
+	"question_34":
+		{
+			"text": "Which crop is known as the 'Queen of Cereals'?",
+			"alternatives": ["Wheat", "Rice", "Barley", "Oats"],
+			"correct_answer_index": 1
+		},
+	"question_35":
+		{
+			"text": "What is the term for the cultivation of flowers?",
+			"alternatives": ["Pomology", "Olericulture", "Floriculture", "Silviculture"],
+			"correct_answer_index": 2
+		},
+	"question_36":
+		{
+			"text": "Which micronutrient deficiency causes iron chlorosis?",
+			"alternatives": ["Zinc", "Iron", "Manganese", "Boron"],
+			"correct_answer_index": 1
+		},
+	"question_37":
+		{
+			"text": "What is the process of transferring pollen from anther to stigma?",
+			"alternatives": ["Fertilization", "Pollination", "Germination", "Photosynthesis"],
+			"correct_answer_index": 1
+		},
+	"question_38":
+		{
+			"text": "Which farming system integrates fish and plant production?",
+			"alternatives": ["Hydroponics", "Aquaponics", "Aeroponics", "Geoponics"],
+			"correct_answer_index": 1
+		},
+	"question_39":
+		{
+			"text": "What is the term for removing shoot tips to encourage branching?",
+			"alternatives": ["Pruning", "Pinching", "Thinning", "Deadheading"],
+			"correct_answer_index": 1
+		},
+	"question_40":
+		{
+			"text": "Which soil type has the best water-holding capacity?",
+			"alternatives": ["Sandy soil", "Clay soil", "Loamy soil", "Rocky soil"],
+			"correct_answer_index": 2
+		},
+	"question_41":
+		{
+			"text": "What is the main component of organic matter in soil?",
+			"alternatives": ["Minerals", "Humus", "Water", "Air"],
+			"correct_answer_index": 1
+		},
+	"question_42":
+		{
+			"text": "Which plant growth regulator inhibits growth and promotes dormancy?",
+			"alternatives": ["Auxin", "Gibberellin", "Cytokinin", "Abscisic acid"],
+			"correct_answer_index": 3
+		},
+	"question_43":
+		{
+			"text": "What is the term for plants that can tolerate salt?",
+			"alternatives": ["Xerophytes", "Hydrophytes", "Halophytes", "Mesophytes"],
+			"correct_answer_index": 2
+		},
+	"question_44":
+		{
+			"text": "Which agricultural practice improves soil structure?",
+			"alternatives": ["Adding organic matter", "Excessive tillage", "Soil compaction", "Chemical fertilizers only"],
+			"correct_answer_index": 0
+		},
+	"question_45":
+		{
+			"text": "What is the scientific term for seed leaves?",
+			"alternatives": ["True leaves", "Cotyledons", "Bracts", "Stipules"],
+			"correct_answer_index": 1
+		},
+	"question_46":
+		{
+			"text": "Which pest is known for damaging stored grains?",
+			"alternatives": ["Aphids", "Weevils", "Thrips", "Whiteflies"],
+			"correct_answer_index": 1
+		},
+	"question_47":
+		{
+			"text": "What is the term for growing plants in air/mist environment?",
+			"alternatives": ["Hydroponics", "Aquaponics", "Aeroponics", "Geoponics"],
+			"correct_answer_index": 2
+		},
+	"question_48":
+		{
+			"text": "Which factor most affects plant photosynthesis rate?",
+			"alternatives": ["Soil pH", "Light intensity", "Wind speed", "Humidity"],
+			"correct_answer_index": 1
+		},
+	"question_49":
+		{
+			"text": "What is the practice of growing different crops in the same field called?",
+			"alternatives": ["Monoculture", "Polyculture", "Intercropping", "Sequential cropping"],
+			"correct_answer_index": 2
+		},
+	"question_50":
+		{
+			"text": "Which element is essential for chlorophyll formation?",
+			"alternatives": ["Iron", "Magnesium", "Calcium", "Sulfur"],
+			"correct_answer_index": 1
+		},
+	"question_51":
+		{
+			"text": "What is the term for plants that complete their life cycle in one year?",
+			"alternatives": ["Annuals", "Biennials", "Perennials", "Deciduous"],
+			"correct_answer_index": 0
+		},
+	"question_52":
+		{
+			"text": "Which propagation method involves growing plants from leaf or stem cuttings?",
+			"alternatives": ["Sexual propagation", "Asexual propagation", "Grafting", "Budding"],
+			"correct_answer_index": 1
+		},
+	"question_53":
+		{
+			"text": "What is the optimal soil moisture content for most crops?",
+			"alternatives": ["10-20%", "40-60%", "80-90%", "100% saturated"],
+			"correct_answer_index": 1
+		},
+	"question_54":
+		{
+			"text": "Which disease affects potato crops and caused the Irish Potato Famine?",
+			"alternatives": ["Bacterial wilt", "Late blight", "Early blight", "Scab"],
+			"correct_answer_index": 1
+		},
+	"question_55":
+		{
+			"text": "What is the term for the cultivation of trees for timber?",
+			"alternatives": ["Horticulture", "Arboriculture", "Silviculture", "Pomology"],
+			"correct_answer_index": 2
+		},
+	"question_56":
+		{
+			"text": "Which method helps determine soil nutrient levels?",
+			"alternatives": ["Visual inspection", "Soil testing", "Plant height", "Weather monitoring"],
+			"correct_answer_index": 1
+		},
+	"question_57":
+		{
+			"text": "What is the primary benefit of cover crops?",
+			"alternatives": ["Immediate harvest", "Soil protection and improvement", "Pest attraction", "Water consumption"],
+			"correct_answer_index": 1
+		},
+	"question_58":
+		{
+			"text": "Which plant structure transports water and nutrients upward?",
+			"alternatives": ["Phloem", "Xylem", "Cambium", "Cortex"],
+			"correct_answer_index": 1
+		},
+	"question_59":
+		{
+			"text": "What is the term for selectively removing plant parts to improve growth?",
+			"alternatives": ["Harvesting", "Pruning", "Transplanting", "Fertilizing"],
+			"correct_answer_index": 1
+		},
+	"question_60":
+		{
+			"text": "Which agricultural system rotates animals through different pasture areas?",
+			"alternatives": ["Continuous grazing", "Rotational grazing", "Zero grazing", "Intensive grazing"],
+			"correct_answer_index": 1
+		},
+	"question_61":
+		{
+			"text": "What is the ideal carbon to nitrogen ratio for composting?",
+			"alternatives": ["10:1", "20:1", "30:1", "50:1"],
+			"correct_answer_index": 2
+		},
+	"question_62":
+		{
+			"text": "Which pest management practice uses physical barriers?",
+			"alternatives": ["Chemical control", "Biological control", "Mechanical control", "Cultural control"],
+			"correct_answer_index": 2
+		},
+	"question_63":
+		{
+			"text": "What is the term for plants growing without human cultivation?",
+			"alternatives": ["Cultivated plants", "Wild plants", "Hybrid plants", "Exotic plants"],
+			"correct_answer_index": 1
+		},
+	"question_64":
+		{
+			"text": "Which hormone promotes stem elongation in plants?",
+			"alternatives": ["Auxin", "Gibberellin", "Cytokinin", "Ethylene"],
+			"correct_answer_index": 1
+		},
+	"question_65":
+		{
+			"text": "What is the process of water movement through plants called?",
+			"alternatives": ["Transpiration", "Respiration", "Photosynthesis", "Osmosis"],
+			"correct_answer_index": 0
+		},
+	"question_66":
+		{
+			"text": "Which soil amendment helps lower pH in alkaline soils?",
+			"alternatives": ["Lime", "Sulfur", "Ash", "Sand"],
+			"correct_answer_index": 1
+		},
+	"question_67":
+		{
+			"text": "What is the term for the union of male and female gametes in plants?",
+			"alternatives": ["Pollination", "Fertilization", "Germination", "Dormancy"],
+			"correct_answer_index": 1
+		},
+	"question_68":
+		{
+			"text": "Which crop is primarily grown for oil production?",
+			"alternatives": ["Wheat", "Rice", "Sunflower", "Barley"],
+			"correct_answer_index": 2
+		},
+	"question_69":
+		{
+			"text": "What is the practice of growing plants in controlled environments?",
+			"alternatives": ["Open field cultivation", "Greenhouse cultivation", "Forest farming", "Desert farming"],
+			"correct_answer_index": 1
+		},
+	"question_70":
+		{
+			"text": "Which nutrient is most important for root development?",
+			"alternatives": ["Nitrogen", "Phosphorus", "Potassium", "Calcium"],
+			"correct_answer_index": 1
+		},
+	"question_71":
+		{
+			"text": "What is the term for plants that live for many years?",
+			"alternatives": ["Annuals", "Biennials", "Perennials", "Temporary"],
+			"correct_answer_index": 2
+		},
+	"question_72":
+		{
+			"text": "Which farming practice helps maintain beneficial insects?",
+			"alternatives": ["Heavy pesticide use", "Habitat conservation", "Monoculture", "Soil sterilization"],
+			"correct_answer_index": 1
+		},
+	"question_73":
+		{
+			"text": "What is the primary purpose of plant breeding?",
+			"alternatives": ["Decoration", "Improving crop characteristics", "Reducing plant size", "Eliminating flowers"],
+			"correct_answer_index": 1
+		},
+	"question_74":
+		{
+			"text": "Which soil organism helps decompose organic matter?",
+			"alternatives": ["Earthworms", "Nematodes", "Both A and B", "Neither A nor B"],
+			"correct_answer_index": 2
+		},
+	"question_75":
+		{
+			"text": "What is the term for growing plants on vertical surfaces?",
+			"alternatives": ["Horizontal farming", "Vertical farming", "Underground farming", "Floating farming"],
+			"correct_answer_index": 1
+		},
+	"question_76":
+		{
+			"text": "Which factor is most critical for seed storage?",
+			"alternatives": ["Light exposure", "Moisture control", "Color of container", "Seed shape"],
+			"correct_answer_index": 1
+		},
+	"question_77":
+		{
+			"text": "What is the science of soil study called?",
+			"alternatives": ["Geology", "Pedology", "Ecology", "Biology"],
+			"correct_answer_index": 1
+		},
+	"question_78":
+		{
+			"text": "Which plant structure is modified for food storage in potato?",
+			"alternatives": ["Root", "Stem", "Leaf", "Flower"],
+			"correct_answer_index": 1
+		},
+	"question_79":
+		{
+			"text": "What is the term for growing the same crop repeatedly in the same field?",
+			"alternatives": ["Crop rotation", "Monoculture", "Intercropping", "Mixed farming"],
+			"correct_answer_index": 1
+		},
+	"question_80":
+		{
+			"text": "Which environmental factor most affects plant flowering?",
+			"alternatives": ["Soil type", "Day length", "Wind direction", "Altitude"],
+			"correct_answer_index": 1
+		},
+	"question_81":
+		{
+			"text": "What is the primary benefit of mycorrhizae for plants?",
+			"alternatives": ["Disease protection", "Enhanced nutrient absorption", "Pest control", "Temperature regulation"],
+			"correct_answer_index": 1
+		},
+	"question_82":
+		{
+			"text": "Which propagation method involves joining parts of two plants?",
+			"alternatives": ["Cutting", "Layering", "Grafting", "Division"],
+			"correct_answer_index": 2
+		},
+	"question_83":
+		{
+			"text": "What is the optimal planting depth for most seeds?",
+			"alternatives": ["Same as seed diameter", "2-3 times seed diameter", "10 times seed diameter", "As deep as possible"],
+			"correct_answer_index": 1
+		},
+	"question_84":
+		{
+			"text": "Which agricultural practice helps prevent nutrient runoff?",
+			"alternatives": ["Excessive fertilization", "Buffer strips", "Bare soil exposure", "Steep slope cultivation"],
+			"correct_answer_index": 1
+		},
+	"question_85":
+		{
+			"text": "What is the term for plants adapted to aquatic environments?",
+			"alternatives": ["Xerophytes", "Hydrophytes", "Mesophytes", "Halophytes"],
+			"correct_answer_index": 1
+		},
+	"question_86":
+		{
+			"text": "Which hormone is responsible for fruit development?",
+			"alternatives": ["Auxin", "Gibberellin", "Cytokinin", "All of the above"],
+			"correct_answer_index": 3
+		},
+	"question_87":
+		{
+			"text": "What is the primary function of plant roots?",
+			"alternatives": ["Photosynthesis", "Anchorage and absorption", "Reproduction", "Gas exchange"],
+			"correct_answer_index": 1
+		},
+	"question_88":
+		{
+			"text": "Which pest is a major threat to citrus crops?",
+			"alternatives": ["Colorado potato beetle", "Citrus psyllid", "Corn borer", "Soybean aphid"],
+			"correct_answer_index": 1
+		},
+	"question_89":
+		{
+			"text": "What is the term for the scientific study of insects in agriculture?",
+			"alternatives": ["Entomology", "Pathology", "Nematology", "Virology"],
+			"correct_answer_index": 0
+		},
+	"question_90":
+		{
+			"text": "Which cultivation method requires no soil tillage?",
+			"alternatives": ["Conventional tillage", "Minimum tillage", "No-till farming", "Deep plowing"],
+			"correct_answer_index": 2
+		},
+	"question_91":
+		{
+			"text": "What is the primary purpose of plant quarantine?",
+			"alternatives": ["Pest control", "Disease prevention", "Both A and B", "Crop improvement"],
+			"correct_answer_index": 2
+		},
+	"question_92":
+		{
+			"text": "Which nutrient is responsible for disease resistance in plants?",
+			"alternatives": ["Nitrogen", "Phosphorus", "Potassium", "All macronutrients"],
+			"correct_answer_index": 2
+		},
+	"question_93":
+		{
+			"text": "What is the term for growing plants in nutrient-rich water?",
+			"alternatives": ["Soil culture", "Hydroculture", "Sand culture", "Gravel culture"],
+			"correct_answer_index": 1
+		},
+	"question_94":
+		{
+			"text": "Which farming system mimics natural ecosystems?",
+			"alternatives": ["Conventional farming", "Organic farming", "Permaculture", "Industrial farming"],
+			"correct_answer_index": 2
+		},
+	"question_95":
+		{
+			"text": "What is the main advantage of drip irrigation?",
+			"alternatives": ["Low cost", "Water efficiency", "Easy installation", "Works in all climates"],
+			"correct_answer_index": 1
+		},
+	"question_96":
+		{
+			"text": "Which plant hormone delays senescence?",
+			"alternatives": ["Auxin", "Gibberellin", "Cytokinin", "Ethylene"],
+			"correct_answer_index": 2
+		},
+	"question_97":
+		{
+			"text": "What is the term for soil with equal parts sand, silt, and clay?",
+			"alternatives": ["Sandy soil", "Clay soil", "Loam soil", "Peat soil"],
+			"correct_answer_index": 2
+		},
+	"question_98":
+		{
+			"text": "Which agricultural practice helps carbon sequestration?",
+			"alternatives": ["Excessive tillage", "Cover cropping", "Monoculture", "Bare fallow"],
+			"correct_answer_index": 1
+		},
+	"question_99":
+		{
+			"text": "What is the scientific term for plant nutrition study?",
+			"alternatives": ["Agronomy", "Plant physiology", "Plant nutrition", "Pedology"],
+			"correct_answer_index": 2
+		},
+	"question_100":
+		{
+			"text": "Which factor most influences crop yield potential?",
+			"alternatives": ["Genetics", "Environment", "Management", "All of the above"],
+			"correct_answer_index": 3
+		}
+}
