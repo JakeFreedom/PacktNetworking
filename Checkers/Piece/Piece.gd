@@ -21,7 +21,7 @@ var is_selected = false
 func _ready() -> void:
 	area_2d.input_event.connect(_on_area_2d_input_event)
 
-func _on_area_2d_input_event(event) -> void:
+func _on_area_2d_input_event(viewport, event, shape_idx) -> void:
 	if event is InputEventMouseButton:
 		if event.button_index == 1 and event.pressed:
 			select()
@@ -35,6 +35,7 @@ func _on_area_2d_input_event(event) -> void:
 
 
 func select() -> void:
+	print(name)
 	pass
 
 

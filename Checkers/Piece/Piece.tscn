@@ -4,6 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://cge867mester6" path="res://Checkers/Piece/WhitePiece.svg" id="2_f2tf6"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_81546"]
+radius = 91.92
 
 [node name="Piece" type="Node2D"]
 script = ExtResource("1_bm6dl")
