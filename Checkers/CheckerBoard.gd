@@ -74,9 +74,8 @@ func get_winner() -> Teams:
 	pass
 
 func _on_piece_selected(piece: Node2D) -> void:
-	print(local_to_map(piece.position).x)
-	print(local_to_map(piece.position).y)
-
+	#print(local_to_map(piece.position).x)
+	#print(local_to_map(piece.position).y)
 	pass
 
 func clear_free_cells() -> void:
