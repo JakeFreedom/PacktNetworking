@@ -40,21 +40,51 @@ func setup_team(team,peer)-> void:
 		white_team.set_multiplayer_authority(peer)
 
 func create_meta_board() -> void:
-	var test: Vector2 = local_to_map(Vector2i(9,9))
-	var p = get_node("BlackTeam/Piece10") as Node2D
-	p.global_position = test
-	print(test)
+	#var test: Vector2 = map_to_local(Vector2i(2,2))
+	#print(test)
+	#var p = get_node("BlackTeam/Piece10") as Node2D
+	#p.position = test #position is relative to the board in pixel.. This example is finding 2,2 from the origin of the tilemap layer and converting that to pixel
+	#Don't use global position as that will use the entire screen
 	for cell in get_used_cells():
 		meta_board[cell]=null
 
 
 func map_pieces(team):
+	#var index: int = 1
 	for piece in team.get_children():
+		#index+=1
+		#print(str(index))
 		var piece_position = local_to_map(piece.position)
 		meta_board[piece_position] = piece_position
 		piece.selected.connect(_on_piece_selected.bind(piece))
+		
 
 
+#RPC Methods
+func toggle_turn() -> void:
+	clear_free_cells()
+	var winner = get_winner()
+	pass
 
-func _on_piece_selected(piece) -> void:
+
+func get_winner() -> Teams:
+	disable_pieces(white_team)
+	disable_pieces(black_team)
+	return Teams.BLACK
+	pass
+
+func _on_piece_selected(piece: Node2D) -> void:
+	print(local_to_map(piece.position).x)
+	print(local_to_map(piece.position).y)
+
+	pass
+
+func clear_free_cells() -> void:
+	pass
+
+
+#not sure this is need, we can just call get_tree().process = false or what ever it is.
+func disable_pieces(team: Node2D) -> void:
+	for piece in team.get_children():
+		piece.disable()
 	pass

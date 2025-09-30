@@ -21,23 +21,22 @@ var is_selected = false
 func _ready() -> void:
 	area_2d.input_event.connect(_on_area_2d_input_event)
 
-func _on_area_2d_input_event(viewport, event, shape_idx) -> void:
+func _on_area_2d_input_event(_viewport, event, _shape_idx) -> void:
 	if event is InputEventMouseButton:
 		if event.button_index == 1 and event.pressed:
 			select()
 	pass
 
 
-
-
-
-
-
-
 func select() -> void:
-	print(name)
+	selected_color_rect.visible = true
+	selected.emit()
 	pass
 
 
-func _set_is_king(value)->void:
+func _set_is_king(_value)->void:
 	pass
+
+
+func OnDeselected()-> void:
+	deselected.emit()

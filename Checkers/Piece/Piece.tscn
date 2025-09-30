@@ -9,18 +9,28 @@ radius = 91.92
 [node name="Piece" type="Node2D"]
 script = ExtResource("1_bm6dl")
 
-[node name="EnanbledColorRect" type="ColorRect" parent="."]
-offset_right = 40.0
-offset_bottom = 40.0
-
-[node name="SelectedColorRect" type="ColorRect" parent="."]
-offset_right = 40.0
-offset_bottom = 40.0
-
-[node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("2_f2tf6")
-
 [node name="Area2D" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 shape = SubResource("CircleShape2D_81546")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_f2tf6")
+
+[node name="EnanbledColorRect" type="ColorRect" parent="."]
+visible = false
+modulate = Color(1, 0.34, 0.63, 1)
+offset_left = -32.0
+offset_top = -32.0
+offset_right = 32.0
+offset_bottom = 32.0
+mouse_filter = 2
+
+[node name="SelectedColorRect" type="ColorRect" parent="."]
+visible = false
+modulate = Color(0.16, 1, 0.67, 1)
+offset_left = -32.0
+offset_top = -32.0
+offset_right = 32.0
+offset_bottom = 32.0
+mouse_filter = 2
