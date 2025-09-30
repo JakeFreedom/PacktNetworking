@@ -5,11 +5,11 @@ signal player_won(winner)
 
 @onready var black_team = $BlackTeam
 @onready var white_team = $WhiteTeam
-@onready var free_cell = $FreeCell
-
+@export  var free_cell: PackedScene
+@onready var free_cell_container = $FreeCells
 const DIRECTIONS_CELLS_KING = [Vector2i(-1, -1), Vector2i(1, -1), Vector2i(1, 1), Vector2i(-1, 1)]
-const DIRECTIONS_CELLS_BLACK = [Vector2i(-1, -1), Vector2i(1, -1)]
-const DIRECTIONS_CELLS_WHITE = [Vector2i(1, 1), Vector2i(-1, 1)]
+const DIRECTIONS_CELLS_BLACK = [Vector2i(-20,-13), Vector2i(-10,-13)]
+const DIRECTIONS_CELLS_WHITE = [Vector2i(5, 5), Vector2i(-5, 5)]
 
 
 enum Teams{BLACK,WHITE}
@@ -52,38 +52,210 @@ func create_meta_board() -> void:
 func map_pieces(team):
 	#var index: int = 1
 	for piece in team.get_children():
-		#index+=1
-		#print(str(index))
 		var piece_position = local_to_map(piece.position)
-		meta_board[piece_position] = piece_position
+		#print(team.name + "::"+ str(piece.name) +" "+ str(piece_position))
+		meta_board[piece_position] = piece
 		piece.selected.connect(_on_piece_selected.bind(piece))
 		
+		
 
+func _on_piece_selected(piece: Node2D) -> void:
+	#print(piece.name + str(local_to_map(piece.position)))
+	if selected_piece == null:
+		selected_piece = piece
+		SelectPiece(piece)
+	else:
+		selected_piece.OnDeselected()
+		selected_piece = piece
+		SelectPiece(piece)
+
+
+func SelectPiece(piece: Node2D)->void:
+	clear_free_cells()
+	selected_piece = piece
+	#var selected_piece_cell = local_to_map(selected_piece.position)
+	var available_cells = SearchAvailableCells(selected_piece)
+	for cell in available_cells:
+		AddFreeCell(cell)
+	pass
+
+
+func SearchAvailableCells(piece: Node2D)-> Array:
+	var available_cells = []
+	var directions = GetPieceDirections(piece)
+	var currentCell = local_to_map(piece.position)
+	var capturing = CanCapture(piece)
+
+	
+	for direction in directions:
+		var cell = currentCell+direction
+		#here is the logic to determine if this is a legal move or not
+		#we need to check to see if the space is on the board
+		#need to check to see if there is a piece on the cell(either our own or other player)
+		if not IsOnBoard(cell):
+			continue
+		
+		if not IsFreeCell(cell):
+			#is it us
+			if IsOurPiece(cell):
+				continue
+			if IsOpponent(cell):
+				var capturingCell = cell + direction
+				if IsFreeCell(capturingCell):
+					available_cells.append(capturingCell)
+			else:
+				continue
+		else:
+			#available_cells.append(cell)
+			pass
+
+		if not capturing:
+			available_cells.append(cell)
+
+
+		# for space in available_cells:
+		# 	var freeCell =  free_cell.instantiate()
+		# 	freeCell.position = map_to_local(space)
+		# 	free_cell_container.add_child(freeCell)
+		# 	if cell in meta_board:
+		# 		#meta_board[cell] = null
+		# 		print(available_cells.size())
+
+
+
+	return available_cells
+
+func AddFreeCell(cell:Vector2i) -> void:
+	#print("Add Free Cell")
+	var freeCell = free_cell.instantiate()
+	freeCell.Selected.connect(FreeCellSelected)
+	freeCell.position = map_to_local(cell)
+	free_cell_container.add_child(freeCell)
+
+
+func FreeCellSelected(position)-> void:
+	selected_piece.process_mode = Node.PROCESS_MODE_DISABLED
+	selected_piece.OnDeselected()
+	clear_free_cells()
+	disable_pieces()
+	selected_piece.position = position#map_to_local(position)
+
+
+func GetPieceDirections(piece: Node2D)-> Array:
+	var directions = []
+
+	if piece.team == Teams.BLACK:
+		directions = DIRECTIONS_CELLS_BLACK
+	else:
+		directions = DIRECTIONS_CELLS_WHITE
+
+	if piece.is_king:
+		directions = DIRECTIONS_CELLS_KING
+
+	return directions
 
 #RPC Methods
+@rpc("any_peer", "call_local")
 func toggle_turn() -> void:
 	clear_free_cells()
 	var winner = get_winner()
-	pass
+	if winner:
+		player_won.emit(get_winner())
+		return
+	if current_turn == Teams.BLACK:#swap turns
+		current_turn = Teams.WHITE
+		if not multiplayer.get_peers().size() > 0:
+			enable_pieces(white_team)
+		elif white_team.get_multiplayer_authority() == multiplayer.get_unique_id():
+			enable_pieces(white_team)
+	else:
+		current_turn = Teams.BLACK
+		if not multiplayer.get_peers().size()>0:
+			enable_pieces(black_team)
+		elif black_team.get_multiplayer_authority() == multiplayer.get_unique_id():
+			enable_pieces((black_team))
 
 
 func get_winner() -> Teams:
-	disable_pieces(white_team)
-	disable_pieces(black_team)
-	return Teams.BLACK
-	pass
+	#disable_pieces(white_team)
+	#disable_pieces(black_team)
+	var winner = null
+	if black_team.get_children().size() < 1:
+		winner = "White"
+	elif white_team.get_children().size() < 1:
+		winner = "Black"
+	
+	return winner
 
-func _on_piece_selected(piece: Node2D) -> void:
-	#print(local_to_map(piece.position).x)
-	#print(local_to_map(piece.position).y)
-	pass
+
 
 func clear_free_cells() -> void:
+	for child in free_cell_container.get_children():
+		child.queue_free()
+
+func IsOnBoard(piece:Vector2i)-> bool:
+	#print("Is on Board" + str(piece))
+	if piece in meta_board:
+		return true
+	else:
+		return false
+
+func IsOpponent(piece: Vector2i) -> bool:
+	if not meta_board[piece].team == current_turn:
+		return true
+
+	return false
+
+func IsFreeCell(piece: Vector2i)-> bool:
+	if not IsOnBoard(piece):
+		return false
+
+	return meta_board[piece] == null
+
+func IsOurPiece(piece: Vector2i) -> bool:
+	print(meta_board[piece].team)
+	return meta_board[piece].team == current_turn
+
+func CanCapture(piece: Node2D) -> bool:
+	var directions = GetPieceDirections(piece)
+	var capturing = false
+	for direction in directions:
+		var current_cell = local_to_map(piece.position)
+		var neighbor_cell = current_cell + direction
+
+		if not IsOnBoard(neighbor_cell):
+			continue
+		
+		if IsFreeCell(neighbor_cell):
+			continue
+		
+		var cell_content = meta_board[neighbor_cell]
+		
+		if not IsOpponent(neighbor_cell):
+			continue
+		
+		var capturing_cell = neighbor_cell + direction
+		if not IsOnBoard(capturing_cell):
+			continue
+		
+		cell_content = meta_board[capturing_cell]
+		
+		if IsFreeCell(capturing_cell):
+			capturing = true
+	return capturing
+	
+#we will finish this when we are closer to actually having turns to lock the other player out
+func enable_pieces(team: Node2D) -> void:
 	pass
 
 
 #not sure this is need, we can just call get_tree().process = false or what ever it is.
-func disable_pieces(team: Node2D) -> void:
-	for piece in team.get_children():
-		piece.disable()
+func disable_pieces() -> void:
+	if current_turn == Teams.WHITE:
+		for piece in white_team.get_children():
+			piece.process_mode = Node.PROCESS_MODE_DISABLED
+	else:
+		for piece in black_team.get_children():
+			piece.process_mode = Node.PROCESS_MODE_DISABLED
+	
 	pass

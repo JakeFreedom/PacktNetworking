@@ -29,9 +29,12 @@ func _on_area_2d_input_event(_viewport, event, _shape_idx) -> void:
 
 
 func select() -> void:
-	selected_color_rect.visible = true
-	selected.emit()
-	pass
+	if not is_selected:
+		selected_color_rect.visible = true
+		is_selected = true
+		selected.emit()
+	else:
+		OnDeselected()
 
 
 func _set_is_king(_value)->void:
@@ -39,4 +42,6 @@ func _set_is_king(_value)->void:
 
 
 func OnDeselected()-> void:
+	selected_color_rect.visible = false
+	is_selected = false
 	deselected.emit()
