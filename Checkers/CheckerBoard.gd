@@ -8,7 +8,8 @@ signal player_won(winner)
 @export  var free_cell: PackedScene
 @onready var free_cell_container = $FreeCells
 const DIRECTIONS_CELLS_KING = [Vector2i(-1, -1), Vector2i(1, -1), Vector2i(1, 1), Vector2i(-1, 1)]
-const DIRECTIONS_CELLS_BLACK = [Vector2i(-20,-13), Vector2i(-10,-13)]
+#const DIRECTIONS_CELLS_BLACK = [Vector2i(-20,-13), Vector2i(-10,-13)]
+const DIRECTIONS_CELLS_BLACK = [Vector2i(-5,-5), Vector2i(5,-5)]
 const DIRECTIONS_CELLS_WHITE = [Vector2i(5, 5), Vector2i(-5, 5)]
 
 
@@ -24,6 +25,7 @@ func _ready() -> void:
 		if is_multiplayer_authority():
 			#rpc("setup_team", Teams.BLACK, multiplayer.get_peers()[0])
 			#rpc("setup_team", Teams.WHITE, multiplayer.get_peers()[1])
+			
 			pass
 
 
@@ -31,6 +33,7 @@ func _ready() -> void:
 	map_pieces(black_team)
 	map_pieces(white_team)
 		#rpc("Toggle_Turn")
+
 
 @rpc("authority", "call_local")
 func setup_team(team,peer)-> void:
@@ -56,8 +59,12 @@ func map_pieces(team):
 		#print(team.name + "::"+ str(piece.name) +" "+ str(piece_position))
 		meta_board[piece_position] = piece
 		piece.selected.connect(_on_piece_selected.bind(piece))
+		piece.SetPositionLable(piece_position)
+		piece.deselected.connect(_on_PieceDeselected)
 		
 		
+func _on_PieceDeselected()-> void:
+	clear_free_cells()
 
 func _on_piece_selected(piece: Node2D) -> void:
 	#print(piece.name + str(local_to_map(piece.position)))
@@ -93,21 +100,21 @@ func SearchAvailableCells(piece: Node2D)-> Array:
 		#we need to check to see if the space is on the board
 		#need to check to see if there is a piece on the cell(either our own or other player)
 		if not IsOnBoard(cell):
-			continue
 		
-		if not IsFreeCell(cell):
-			#is it us
-			if IsOurPiece(cell):
-				continue
-			if IsOpponent(cell):
-				var capturingCell = cell + direction
-				if IsFreeCell(capturingCell):
-					available_cells.append(capturingCell)
+			if not IsFreeCell(cell):
+				#is it us
+				if IsOurPiece(cell):
+					print("out piece was detected")
+					continue
+				if IsOpponent(cell):
+					var capturingCell = cell + direction
+					if IsFreeCell(capturingCell):
+						available_cells.append(capturingCell)
+				else:
+					continue
 			else:
-				continue
-		else:
-			#available_cells.append(cell)
-			pass
+				#available_cells.append(cell)
+				pass
 
 		if not capturing:
 			available_cells.append(cell)
@@ -138,12 +145,13 @@ func FreeCellSelected(positionq: Vector2)-> void:
 	selected_piece.OnDeselected()
 	clear_free_cells()
 	disable_pieces()
-	if current_turn == Teams.BLACK:
-		selected_piece.position.x = positionq.x + 480
-		selected_piece.position.y = positionq.y + 250
-		#map_to_local(Vector2(position.x+0, position.y+0))
-	else:
-		selected_piece.position = positionq
+	# if current_turn == Teams.BLACK:
+	# 	selected_piece.position.x = positionq#.x + 480
+	# 	selected_piece.position.y = positionq#.y + 250
+	# 	#map_to_local(Vector2(position.x+0, position.y+0))
+	# else:
+	UpdateCells(local_to_map(selected_piece.position), positionq)
+	selected_piece.position = positionq
 
 
 
@@ -173,6 +181,10 @@ func toggle_local_turn() -> void:
 		enable_pieces(black_team)
 
 	
+func UpdateCells(previousCell, targetCell)-> void:
+	meta_board[targetCell] = meta_board[previousCell]
+	meta_board[previousCell] = null
+	pass
 #RPC Methods
 @rpc("any_peer", "call_local")
 func toggle_turn() -> void:
@@ -214,10 +226,11 @@ func clear_free_cells() -> void:
 
 func IsOnBoard(piece:Vector2i)-> bool:
 	#print("Is on Board" + str(piece))
-	if piece in meta_board:
-		return true
-	else:
-		return false
+	return piece in meta_board
+	# if piece in meta_board:
+	# 	return true
+	# else:
+	# 	return false
 
 func IsOpponent(piece: Vector2i) -> bool:
 	if not meta_board[piece].team == current_turn:
@@ -226,13 +239,14 @@ func IsOpponent(piece: Vector2i) -> bool:
 	return false
 
 func IsFreeCell(piece: Vector2i)-> bool:
+	print("is free cell" + str(piece))
 	if not IsOnBoard(piece):
 		return false
 
 	return meta_board[piece] == null
 
 func IsOurPiece(piece: Vector2i) -> bool:
-	print(meta_board[piece].team)
+	#print(meta_board[piece].team)
 	return meta_board[piece].team == current_turn
 
 func CanCapture(piece: Node2D) -> bool:
@@ -243,25 +257,33 @@ func CanCapture(piece: Node2D) -> bool:
 		var current_cell = local_to_map(piece.position)
 		var neighbor_cell = current_cell + direction
 
+		#print(current_cell)
+		print(neighbor_cell)
 		if not IsOnBoard(neighbor_cell):
+			print("Cell is on the board")
 			continue
 		
 		if IsFreeCell(neighbor_cell):
+			print("It is a free cell")
 			continue
 		
 		cell_content = meta_board[neighbor_cell]
 		
 		if not IsOpponent(neighbor_cell):
+			print("Its not an opponent")
 			continue
 		
 		var capturing_cell = neighbor_cell + direction
 		if not IsOnBoard(capturing_cell):
+			print("Capturing cell is on the board")
 			continue
 		
 		cell_content = meta_board[capturing_cell]
 		
 		if IsFreeCell(capturing_cell):
 			capturing = true
+
+	print("Capturing" + str(capturing))
 	return capturing
 	
 #we will finish this when we are closer to actually having turns to lock the other player out

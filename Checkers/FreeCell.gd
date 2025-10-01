@@ -12,3 +12,4 @@ func _input_event(viewport: Viewport, event: InputEvent, shape_idx: int) -> void
 			
 func Select() -> void:
 	Selected.emit(self.position)
+
