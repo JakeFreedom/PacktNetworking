@@ -14,7 +14,7 @@ const DIRECTIONS_CELLS_WHITE = [Vector2i(5, 5), Vector2i(-5, 5)]
 
 enum Teams{BLACK,WHITE}
 
-var current_turn = Teams.WHITE
+var current_turn = Teams.BLACK
 var meta_board = {}
 var selected_piece = null
 
@@ -133,13 +133,22 @@ func AddFreeCell(cell:Vector2i) -> void:
 	free_cell_container.add_child(freeCell)
 
 
-func FreeCellSelected(position)-> void:
+func FreeCellSelected(positionq: Vector2)-> void:
 	selected_piece.process_mode = Node.PROCESS_MODE_DISABLED
 	selected_piece.OnDeselected()
 	clear_free_cells()
 	disable_pieces()
-	selected_piece.position = position#map_to_local(position)
+	if current_turn == Teams.BLACK:
+		selected_piece.position.x = positionq.x + 480
+		selected_piece.position.y = positionq.y + 250
+		#map_to_local(Vector2(position.x+0, position.y+0))
+	else:
+		selected_piece.position = positionq
 
+
+
+	#this will need to be an rpc call but for now its local
+	toggle_local_turn()
 
 func GetPieceDirections(piece: Node2D)-> Array:
 	var directions = []
@@ -154,6 +163,16 @@ func GetPieceDirections(piece: Node2D)-> Array:
 
 	return directions
 
+
+func toggle_local_turn() -> void:
+	if current_turn == Teams.BLACK:
+		current_turn = Teams.WHITE
+		enable_pieces(white_team)
+	else:
+		current_turn = Teams.BLACK
+		enable_pieces(black_team)
+
+	
 #RPC Methods
 @rpc("any_peer", "call_local")
 func toggle_turn() -> void:
@@ -177,8 +196,8 @@ func toggle_turn() -> void:
 
 
 func get_winner() -> Teams:
-	#disable_pieces(white_team)
-	#disable_pieces(black_team)
+	#disable_pieces()
+	#disable_pieces()
 	var winner = null
 	if black_team.get_children().size() < 1:
 		winner = "White"
@@ -219,6 +238,7 @@ func IsOurPiece(piece: Vector2i) -> bool:
 func CanCapture(piece: Node2D) -> bool:
 	var directions = GetPieceDirections(piece)
 	var capturing = false
+	var cell_content
 	for direction in directions:
 		var current_cell = local_to_map(piece.position)
 		var neighbor_cell = current_cell + direction
@@ -229,7 +249,7 @@ func CanCapture(piece: Node2D) -> bool:
 		if IsFreeCell(neighbor_cell):
 			continue
 		
-		var cell_content = meta_board[neighbor_cell]
+		cell_content = meta_board[neighbor_cell]
 		
 		if not IsOpponent(neighbor_cell):
 			continue
@@ -245,8 +265,9 @@ func CanCapture(piece: Node2D) -> bool:
 	return capturing
 	
 #we will finish this when we are closer to actually having turns to lock the other player out
-func enable_pieces(team: Node2D) -> void:
-	pass
+func enable_pieces(_team: Node2D) -> void:
+	for piece in _team.get_children():
+		piece.process_mode = Node.PROCESS_MODE_ALWAYS
 
 
 #not sure this is need, we can just call get_tree().process = false or what ever it is.

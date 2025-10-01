@@ -3,6 +3,7 @@ extends Node2D
 
 signal selected
 signal deselected
+signal MouseHover
 
 enum Teams{BLACK, WHITE}
 
@@ -20,11 +21,23 @@ var is_selected = false
 
 func _ready() -> void:
 	area_2d.input_event.connect(_on_area_2d_input_event)
+	area_2d.area_entered.connect(_on_area_2d_entered)
+	area_2d.area_exited.connect(_on_area_2d_exited)
 
 func _on_area_2d_input_event(_viewport, event, _shape_idx) -> void:
 	if event is InputEventMouseButton:
+		print(event)
 		if event.button_index == 1 and event.pressed:
 			select()
+	if event is InputEventMouseMotion:
+		print(event)
+
+func _on_area_2d_entered() -> void:
+	print("enter")
+	pass
+
+func _on_area_2d_exited() -> void:
+	print("exit")
 	pass
 
 
