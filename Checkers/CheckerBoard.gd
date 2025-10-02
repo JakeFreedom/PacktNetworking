@@ -99,24 +99,37 @@ func SearchAvailableCells(piece: Node2D)-> Array:
 		#here is the logic to determine if this is a legal move or not
 		#we need to check to see if the space is on the board
 		#need to check to see if there is a piece on the cell(either our own or other player)
-		if not IsOnBoard(cell):
-		
-			if not IsFreeCell(cell):
+		if IsOnBoard(cell):
+			if IsFreeCell(cell):
 				#is it us
 				if IsOurPiece(cell):
-					print("out piece was detected")
+					print("our piece was detected")
 					continue
+				else:
+					print("out piece was not detected")
+
 				if IsOpponent(cell):
+					print("opponent detected")
 					var capturingCell = cell + direction
 					if IsFreeCell(capturingCell):
+						print("capturing free cell")
 						available_cells.append(capturingCell)
-				else:
-					continue
 			else:
+				if IsOpponent(cell):
+					print("opponent found")
+					var capturingCell = cell + direction
+					if IsFreeCell(capturingCell):
+						print("capturing free cell")
+						available_cells.append(capturingCell)
+
+				if IsOurPiece(cell):
+					continue
+
 				#available_cells.append(cell)
-				pass
+				
 
 		if not capturing:
+			print("not capturing")
 			available_cells.append(cell)
 
 
@@ -139,6 +152,8 @@ func AddFreeCell(cell:Vector2i) -> void:
 	freeCell.position = map_to_local(cell)
 	free_cell_container.add_child(freeCell)
 
+	#print(meta_board[cell])
+
 
 func FreeCellSelected(positionq: Vector2)-> void:
 	selected_piece.process_mode = Node.PROCESS_MODE_DISABLED
@@ -151,6 +166,7 @@ func FreeCellSelected(positionq: Vector2)-> void:
 	# 	#map_to_local(Vector2(position.x+0, position.y+0))
 	# else:
 	UpdateCells(local_to_map(selected_piece.position), positionq)
+	selected_piece.SetPositionLable(local_to_map(positionq))
 	selected_piece.position = positionq
 
 
@@ -173,6 +189,7 @@ func GetPieceDirections(piece: Node2D)-> Array:
 
 
 func toggle_local_turn() -> void:
+	print("toggle fucking turn"+str(current_turn))
 	if current_turn == Teams.BLACK:
 		current_turn = Teams.WHITE
 		enable_pieces(white_team)
@@ -180,11 +197,14 @@ func toggle_local_turn() -> void:
 		current_turn = Teams.BLACK
 		enable_pieces(black_team)
 
-	
+@rpc("any_peer", "call_local")	
 func UpdateCells(previousCell, targetCell)-> void:
-	meta_board[targetCell] = meta_board[previousCell]
+	meta_board[local_to_map(targetCell)] = meta_board[previousCell]
 	meta_board[previousCell] = null
-	pass
+	print(meta_board)
+
+
+
 #RPC Methods
 @rpc("any_peer", "call_local")
 func toggle_turn() -> void:
@@ -233,21 +253,26 @@ func IsOnBoard(piece:Vector2i)-> bool:
 	# 	return false
 
 func IsOpponent(piece: Vector2i) -> bool:
-	if not meta_board[piece].team == current_turn:
-		return true
+	print(current_turn)
+
+	if meta_board[piece] != null:
+		print(meta_board[piece].team)
+		if meta_board[piece].team != current_turn:
+			return true
 
 	return false
 
 func IsFreeCell(piece: Vector2i)-> bool:
-	print("is free cell" + str(piece))
 	if not IsOnBoard(piece):
 		return false
 
 	return meta_board[piece] == null
 
 func IsOurPiece(piece: Vector2i) -> bool:
-	#print(meta_board[piece].team)
-	return meta_board[piece].team == current_turn
+	if not meta_board[piece] == null:
+		return meta_board[piece].team == current_turn
+
+	return false
 
 func CanCapture(piece: Node2D) -> bool:
 	var directions = GetPieceDirections(piece)
