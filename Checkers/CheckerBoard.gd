@@ -25,9 +25,10 @@ func _ready() -> void:
 		if is_multiplayer_authority():
 			#rpc("setup_team", Teams.BLACK, multiplayer.get_peers()[0])
 			#rpc("setup_team", Teams.WHITE, multiplayer.get_peers()[1])
-			
+	
 			pass
 
+	disable_pieces()
 
 	create_meta_board()
 	map_pieces(black_team)
@@ -50,6 +51,8 @@ func create_meta_board() -> void:
 	#Don't use global position as that will use the entire screen
 	for cell in get_used_cells():
 		meta_board[cell]=null
+
+	
 
 
 func map_pieces(team):
@@ -120,8 +123,10 @@ func SearchAvailableCells(piece: Node2D)-> Array:
 					var capturingCell = cell + direction
 					if IsFreeCell(capturingCell):
 						print("capturing free cell")
+						capturing = true
 						available_cells.append(capturingCell)
-
+					else:
+						continue
 				if IsOurPiece(cell):
 					continue
 
@@ -142,7 +147,7 @@ func SearchAvailableCells(piece: Node2D)-> Array:
 		# 		print(available_cells.size())
 
 
-
+		capturing = false
 	return available_cells
 
 func AddFreeCell(cell:Vector2i) -> void:
@@ -320,10 +325,10 @@ func enable_pieces(_team: Node2D) -> void:
 #not sure this is need, we can just call get_tree().process = false or what ever it is.
 func disable_pieces() -> void:
 	if current_turn == Teams.WHITE:
-		for piece in white_team.get_children():
+		for piece in black_team.get_children():
 			piece.process_mode = Node.PROCESS_MODE_DISABLED
 	else:
-		for piece in black_team.get_children():
+		for piece in white_team.get_children():
 			piece.process_mode = Node.PROCESS_MODE_DISABLED
 	
 	pass
