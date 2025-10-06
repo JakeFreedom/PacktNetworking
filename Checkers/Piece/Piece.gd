@@ -3,41 +3,66 @@ extends Node2D
 
 signal selected
 signal deselected
+signal MouseHover
 
 enum Teams{BLACK, WHITE}
 
 @export var team: Teams = Teams.BLACK
 @export var is_king = false: set = _set_is_king
 @export var king_texture = preload("res://Checkers/Piece/WhiteKing.svg")
-
+@export var checkerSprite: Texture2D
 
 @onready var enanbled_color_rect: ColorRect = $EnanbledColorRect
 @onready var selected_color_rect: ColorRect = $SelectedColorRect
 @onready var sprite_2d: Sprite2D = $Sprite2D
 @onready var area_2d: Area2D = $Area2D
+@onready var positionLabel: Label =  $PositionLabel
 
 var is_selected = false
 
 func _ready() -> void:
 	area_2d.input_event.connect(_on_area_2d_input_event)
+	area_2d.area_entered.connect(_on_area_2d_entered)
+	area_2d.area_exited.connect(_on_area_2d_exited)
+	sprite_2d.texture = checkerSprite
 
-func _on_area_2d_input_event(viewport, event, shape_idx) -> void:
+func _on_area_2d_input_event(_viewport, event, _shape_idx) -> void:
 	if event is InputEventMouseButton:
+		#print(event)
 		if event.button_index == 1 and event.pressed:
 			select()
+	if event is InputEventMouseMotion:
+		if event.alt_pressed:
+			select()
+
+		#print(event)
+
+func _on_area_2d_entered(otherArea) -> void:
+	print("enter")
 	pass
 
-
-
-
-
-
+func _on_area_2d_exited(otherArea) -> void:
+	print("exit")
+	pass
 
 
 func select() -> void:
-	print(name)
+	if not is_selected:
+		selected_color_rect.visible = true
+		is_selected = true
+		selected.emit()
+	else:
+		OnDeselected()
+
+
+func _set_is_king(_value)->void:
 	pass
 
 
-func _set_is_king(value)->void:
-	pass
+func OnDeselected()-> void:
+	selected_color_rect.visible = false
+	is_selected = false
+	deselected.emit()
+
+func SetPositionLable(textPos: Vector2i)->void:
+	positionLabel.text = str(textPos.x) + " " + str(textPos.y)
