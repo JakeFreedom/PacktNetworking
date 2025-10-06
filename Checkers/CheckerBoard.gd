@@ -331,15 +331,10 @@ func capture_piece(target_cell) -> void:
 	print("Direction Norm: " + str(direction))
 	direction = Vector2i(direction.round())
 	print("Direction Round:" + str(direction))
-	if direction.x > 0:
-		direction.x = 5
-	else:
-		direction.x = -5
-		
-	if direction.y > 0:
-		direction.y = 5
-	else:
-		direction.y = -5
+	#We are having to do this, because the board cells are not on a 1x1 grid
+	direction.x = 5 if direction.x>0 else -5
+	direction.y = 5 if direction.y>0 else -5
+	
 	var capturingCell = target_cell - direction
 	print("target cell - direction:" + str(capturingCell))
 	print("capture piece")
