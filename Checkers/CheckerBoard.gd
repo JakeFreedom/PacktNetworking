@@ -106,23 +106,15 @@ func SearchAvailableCells(piece: Node2D)-> Array:
 			if IsFreeCell(cell):
 				#is it us
 				if IsOurPiece(cell):
-					print("our piece was detected")
 					continue
-				else:
-					print("out piece was not detected")
-
 				if IsOpponent(cell):
-					print("opponent detected")
 					var capturingCell = cell + direction
 					if IsFreeCell(capturingCell):
-						print("capturing free cell")
 						available_cells.append(capturingCell)
 			else:
 				if IsOpponent(cell):
-					print("opponent found")
 					var capturingCell = cell + direction
 					if IsFreeCell(capturingCell):
-						print("capturing free cell")
 						capturing = true
 						available_cells.append(capturingCell)
 					else:
@@ -134,7 +126,6 @@ func SearchAvailableCells(piece: Node2D)-> Array:
 				
 
 		if not capturing:
-			print("not capturing")
 			available_cells.append(cell)
 
 
@@ -165,16 +156,21 @@ func FreeCellSelected(positionq: Vector2)-> void:
 	selected_piece.OnDeselected()
 	clear_free_cells()
 	disable_pieces()
-	# if current_turn == Teams.BLACK:
-	# 	selected_piece.position.x = positionq#.x + 480
-	# 	selected_piece.position.y = positionq#.y + 250
-	# 	#map_to_local(Vector2(position.x+0, position.y+0))
-	# else:
-	UpdateCells(local_to_map(selected_piece.position), positionq)
-	selected_piece.SetPositionLable(local_to_map(positionq))
-	selected_piece.position = positionq
 
-
+	#capture the pieces that we can/need to capture. First we will just
+	#start with capturing the single piece
+	var free_cell = local_to_map(positionq)
+	print(free_cell)
+	if CanCapture(selected_piece):
+		capture_piece(free_cell)
+		print("Free Cell selected --- can capture")
+		UpdateCells(local_to_map(selected_piece.position), positionq)
+		selected_piece.SetPositionLable(local_to_map(positionq))
+		selected_piece.position = positionq
+	else:
+		UpdateCells(local_to_map(selected_piece.position), positionq)
+		selected_piece.SetPositionLable(local_to_map(positionq))
+		selected_piece.position = positionq
 
 	#this will need to be an rpc call but for now its local
 	toggle_local_turn()
@@ -194,7 +190,6 @@ func GetPieceDirections(piece: Node2D)-> Array:
 
 
 func toggle_local_turn() -> void:
-	print("toggle fucking turn"+str(current_turn))
 	if current_turn == Teams.BLACK:
 		current_turn = Teams.WHITE
 		enable_pieces(white_team)
@@ -206,7 +201,7 @@ func toggle_local_turn() -> void:
 func UpdateCells(previousCell, targetCell)-> void:
 	meta_board[local_to_map(targetCell)] = meta_board[previousCell]
 	meta_board[previousCell] = null
-	print(meta_board)
+	#print(meta_board)
 
 
 
@@ -258,10 +253,8 @@ func IsOnBoard(piece:Vector2i)-> bool:
 	# 	return false
 
 func IsOpponent(piece: Vector2i) -> bool:
-	print(current_turn)
-
 	if meta_board[piece] != null:
-		print(meta_board[piece].team)
+		#print(meta_board[piece].team)
 		if meta_board[piece].team != current_turn:
 			return true
 
@@ -287,25 +280,23 @@ func CanCapture(piece: Node2D) -> bool:
 		var current_cell = local_to_map(piece.position)
 		var neighbor_cell = current_cell + direction
 
-		#print(current_cell)
-		print(neighbor_cell)
 		if not IsOnBoard(neighbor_cell):
-			print("Cell is on the board")
+			#print("Cell is on the board")
 			continue
 		
 		if IsFreeCell(neighbor_cell):
-			print("It is a free cell")
+			#print("It is a free cell")
 			continue
 		
 		cell_content = meta_board[neighbor_cell]
 		
 		if not IsOpponent(neighbor_cell):
-			print("Its not an opponent")
+			#print("Its not an opponent")
 			continue
 		
 		var capturing_cell = neighbor_cell + direction
 		if not IsOnBoard(capturing_cell):
-			print("Capturing cell is on the board")
+			#print("Capturing cell is on the board")
 			continue
 		
 		cell_content = meta_board[capturing_cell]
@@ -313,7 +304,7 @@ func CanCapture(piece: Node2D) -> bool:
 		if IsFreeCell(capturing_cell):
 			capturing = true
 
-	print("Capturing" + str(capturing))
+	#print("Capturing" + str(capturing))
 	return capturing
 	
 #we will finish this when we are closer to actually having turns to lock the other player out
@@ -331,4 +322,40 @@ func disable_pieces() -> void:
 		for piece in white_team.get_children():
 			piece.process_mode = Node.PROCESS_MODE_DISABLED
 	
+
+func capture_piece(target_cell) -> void:
+	print("Target Cell : " + str(target_cell))
+	var origin_cell = local_to_map(selected_piece.position)
+	print("origin cell" + str(origin_cell))
+	var direction = Vector2(target_cell - origin_cell).normalized()
+	print("Direction Norm: " + str(direction))
+	direction = Vector2i(direction.round())
+	print("Direction Round:" + str(direction))
+	if direction.x > 0:
+		direction.x = 5
+	else:
+		direction.x = -5
+		
+	if direction.y > 0:
+		direction.y = 5
+	else:
+		direction.y = -5
+	var capturingCell = target_cell - direction
+	print("target cell - direction:" + str(capturingCell))
+	print("capture piece")
+	if not IsOnBoard(capturingCell):
+		return
+	
+	if not IsFreeCell(capturingCell):
+		print("remove piece")
+		rpc("remove_piece", capturingCell)
+		
+	pass
+
+@rpc("any_peer","call_local")
+func remove_piece(cell) -> void:
+	var piece = meta_board[cell]
+	piece.get_parent().remove_child(piece)
+	piece.free()
+	meta_board[cell] = null
 	pass
