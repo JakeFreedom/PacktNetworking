@@ -56,8 +56,8 @@ func select() -> void:
 
 
 func _set_is_king(_value)->void:
-	pass
-
+	print("King has been set")
+	is_king = _value
 
 func OnDeselected()-> void:
 	selected_color_rect.visible = false

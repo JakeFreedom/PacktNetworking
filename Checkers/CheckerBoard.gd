@@ -7,7 +7,7 @@ signal player_won(winner)
 @onready var white_team = $WhiteTeam
 @export  var free_cell: PackedScene
 @onready var free_cell_container = $FreeCells
-const DIRECTIONS_CELLS_KING = [Vector2i(-1, -1), Vector2i(1, -1), Vector2i(1, 1), Vector2i(-1, 1)]
+const DIRECTIONS_CELLS_KING = [Vector2i(-5, -5), Vector2i(5, -5), Vector2i(5, 5), Vector2i(-5, 5)]
 #const DIRECTIONS_CELLS_BLACK = [Vector2i(-20,-13), Vector2i(-10,-13)]
 const DIRECTIONS_CELLS_BLACK = [Vector2i(-5,-5), Vector2i(5,-5)]
 const DIRECTIONS_CELLS_WHITE = [Vector2i(5, 5), Vector2i(-5, 5)]
@@ -65,7 +65,6 @@ func map_pieces(team):
 		piece.SetPositionLable(piece_position)
 		piece.deselected.connect(_on_PieceDeselected)
 		
-		
 func _on_PieceDeselected()-> void:
 	clear_free_cells()
 
@@ -79,7 +78,6 @@ func _on_piece_selected(piece: Node2D) -> void:
 		selected_piece = piece
 		SelectPiece(piece)
 
-
 func SelectPiece(piece: Node2D)->void:
 	clear_free_cells()
 	selected_piece = piece
@@ -88,7 +86,6 @@ func SelectPiece(piece: Node2D)->void:
 	for cell in available_cells:
 		AddFreeCell(cell)
 	pass
-
 
 func SearchAvailableCells(piece: Node2D)-> Array:
 	var available_cells = []
@@ -150,7 +147,6 @@ func AddFreeCell(cell:Vector2i) -> void:
 
 	#print(meta_board[cell])
 
-
 func FreeCellSelected(positionq: Vector2)-> void:
 	selected_piece.process_mode = Node.PROCESS_MODE_DISABLED
 	selected_piece.OnDeselected()
@@ -160,20 +156,35 @@ func FreeCellSelected(positionq: Vector2)-> void:
 	#capture the pieces that we can/need to capture. First we will just
 	#start with capturing the single piece
 	var free_cell = local_to_map(positionq)
-	print(free_cell)
 	if CanCapture(selected_piece):
 		capture_piece(free_cell)
 		print("Free Cell selected --- can capture")
 		UpdateCells(local_to_map(selected_piece.position), positionq)
 		selected_piece.SetPositionLable(local_to_map(positionq))
 		selected_piece.position = positionq
+		print("Can Crown: " + str(CanCrown(selected_piece)))
+		selected_piece.is_king = true
 	else:
 		UpdateCells(local_to_map(selected_piece.position), positionq)
 		selected_piece.SetPositionLable(local_to_map(positionq))
 		selected_piece.position = positionq
-
+		#I think this will be the best place to figure out if we are 
+		#at the back side of the board on the other side.
+		print("Can Crown: " + str(CanCrown(selected_piece)))
+		selected_piece.is_king = true
 	#this will need to be an rpc call but for now its local
 	toggle_local_turn()
+
+func CanCrown(piece: Node2D) -> bool:
+	var directions = GetPieceDirections(piece)
+	var currentCell = local_to_map(piece.position)
+	
+	for direction in directions:
+		if not IsOnBoard(currentCell+direction):
+			continue
+		else:
+			return false
+	return true
 
 func GetPieceDirections(piece: Node2D)-> Array:
 	var directions = []
@@ -188,7 +199,6 @@ func GetPieceDirections(piece: Node2D)-> Array:
 
 	return directions
 
-
 func toggle_local_turn() -> void:
 	if current_turn == Teams.BLACK:
 		current_turn = Teams.WHITE
@@ -202,8 +212,6 @@ func UpdateCells(previousCell, targetCell)-> void:
 	meta_board[local_to_map(targetCell)] = meta_board[previousCell]
 	meta_board[previousCell] = null
 	#print(meta_board)
-
-
 
 #RPC Methods
 @rpc("any_peer", "call_local")
@@ -226,7 +234,6 @@ func toggle_turn() -> void:
 		elif black_team.get_multiplayer_authority() == multiplayer.get_unique_id():
 			enable_pieces((black_team))
 
-
 func get_winner() -> Teams:
 	#disable_pieces()
 	#disable_pieces()
@@ -237,8 +244,6 @@ func get_winner() -> Teams:
 		winner = "Black"
 	
 	return winner
-
-
 
 func clear_free_cells() -> void:
 	for child in free_cell_container.get_children():
