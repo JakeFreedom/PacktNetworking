@@ -163,15 +163,16 @@ func FreeCellSelected(positionq: Vector2)-> void:
 		selected_piece.SetPositionLable(local_to_map(positionq))
 		selected_piece.position = positionq
 		print("Can Crown: " + str(CanCrown(selected_piece)))
-		selected_piece.is_king = true
+		selected_piece.is_king = CanCrown(selected_piece)
 	else:
 		UpdateCells(local_to_map(selected_piece.position), positionq)
 		selected_piece.SetPositionLable(local_to_map(positionq))
 		selected_piece.position = positionq
 		#I think this will be the best place to figure out if we are 
 		#at the back side of the board on the other side.
-		print("Can Crown: " + str(CanCrown(selected_piece)))
-		selected_piece.is_king = true
+		#print("Can Crown: " + str(CanCrown(selected_piece)))
+		selected_piece.is_king = CanCrown(selected_piece)
+		
 	#this will need to be an rpc call but for now its local
 	toggle_local_turn()
 

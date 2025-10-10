@@ -9,7 +9,9 @@ enum Teams{BLACK, WHITE}
 
 @export var team: Teams = Teams.BLACK
 @export var is_king = false: set = _set_is_king
-@export var king_texture = preload("res://Checkers/Piece/WhiteKing.svg")
+@export var redKing_texture = preload("res://Checkers/Piece/redCheckerPieceKing.png")
+@export var blackKing_texture = preload("res://Checkers/Piece/blackCheckerPieceKing.png")
+
 @export var checkerSprite: Texture2D
 
 @onready var enanbled_color_rect: ColorRect = $EnanbledColorRect
@@ -57,6 +59,9 @@ func select() -> void:
 
 func _set_is_king(_value)->void:
 	print("King has been set")
+	print(_value)
+	if _value == true:
+		sprite_2d.texture = blackKing_texture if Teams.BLACK else redKing_texture
 	is_king = _value
 
 func OnDeselected()-> void:
